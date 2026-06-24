@@ -14,7 +14,7 @@ Preparado por Mtro. Claudio Torres Nachón
 
 **Nota metodológica**
 
-Los párrafos resaltados en [color]{style="background-color: #F1E27B;"} corresponden a contenido nuevo propuesto en este borrador —ya sea porque resuelven huecos normativos no cerrados en la versión previa (v.6), o porque integran las Reglas de Operación del Servidor y los Compromisos Institucionales solicitados por la coordinación del proyecto—. 
+Los párrafos resaltados en [color]{style="background-color: #F1E27B;"} corresponden a contenido nuevo propuesto en este borrador —ya sea porque resuelven huecos normativos no cerrados en la versión previa (v.6), o porque integran las Reglas de Operación del Servidor y los Compromisos Institucionales solicitados por la coordinación del proyecto. 
 
 Dicho contenido se redactó bajo una visión de amplio acceso a datos y bajo el principio garantista: la apertura es la regla general; toda excepción debe ser tasada, motivada y de interpretación estricta. Los párrafos sin resaltar provienen, con ediciones menores de estilo, ortografía y renumeración, del borrador previo de Lineamientos (v.6).
 

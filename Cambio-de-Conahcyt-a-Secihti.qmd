@@ -1,0 +1,33 @@
+## Cambio de Conahcyt a Secihti
+
+Se aprecia en la nueva versión de los Lineamientos v7 algunos puntos que requieren ajuste dada la transición del estatuto del sector científico operado a través de un consejo a la nueva estructura que lo gegstiona desde una secretaría. Hay que asegurarnos de realizar una **limpieza y actualización legal meticulos** en el borrador de lineamientos para evitar inconsistencias jurídicas, ya que el INECOL ahora se coordina sectorialmente bajo las directrices directas de esta nueva dependencia federal (la cual cuenta con una Subsecretaría de Centros Públicos).
+
+A continuación, se hacen algunos señalamientos específicos de ajuste normativo, la actualización del glosario y se ofrecen argumentos que resultan más apropiados para justificar el Repositorio ante el nuevo ecosistema de la SECIHTI.
+
+### 1. Actualización y Homologación Legal en las Definiciones 
+
+Hay que eliminar, especialmente en el Capítulo 2, toda mención analógica al Conahcyt y sustituirla por la nueva autoridad administrativa federal. El cambio en las fracciones del Artículo 2 debe quedar de la siguiente manera:
+
+* **Sustituir la definición correspondiente (v.g. Fracción III o IV):**
+
+> **[Fracción]. SECIHTI.** La Secretaría de Ciencia, Humanidades, Tecnología e Innovación, como dependencia del Ejecutivo Federal encargada de diseñar, coordinar y ejecutar la política pública nacional en la materia, y cabeza de sector de los Centros Públicos de Investigación.
+
+
+* **Actualizar la definición de Repositorio Nacional:**
+
+> **[Fracción]. Repositorio Nacional.** La plataforma digital centralizada, coordinada y administrada por la **SECIHTI**, que acopia, preserva y garantiza el acceso abierto a la producción científica, tecnológica, humanística y de innovación del país, con la cual interoperará federadamente el Servidor de Datos Abiertos del INECOL.
+
+
+### 3. Ajustes puntuales en el Articulado de los `Lineamientos_INECOL_v7`
+
+Para limpiar el texto de cualquier rastro del Consejo anterior, hay que realizar los siguientes reemplazos:
+
+* **En el Considerando Quinto o Sexto (y donde aplique):**
+
+> *"Que la Ley General en materia de Humanidades, Ciencias, Tecnologías e Innovación mandata... [Sustituir Conahcyt por:] ...correspondiendo a la **SECIHTI** articular las capacidades y garantizar el acceso abierto a la información científica..."*
+
+
+* **En el Artículo 13 (Obligatoriedad) y Artículo 23 (Conservación):**
+
+> Asegurar que el mandato de interoperabilidad se vincule explícitamente a *"las plataformas informáticas e infraestructuras que para tal efecto determine la **SECIHTI** y el Repositorio Nacional"*, en lugar de mencionar lineamientos emitidos por el extinto Consejo.
+

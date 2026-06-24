@@ -8,17 +8,24 @@ book:
   subtitle: "Proyecto de Lineamientos"
   author: "Claudio, Miguel, Colectivo Ciencia Abierta"
   date: "2026/6/22"
+  downloads: [pdf,docx]
+
   chapters:
     - index.qmd
     - lineamientos-INECOL-v7.qmd
+    - motivacion.qmd
+    - Cambio-de-Conahcyt-a-Secihti.qmd
     - ejemplo_zenodo.qmd
     - aprendiendo-de-zenodo.qmd
     - prepublicar.qmd
     - fair.qmd
     - referencias.qmd
 
+toc: true
+  
 bibliography: referencias.bib
 
+syntax-highlighting: pygments
 
 format:
   html:
@@ -33,6 +40,8 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+  docx: default
+  
 
-
+  
 

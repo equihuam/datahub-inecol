@@ -1,0 +1,61 @@
+## ¿Por qué un Repositorio Propio para el INECOL?
+
+
+Ante la existencia de repositorios globales maduros y consolidados como Zenodo (respaldado por el CERN y OpenAIRE), surge la pregunta fundamental sobre la necesidad y pertinencia de que el Instituto de Ecología, A.C. (INECOL) desarrolle y mantenga una infraestructura propia para el hospedaje de datos abiertos. La respuesta no radica en el aislamiento, sino en la **soberanía, la gobernanza territorial, el valor estratégico institucional, la dimensión territorial, articulación institucional y ciencia abierta como estrategia de incidencia local**.
+
+A continuación se realiza un análisis del contexto cinetífico internacional y el papel de un centro de investigación que justifica este esfuerzo público en México bajo las 6 dimensiones enunciadas arriba:
+
+
+### 1. Soberanía de Datos y Cumplimiento del Mandato Nacional
+
+México cuenta con un marco legal robusto derivado de la Ley General en materia de Humanidades, Ciencias, Tecnologías e Innovación (LGHCSCTI). Esta normativa mandata a los Centros Públicos de Investigación (CPI) a garantizar el acceso abierto al conocimiento derivado de fondos públicos. 
+
+Confiar exclusivamente en plataformas extranjeras (como Zenodo o Figshare) para el almacenamiento de la memoria científica de México presenta riesgos a mediano plazo:
+
+* **Cohesión Sectorial:** El INECOL, como Centro Público coordinado por la **SECIHTI**, tiene la responsabilidad de consolidar la infraestructura de datos que alimentará las Agendas Nacionales y los Proyectos Estratégicos de la Secretaría (como la mitigación del cambio climático y la conservación de la biodiversidad). Delegar los datos a Zenodo u otros repositorios, dispersa la información y dificulta que la SECIHTI consulte los activos de conocimiento técnico generados por sus propios centros sectorizados.
+* **Dependencia de políticas externas:** Zenodo opera bajo las leyes y prioridades de financiamiento de la Unión Europea y el CERN. Un cambio en sus políticas de cuotas o de acceso restringido afectaría directamente el cumplimiento legal del INECOL.
+* **Soberanía Biológica y Legal:** Los datos ecológicos, genómicos y de biodiversidad generados en México están sujetos a regulaciones nacionales e internacionales específicas (v.gr., el Protocolo de Nagoya sobre acceso a recursos genéticos y participación justa y equitativa en los beneficios). Un repositorio institucional propio actúa como una **aduana legal y técnica** que garantiza que la apertura cumpla con las leyes de bioprospección y protección del patrimonio biocultural mexicano, algo que un repositorio genérico global no puede auditar.
+
+### 2. Gobernanza Semántica y Especialización Ecológica
+Zenodo es un repositorio *generalista*: acepta desde astrofísica hasta lingüística, lo que significa que sus metadatos son genéricos (estándar Dublin Core básico). No puede validar la calidad ni la estructura especializada de los datos ecológicos.
+
+Un servidor propio en el INECOL permite implementar una **curaduría de datos especializada de alta gama**:
+* **Estandarización nativa:** Permite exigir que todo depósito de biodiversidad adopte los estándares **Darwin Core (DwC)** y **Ecological Metadata Language (EML)** antes de ser publicado.
+* **Interoperabilidad Federada:** En el estado del arte de la Ciencia Abierta, el futuro no pertenece a un único repositorio centralizado, sino a redes de repositorios interconectados. El servidor del INECOL no compite con Zenodo o con el Repositorio Nacional del Secihti; se convierte en un **nodo proveedor**. Al indexar metadatos FAIR de alta calidad, el INECOL puede "hablarle" directamente a infraestructuras globales como el **GBIF (Global Biodiversity Information Facility)** o **Geo BON**, posicionando al Instituto como la fuente primaria y oficial de la información, elevando su prestigio internacional.
+
+### 3. Capitalización Institucional y Evaluación del Desempeño
+Cuando un investigador del INECOL sube un set de datos a Zenodo, la institución se convierte en una mera nota al pie en el campo de "afiliación". El impacto citacional se dispersa.
+
+Al canalizar los datos a través del Servidor del INECOL:
+* **Patrimonio Intangible Auditable:** El Instituto puede medir, auditar y demostrar cuantitativamente ante la federación y los organismos financiadores el impacto real de su producción de datos. Se genera un catálogo institucional de activos de conocimiento.
+* **Valorización Interna:** Permite al INECOL indexar los DOIs de datos locales en los sistemas de evaluación interna de productividad. Facilita la creación de incentivos para los técnicos académicos y personal de apoyo que capturan y curan datos, reconociendo su labor al mismo nivel que la autoría de un artículo.
+
+### 4. La Dimensión Territorial: Estándares Geoespaciales e Interoperabilidad Nacional
+En el ámbito de la investigación ecológica y de biodiversidad, la inmensa mayoría de los conjuntos de datos primarios poseen una naturaleza inherentemente espacial (coordenadas de muestreo, delimitaciones ecosistémicas, imágenes de sensores remotos o capas vectoriales). Por ende, el diseño arquitectónico y normativo del Servidor de Datos Abiertos del INECOL no puede limitarse a metadatos bibliográficos o taxonómicos genéricos; debe incorporar de manera obligatoria la gobernanza semántica de la información geográfica [@wright_open_2023]. 
+
+Para robustecer la condición de "Interoperabilidad" y "Reutilización" del modelo FAIR en la escala geoespacial, el repositorio debe adoptar la norma internacional **ISO 19115**, la cual define el esquema conceptual para describir la información geográfica y sus servicios asociados, abarcando desde la calidad del dato y la extensión espacio-temporal hasta los sistemas de referencia de coordenadas [@wright_open_2023; @dona_fair_2022]. La adopción de este estándar transfronterizo asegura que el patrimonio científico del INECOL sea legible y operable por infraestructuras de datos espaciales (IDEs) globales.
+
+A nivel nacional, y en estricta observancia del marco legal que rige a los Centros Públicos de Investigación coordinados por la **SECIHTI**, el Servidor de Datos Abiertos del INECOL debe alinearse de manera vinculante con la normatividad emitida por el **Instituto Nacional de Estadística y Geografía (INEGI)**, específicamente a través de las regulaciones técnicas orientadas a la estandarización de metadatos geográficos en México (v.gr., la **Norma Oficial Mexicana** aplicable y la *Norma Técnica para la Generación de Metadatos Geográficos*) [@inegi_norma_2024]. 
+
+Esta alineación técnico-normativa con el INEGI cumple un doble propósito estratégico: garantiza la soberanía y consistencia legal del dato público mexicano frente a marcos regulatorios federales, y faculta la integración directa e interoperable de la producción del INECOL dentro del Sistema Nacional de Información Estadística y Geográfica (SNIEG), transformando el repositorio institucional en un nodo estratégico de consulta para la toma de decisiones del Estado mexicano en materia ambiental y territorial [@inegi_norma_2024].
+
+### 5. Articulación Estratégica con el Ecosistema Federal: CONABIO e INECC
+La infraestructura propia del INECOL potencia los flujos de información hacia las agencias federales encargadas de la política ambiental y la conservación en México. Históricamente, la transferencia de datos hacia organismos como la **CONABIO** y el **INECC** ha operado mediante reportes estáticos, entregas fragmentadas o solicitudes interinstitucionales específicas. El Servidor de Datos Abiertos del INECOL transforma esta relación en un modelo de interoperabilidad dinámica y continua.
+
+Al adoptar estándares abiertos globales y nacionales (FAIR, Darwin Core, ISO 19115 y las normas técnicas del INEGI), el repositorio del INECOL se convierte en un nodo tecnológico que abastece directamente al Sistema National de Información sobre Biodiversidad (SNIB) de la **CONABIO**, acelerando la integración de registros de presencia de especies y monitoreo biótico [@islam_bridging_2024]. Asimismo, proporciona al **INECC** las bases de datos geoespaciales y climáticas primarias necesarias para la modelación de escenarios de vulnerabilidad, inventarios de gases de efecto invernadero y diseño de políticas de adaptación al cambio climático basadas en ecosistemas [@wright_open_2023]. De este modo, el INECOL no solo cumple un mandato de transparencia coordinado por la **SECIHTI**, sino que se consolida como el motor de evidencia científica indispensable para la toma de decisiones ambientales de escala federal.
+
+### 6. Ciencia Abierta con Incidencia Local
+
+La justificación de un repositorio institucional autónomo adquiere su máxima legitimidad social al traducirse en soberanía científica aplicada a los territorios donde el INECOL tiene arraigo por "domicilio" e infraestructura física (la sede central en Xalapa, Veracruz, y el Centro Regional de El Bajío en Pátzcuaro, Michoacán). Las administraciones estatales y municipales frecuentemente carecen de la capacidad técnica para generar datos biofísicos primarios, viéndose obligadas a tomar decisiones territoriales críticamente desinformadas o basadas en consultorías externas costosas [@morales_open_2025].
+
+El Servidor de Datos Abiertos rompe esta asimetría de información y materializa el principio de incidencia social de la **SECIHTI** a través de tres ejes de acción local:
+
+1. **Gobernanza Territorial Subnacional:** Provee a las Secretarías de Medio Ambiente estatales (v.gr., SEDEMA Veracruz y SECMA Michoacán) las capas geográficas estandarizadas bajo la NOM del INEGI e ISO 19115 requeridas de forma vinculante para los Programas Estatales de Ordenamiento Ecológico y Territorial (POET) [@wright_open_2023].
+2. **Resiliencia Urbana y Municipal:** Permite al Municipio de Xalapa y ayuntamientos colindantes acceder de forma abierta a datos sobre servicios ecosistémicos, dinámicas hidrológicas locales e inventarios del arbolado urbano, indispensables para actualizar los Planes de Desarrollo Urbano Municipal y los Programas de Acción Climática Municipal (PACMUN).
+3. **Garantía de Acceso Social:** Al mantener el INECOL el control de su propia infraestructura, se pueden diseñar interfaces y visualizaciones de metadatos simplificadas orientadas a la consulta de comunidades locales, ejidos y organizaciones de la sociedad civil de las regiones de influencia, democratizando el conocimiento biológico y previniendo conflictos socioambientales por falta de acceso a la información [@morales_open_2025].
+
+### Conclusión Estratégica: El Enfoque Híbrido
+La estrategia óptima para el INECOL no es rechazar a Zenodo u otros repositorios globales, sino adoptar un **enfoque híbrido o federado**. El Servidor del INECOL debe ser la infraestructura primaria de depósito, donde se garantiza la soberanía legal, la curaduría especializada (FAIR/Darwin Core) y el registro institucional de propiedad intelectual. Posteriormente, mediante protocolos automáticos de interoperabilidad (como OAI-PMH), el repositorio del INECOL puede cosechar o replicar sus metadatos hacia Zenodo y el Repositorio Nacional. Así, el INECOL gana autonomía y control local, mientras multiplica exponencialmente la visibilidad global de sus científicos.
+ 
+
+ 

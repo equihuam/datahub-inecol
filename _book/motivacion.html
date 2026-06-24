@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Zenodo como ejemplo – Ciencia Abierta y Acceso Abierto a Datos del Inecol</title>
+<title>¿Por qué un Repositorio Propio para el INECOL? – Ciencia Abierta y Acceso Abierto a Datos del Inecol</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -33,8 +52,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./aprendiendo-de-zenodo.html" rel="next">
-<link href="./Cambio-de-Conahcyt-a-Secihti.html" rel="prev">
+<link href="./Cambio-de-Conahcyt-a-Secihti.html" rel="next">
+<link href="./lineamientos-INECOL-v7.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -109,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ejemplo_zenodo.html"><span class="chapter-title">Zenodo como ejemplo</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./motivacion.html"><span class="chapter-title">¿Por qué un Repositorio Propio para el INECOL?</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -167,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motivacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">¿Por qué un Repositorio Propio para el INECOL?</span></a>
+  <a href="./motivacion.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">¿Por qué un Repositorio Propio para el INECOL?</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -177,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ejemplo_zenodo.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Zenodo como ejemplo</span></a>
+  <a href="./ejemplo_zenodo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Zenodo como ejemplo</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -211,18 +230,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#alcance-contenido-y-depositantes-políticas-de-zenodo" id="toc-alcance-contenido-y-depositantes-políticas-de-zenodo" class="nav-link active" data-scroll-target="#alcance-contenido-y-depositantes-políticas-de-zenodo">1. Alcance, Contenido y Depositantes (Políticas de Zenodo)</a></li>
-  <li><a href="#responsabilidad-legal-y-propiedad-intelectual" id="toc-responsabilidad-legal-y-propiedad-intelectual" class="nav-link" data-scroll-target="#responsabilidad-legal-y-propiedad-intelectual">2. Responsabilidad Legal y Propiedad Intelectual</a></li>
-  <li><a href="#privacidad-y-datos-sensibles-el-cruce-con-el-gdpr" id="toc-privacidad-y-datos-sensibles-el-cruce-con-el-gdpr" class="nav-link" data-scroll-target="#privacidad-y-datos-sensibles-el-cruce-con-el-gdpr">3. Privacidad y Datos Sensibles (El cruce con el GDPR)</a></li>
-  <li><a href="#niveles-de-acceso-y-modificaciones" id="toc-niveles-de-acceso-y-modificaciones" class="nav-link" data-scroll-target="#niveles-de-acceso-y-modificaciones">4. Niveles de Acceso y Modificaciones</a></li>
-  <li><a href="#preservación-retirada-y-la-circular-operacional-no.-11-del-cern" id="toc-preservación-retirada-y-la-circular-operacional-no.-11-del-cern" class="nav-link" data-scroll-target="#preservación-retirada-y-la-circular-operacional-no.-11-del-cern">5. Preservación, Retirada y la Circular Operacional No.&nbsp;11 del CERN</a></li>
-  <li><a href="#resumen-de-la-perspectiva" id="toc-resumen-de-la-perspectiva" class="nav-link" data-scroll-target="#resumen-de-la-perspectiva">Resumen de la Perspectiva</a></li>
-  <li><a href="#compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern" id="toc-compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern" class="nav-link" data-scroll-target="#compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern">Compendio de Documentos Descargables y Referencias: Gobernanza Zenodo y CERN</a>
-  <ul class="collapse">
-  <li><a href="#documentos-principales-de-política-y-gobernanza" id="toc-documentos-principales-de-política-y-gobernanza" class="nav-link" data-scroll-target="#documentos-principales-de-política-y-gobernanza">1. Documentos Principales de Política y Gobernanza</a></li>
-  <li><a href="#términos-de-servicio-y-privacidad-soporte-técnico-legal" id="toc-términos-de-servicio-y-privacidad-soporte-técnico-legal" class="nav-link" data-scroll-target="#términos-de-servicio-y-privacidad-soporte-técnico-legal">2. Términos de Servicio y Privacidad (Soporte Técnico-Legal)</a></li>
-  <li><a href="#arquitectura-de-datos-y-preservación" id="toc-arquitectura-de-datos-y-preservación" class="nav-link" data-scroll-target="#arquitectura-de-datos-y-preservación">3. Arquitectura de Datos y Preservación</a></li>
-  </ul></li>
+  <li><a href="#soberanía-de-datos-y-cumplimiento-del-mandato-nacional" id="toc-soberanía-de-datos-y-cumplimiento-del-mandato-nacional" class="nav-link active" data-scroll-target="#soberanía-de-datos-y-cumplimiento-del-mandato-nacional">1. Soberanía de Datos y Cumplimiento del Mandato Nacional</a></li>
+  <li><a href="#gobernanza-semántica-y-especialización-ecológica" id="toc-gobernanza-semántica-y-especialización-ecológica" class="nav-link" data-scroll-target="#gobernanza-semántica-y-especialización-ecológica">2. Gobernanza Semántica y Especialización Ecológica</a></li>
+  <li><a href="#capitalización-institucional-y-evaluación-del-desempeño" id="toc-capitalización-institucional-y-evaluación-del-desempeño" class="nav-link" data-scroll-target="#capitalización-institucional-y-evaluación-del-desempeño">3. Capitalización Institucional y Evaluación del Desempeño</a></li>
+  <li><a href="#la-dimensión-territorial-estándares-geoespaciales-e-interoperabilidad-nacional" id="toc-la-dimensión-territorial-estándares-geoespaciales-e-interoperabilidad-nacional" class="nav-link" data-scroll-target="#la-dimensión-territorial-estándares-geoespaciales-e-interoperabilidad-nacional">4. La Dimensión Territorial: Estándares Geoespaciales e Interoperabilidad Nacional</a></li>
+  <li><a href="#articulación-estratégica-con-el-ecosistema-federal-conabio-e-inecc" id="toc-articulación-estratégica-con-el-ecosistema-federal-conabio-e-inecc" class="nav-link" data-scroll-target="#articulación-estratégica-con-el-ecosistema-federal-conabio-e-inecc">5. Articulación Estratégica con el Ecosistema Federal: CONABIO e INECC</a></li>
+  <li><a href="#ciencia-abierta-con-incidencia-local" id="toc-ciencia-abierta-con-incidencia-local" class="nav-link" data-scroll-target="#ciencia-abierta-con-incidencia-local">6. Ciencia Abierta con Incidencia Local</a></li>
+  <li><a href="#conclusión-estratégica-el-enfoque-híbrido" id="toc-conclusión-estratégica-el-enfoque-híbrido" class="nav-link" data-scroll-target="#conclusión-estratégica-el-enfoque-híbrido">Conclusión Estratégica: El Enfoque Híbrido</a></li>
   </ul>
 </nav>
     </div>
@@ -236,7 +250,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Zenodo como ejemplo</span></h1>
+<h1 class="title"><span class="chapter-title">¿Por qué un Repositorio Propio para el INECOL?</span></h1>
 </div>
 
 
@@ -253,118 +267,72 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Para obtener una perspectiva amplia de los lineamientos de <strong>Zenodo</strong>, es fundamental cruzar los marcos regulatorio y operativo que lo regulan: las <strong>políticas públicas de Zenodo</strong> (que dictan qué se puede subir, cómo se almacena y quién es responsable) y la <strong>Circular Operacional No.&nbsp;11 del CERN (Operational Circular No.11)</strong>, la cual establece el marco legal e institucional de la infraestructura física y organizativa que soporta a Zenodo.</p>
-<p>A continuación, se presenta un desglose estructurado de los criterios y lineamientos clave derivados de ambas fuentes:</p>
-<section id="alcance-contenido-y-depositantes-políticas-de-zenodo" class="level3">
-<h3 class="anchored" data-anchor-id="alcance-contenido-y-depositantes-políticas-de-zenodo">1. Alcance, Contenido y Depositantes (Políticas de Zenodo)</h3>
+<p>Ante la existencia de repositorios globales maduros y consolidados como Zenodo (respaldado por el CERN y OpenAIRE), surge la pregunta fundamental sobre la necesidad y pertinencia de que el Instituto de Ecología, A.C. (INECOL) desarrolle y mantenga una infraestructura propia para el hospedaje de datos abiertos. La respuesta no radica en el aislamiento, sino en la <strong>soberanía, la gobernanza territorial, el valor estratégico institucional, la dimensión territorial, articulación institucional y ciencia abierta como estrategia de incidencia local</strong>.</p>
+<p>A continuación se realiza un análisis del contexto cinetífico internacional y el papel de un centro de investigación que justifica este esfuerzo público en México bajo las 6 dimensiones enunciadas arriba:</p>
+<section id="soberanía-de-datos-y-cumplimiento-del-mandato-nacional" class="level3">
+<h3 class="anchored" data-anchor-id="soberanía-de-datos-y-cumplimiento-del-mandato-nacional">1. Soberanía de Datos y Cumplimiento del Mandato Nacional</h3>
+<p>México cuenta con un marco legal robusto derivado de la Ley General en materia de Humanidades, Ciencias, Tecnologías e Innovación (LGHCSCTI). Esta normativa mandata a los Centros Públicos de Investigación (CPI) a garantizar el acceso abierto al conocimiento derivado de fondos públicos.</p>
+<p>Confiar exclusivamente en plataformas extranjeras (como Zenodo o Figshare) para el almacenamiento de la memoria científica de México presenta riesgos a mediano plazo:</p>
 <ul>
-<li><strong>Inclusión de disciplinas y estados:</strong> Zenodo acepta <em>artefactos</em> de investigación de <strong>cualquier campo científico</strong> y en cualquier etapa del ciclo de vida de la investigación (datos brutos, procesados, software, pósteres, publicaciones, etc.).</li>
-<li><strong>Formatos de archivo:</strong> No hay restricciones en los formatos de archivo. Se permiten incluso formatos “no amigables” para la preservación a largo plazo, aunque se promueven las buenas prácticas.</li>
-<li><strong>Elegibilidad:</strong> Cualquier investigador del mundo puede registrarse y depositar datos de manera gratuita, especialmente si no tiene acceso a un centro de datos institucional organizado.</li>
-<li><strong>Límites de volumen:</strong> Por defecto, el límite estándar es de <strong>50 GB por registro</strong> (con un máximo aproximado de 100 archivos). Cuotas mayores se pueden solicitar y evaluar caso por caso.</li>
+<li><strong>Cohesión Sectorial:</strong> El INECOL, como Centro Público coordinado por la <strong>SECIHTI</strong>, tiene la responsabilidad de consolidar la infraestructura de datos que alimentará las Agendas Nacionales y los Proyectos Estratégicos de la Secretaría (como la mitigación del cambio climático y la conservación de la biodiversidad). Delegar los datos a Zenodo u otros repositorios, dispersa la información y dificulta que la SECIHTI consulte los activos de conocimiento técnico generados por sus propios centros sectorizados.</li>
+<li><strong>Dependencia de políticas externas:</strong> Zenodo opera bajo las leyes y prioridades de financiamiento de la Unión Europea y el CERN. Un cambio en sus políticas de cuotas o de acceso restringido afectaría directamente el cumplimiento legal del INECOL.</li>
+<li><strong>Soberanía Biológica y Legal:</strong> Los datos ecológicos, genómicos y de biodiversidad generados en México están sujetos a regulaciones nacionales e internacionales específicas (v.gr., el Protocolo de Nagoya sobre acceso a recursos genéticos y participación justa y equitativa en los beneficios). Un repositorio institucional propio actúa como una <strong>aduana legal y técnica</strong> que garantiza que la apertura cumpla con las leyes de bioprospección y protección del patrimonio biocultural mexicano, algo que un repositorio genérico global no puede auditar.</li>
 </ul>
 </section>
-<section id="responsabilidad-legal-y-propiedad-intelectual" class="level3">
-<h3 class="anchored" data-anchor-id="responsabilidad-legal-y-propiedad-intelectual">2. Responsabilidad Legal y Propiedad Intelectual</h3>
-<ul>
-<li><strong>La propiedad no se transfiere:</strong> Al subir datos a Zenodo, <strong>no se ceden los derechos de propiedad intelectual al CERN ni a Zenodo</strong>. El contenido sigue perteneciendo a sus autores u organizaciones originales.</li>
-<li><strong>Responsabilidad exclusiva del usuario (Uploader):</strong> Quien sube la información es el único responsable legal del contenido. Debe garantizar que tiene los derechos necesarios, que no infringe derechos de autor ni acuerdos de confidencialidad, y que el material es apto para difusión pública.</li>
-<li><strong>Licenciamiento:</strong> Es obligatorio asignar una licencia a los archivos públicos. Zenodo sugiere por defecto <em>Creative Commons Attribution 4.0 (CC-BY)</em> para datos y licencias estándar de código abierto (como MIT o GPL) para software, aunque permite licencias personalizadas. Los <strong>metadatos</strong>, en cambio, se distribuyen bajo una licencia de dominio público <strong>CC0</strong>, lo que facilita que motores de búsqueda externos los indexen.</li>
-</ul>
+<section id="gobernanza-semántica-y-especialización-ecológica" class="level3">
+<h3 class="anchored" data-anchor-id="gobernanza-semántica-y-especialización-ecológica">2. Gobernanza Semántica y Especialización Ecológica</h3>
+<p>Zenodo es un repositorio <em>generalista</em>: acepta desde astrofísica hasta lingüística, lo que significa que sus metadatos son genéricos (estándar Dublin Core básico). No puede validar la calidad ni la estructura especializada de los datos ecológicos.</p>
+<p>Un servidor propio en el INECOL permite implementar una <strong>curaduría de datos especializada de alta gama</strong>: * <strong>Estandarización nativa:</strong> Permite exigir que todo depósito de biodiversidad adopte los estándares <strong>Darwin Core (DwC)</strong> y <strong>Ecological Metadata Language (EML)</strong> antes de ser publicado. * <strong>Interoperabilidad Federada:</strong> En el estado del arte de la Ciencia Abierta, el futuro no pertenece a un único repositorio centralizado, sino a redes de repositorios interconectados. El servidor del INECOL no compite con Zenodo o con el Repositorio Nacional del Secihti; se convierte en un <strong>nodo proveedor</strong>. Al indexar metadatos FAIR de alta calidad, el INECOL puede “hablarle” directamente a infraestructuras globales como el <strong>GBIF (Global Biodiversity Information Facility)</strong> o <strong>Geo BON</strong>, posicionando al Instituto como la fuente primaria y oficial de la información, elevando su prestigio internacional.</p>
 </section>
-<section id="privacidad-y-datos-sensibles-el-cruce-con-el-gdpr" class="level3">
-<h3 class="anchored" data-anchor-id="privacidad-y-datos-sensibles-el-cruce-con-el-gdpr">3. Privacidad y Datos Sensibles (El cruce con el GDPR)</h3>
-<ul>
-<li><strong>Datos personales:</strong> Zenodo <strong>no está diseñado para albergar datos personales sensibles de sujetos humanos</strong>. Si la investigación involucra seres humanos, el usuario debe garantizar que los datos estén <strong>completamente anonimizados</strong> o que se cuente con un consentimiento explícito e inequívoco para su difusión abierta antes de subirlos.</li>
-<li><strong>El rol del CERN:</strong> El CERN goza de un estatus legal particular como organización internacional. Sin embargo, para efectos operativos de Zenodo, sus infraestructuras cumplen rigurosamente con altos estándares de protección de datos alineados con el espíritu del GDPR (Reglamento General de Protección de Datos de la UE).</li>
-</ul>
+<section id="capitalización-institucional-y-evaluación-del-desempeño" class="level3">
+<h3 class="anchored" data-anchor-id="capitalización-institucional-y-evaluación-del-desempeño">3. Capitalización Institucional y Evaluación del Desempeño</h3>
+<p>Cuando un investigador del INECOL sube un set de datos a Zenodo, la institución se convierte en una mera nota al pie en el campo de “afiliación”. El impacto citacional se dispersa.</p>
+<p>Al canalizar los datos a través del Servidor del INECOL: * <strong>Patrimonio Intangible Auditable:</strong> El Instituto puede medir, auditar y demostrar cuantitativamente ante la federación y los organismos financiadores el impacto real de su producción de datos. Se genera un catálogo institucional de activos de conocimiento. * <strong>Valorización Interna:</strong> Permite al INECOL indexar los DOIs de datos locales en los sistemas de evaluación interna de productividad. Facilita la creación de incentivos para los técnicos académicos y personal de apoyo que capturan y curan datos, reconociendo su labor al mismo nivel que la autoría de un artículo.</p>
 </section>
-<section id="niveles-de-acceso-y-modificaciones" class="level3">
-<h3 class="anchored" data-anchor-id="niveles-de-acceso-y-modificaciones">4. Niveles de Acceso y Modificaciones</h3>
-<ul>
-<li><p><strong>Tipos de acceso:</strong> Aunque promueve la ciencia abierta (<em>Open Science</em>), Zenodo permite configuraciones flexibles:</p></li>
-<li><p><strong>Acceso abierto (Open Access):</strong> Disponible de inmediato.</p></li>
-<li><p><strong>Embargado (Embargoed):</strong> Los datos se mantienen cerrados hasta una fecha específica (por ejemplo, cuando se publique un artículo científico relacionado) y luego se abren automáticamente.</p></li>
-<li><p><strong>Acceso restringido (Restricted):</strong> Los archivos permanecen ocultos, pero otros investigadores pueden solicitar acceso al autor justificando su uso.</p></li>
-<li><p><strong>Acceso cerrado (Closed):</strong> Solo el propietario puede ver los archivos (utilizado principalmente para preservación interna).</p></li>
-<li><p><strong>Inmutabilidad y Versionado:</strong> Una vez que un registro se publica, los archivos <strong>no se pueden modificar ni eliminar a la ligera</strong>. Durante los primeros 30 días se permiten correcciones menores de errores, pero pasado ese tiempo, cualquier cambio significativo requiere la creación de una <strong>nueva versión</strong>, la cual recibirá un Identificador de Objeto Digital (DOI) diferente. Esto asegura la trazabilidad científica.</p></li>
-</ul>
+<section id="la-dimensión-territorial-estándares-geoespaciales-e-interoperabilidad-nacional" class="level3">
+<h3 class="anchored" data-anchor-id="la-dimensión-territorial-estándares-geoespaciales-e-interoperabilidad-nacional">4. La Dimensión Territorial: Estándares Geoespaciales e Interoperabilidad Nacional</h3>
+<p>En el ámbito de la investigación ecológica y de biodiversidad, la inmensa mayoría de los conjuntos de datos primarios poseen una naturaleza inherentemente espacial (coordenadas de muestreo, delimitaciones ecosistémicas, imágenes de sensores remotos o capas vectoriales). Por ende, el diseño arquitectónico y normativo del Servidor de Datos Abiertos del INECOL no puede limitarse a metadatos bibliográficos o taxonómicos genéricos; debe incorporar de manera obligatoria la gobernanza semántica de la información geográfica <span class="citation" data-cites="wright_open_2023">(<a href="referencias.html#ref-wright_open_2023" role="doc-biblioref">Wright y Halpin 2023</a>)</span>.</p>
+<p>Para robustecer la condición de “Interoperabilidad” y “Reutilización” del modelo FAIR en la escala geoespacial, el repositorio debe adoptar la norma internacional <strong>ISO 19115</strong>, la cual define el esquema conceptual para describir la información geográfica y sus servicios asociados, abarcando desde la calidad del dato y la extensión espacio-temporal hasta los sistemas de referencia de coordenadas <span class="citation" data-cites="wright_open_2023 dona_fair_2022">(<a href="referencias.html#ref-wright_open_2023" role="doc-biblioref">Wright y Halpin 2023</a>; <a href="referencias.html#ref-dona_fair_2022" role="doc-biblioref"><span class="nocase">Doña et&nbsp;al.</span> 2022</a>)</span>. La adopción de este estándar transfronterizo asegura que el patrimonio científico del INECOL sea legible y operable por infraestructuras de datos espaciales (IDEs) globales.</p>
+<p>A nivel nacional, y en estricta observancia del marco legal que rige a los Centros Públicos de Investigación coordinados por la <strong>SECIHTI</strong>, el Servidor de Datos Abiertos del INECOL debe alinearse de manera vinculante con la normatividad emitida por el <strong>Instituto Nacional de Estadística y Geografía (INEGI)</strong>, específicamente a través de las regulaciones técnicas orientadas a la estandarización de metadatos geográficos en México (v.gr., la <strong>Norma Oficial Mexicana</strong> aplicable y la <em>Norma Técnica para la Generación de Metadatos Geográficos</em>) <span class="citation" data-cites="inegi_norma_2024">(<a href="referencias.html#ref-inegi_norma_2024" role="doc-biblioref">INEGI 2024</a>)</span>.</p>
+<p>Esta alineación técnico-normativa con el INEGI cumple un doble propósito estratégico: garantiza la soberanía y consistencia legal del dato público mexicano frente a marcos regulatorios federales, y faculta la integración directa e interoperable de la producción del INECOL dentro del Sistema Nacional de Información Estadística y Geográfica (SNIEG), transformando el repositorio institucional en un nodo estratégico de consulta para la toma de decisiones del Estado mexicano en materia ambiental y territorial <span class="citation" data-cites="inegi_norma_2024">(<a href="referencias.html#ref-inegi_norma_2024" role="doc-biblioref">INEGI 2024</a>)</span>.</p>
 </section>
-<section id="preservación-retirada-y-la-circular-operacional-no.-11-del-cern" class="level3">
-<h3 class="anchored" data-anchor-id="preservación-retirada-y-la-circular-operacional-no.-11-del-cern">5. Preservación, Retirada y la Circular Operacional No.&nbsp;11 del CERN</h3>
-<p>Aquí es donde la <strong>Circular Operacional No.&nbsp;11 del CERN</strong> se vuelve vital para entender la gobernanza de Zenodo:</p>
-<ul>
-<li><strong>Gobernanza Institucional:</strong> Zenodo no es una entidad comercial independiente; opera bajo el amparo del CERN (Organización Europea para la Investigación Nuclear). La <em>Circular Operacional No.&nbsp;11</em> define precisamente las reglas internas del CERN respecto a la propiedad intelectual, el uso de sus nombres/logotipos, y las condiciones bajo las cuales el CERN aloja o transfiere tecnología y servicios a la comunidad internacional.</li>
-<li><strong>Garantía de Longevidad:</strong> Zenodo garantiza la preservación de los datos por <strong>toda la vida útil del CERN</strong>, comprometiéndose contractualmente a un mínimo de <strong>20 años</strong>. Al estar respaldado por las políticas institucionales del CERN, el repositorio se beneficia de una infraestructura de almacenamiento masivo altamente redundante (múltiples copias en línea y réplicas en cinta <em>offline</em>).</li>
-<li><strong>Procedimiento de Retirada (Take-down):</strong> Aunque Zenodo no monitorea activamente lo que los usuarios suben, cuenta con un protocolo estricto para retirar contenido si recibe una reclamación legítima de violación de propiedad intelectual, plagio, falsificación deliberada o inclusión de datos personales sin consentimiento. En estos casos excepcionales, los archivos se eliminan del acceso público, pero se retiene una “tumba de metadatos” indicando que el registro existió y el motivo de su remoción, para no romper la integridad de las citas académicas.</li>
-</ul>
+<section id="articulación-estratégica-con-el-ecosistema-federal-conabio-e-inecc" class="level3">
+<h3 class="anchored" data-anchor-id="articulación-estratégica-con-el-ecosistema-federal-conabio-e-inecc">5. Articulación Estratégica con el Ecosistema Federal: CONABIO e INECC</h3>
+<p>La infraestructura propia del INECOL potencia los flujos de información hacia las agencias federales encargadas de la política ambiental y la conservación en México. Históricamente, la transferencia de datos hacia organismos como la <strong>CONABIO</strong> y el <strong>INECC</strong> ha operado mediante reportes estáticos, entregas fragmentadas o solicitudes interinstitucionales específicas. El Servidor de Datos Abiertos del INECOL transforma esta relación en un modelo de interoperabilidad dinámica y continua.</p>
+<p>Al adoptar estándares abiertos globales y nacionales (FAIR, Darwin Core, ISO 19115 y las normas técnicas del INEGI), el repositorio del INECOL se convierte en un nodo tecnológico que abastece directamente al Sistema National de Información sobre Biodiversidad (SNIB) de la <strong>CONABIO</strong>, acelerando la integración de registros de presencia de especies y monitoreo biótico <span class="citation" data-cites="islam_bridging_2024">(<a href="referencias.html#ref-islam_bridging_2024" role="doc-biblioref">Islam et&nbsp;al. 2024</a>)</span>. Asimismo, proporciona al <strong>INECC</strong> las bases de datos geoespaciales y climáticas primarias necesarias para la modelación de escenarios de vulnerabilidad, inventarios de gases de efecto invernadero y diseño de políticas de adaptación al cambio climático basadas en ecosistemas <span class="citation" data-cites="wright_open_2023">(<a href="referencias.html#ref-wright_open_2023" role="doc-biblioref">Wright y Halpin 2023</a>)</span>. De este modo, el INECOL no solo cumple un mandato de transparencia coordinado por la <strong>SECIHTI</strong>, sino que se consolida como el motor de evidencia científica indispensable para la toma de decisiones ambientales de escala federal.</p>
 </section>
-<section id="resumen-de-la-perspectiva" class="level3">
-<h3 class="anchored" data-anchor-id="resumen-de-la-perspectiva">Resumen de la Perspectiva</h3>
-<p>Zenodo logra un equilibrio: ofrece un <strong>servicio universal, gratuito y abierto</strong> para empoderar a la comunidad científica global (bajo las políticas de <em>OpenAire</em> y <em>Open Science</em>), pero delega toda la <strong>responsabilidad legal y ética en el usuario</strong>, mientras se blinda institucional y técnicamente utilizando la rigurosa <strong>infraestructura, marco legal y gobernanza a largo plazo del CERN</strong>.</p>
+<section id="ciencia-abierta-con-incidencia-local" class="level3">
+<h3 class="anchored" data-anchor-id="ciencia-abierta-con-incidencia-local">6. Ciencia Abierta con Incidencia Local</h3>
+<p>La justificación de un repositorio institucional autónomo adquiere su máxima legitimidad social al traducirse en soberanía científica aplicada a los territorios donde el INECOL tiene arraigo por “domicilio” e infraestructura física (la sede central en Xalapa, Veracruz, y el Centro Regional de El Bajío en Pátzcuaro, Michoacán). Las administraciones estatales y municipales frecuentemente carecen de la capacidad técnica para generar datos biofísicos primarios, viéndose obligadas a tomar decisiones territoriales críticamente desinformadas o basadas en consultorías externas costosas <span class="citation" data-cites="morales_open_2025">(<a href="referencias.html#ref-morales_open_2025" role="doc-biblioref">Morales-Reyes et&nbsp;al. 2025</a>)</span>.</p>
+<p>El Servidor de Datos Abiertos rompe esta asimetría de información y materializa el principio de incidencia social de la <strong>SECIHTI</strong> a través de tres ejes de acción local:</p>
+<ol type="1">
+<li><strong>Gobernanza Territorial Subnacional:</strong> Provee a las Secretarías de Medio Ambiente estatales (v.gr., SEDEMA Veracruz y SECMA Michoacán) las capas geográficas estandarizadas bajo la NOM del INEGI e ISO 19115 requeridas de forma vinculante para los Programas Estatales de Ordenamiento Ecológico y Territorial (POET) <span class="citation" data-cites="wright_open_2023">(<a href="referencias.html#ref-wright_open_2023" role="doc-biblioref">Wright y Halpin 2023</a>)</span>.</li>
+<li><strong>Resiliencia Urbana y Municipal:</strong> Permite al Municipio de Xalapa y ayuntamientos colindantes acceder de forma abierta a datos sobre servicios ecosistémicos, dinámicas hidrológicas locales e inventarios del arbolado urbano, indispensables para actualizar los Planes de Desarrollo Urbano Municipal y los Programas de Acción Climática Municipal (PACMUN).</li>
+<li><strong>Garantía de Acceso Social:</strong> Al mantener el INECOL el control de su propia infraestructura, se pueden diseñar interfaces y visualizaciones de metadatos simplificadas orientadas a la consulta de comunidades locales, ejidos y organizaciones de la sociedad civil de las regiones de influencia, democratizando el conocimiento biológico y previniendo conflictos socioambientales por falta de acceso a la información <span class="citation" data-cites="morales_open_2025">(<a href="referencias.html#ref-morales_open_2025" role="doc-biblioref">Morales-Reyes et&nbsp;al. 2025</a>)</span>.</li>
+</ol>
 </section>
-<section id="compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern" class="level2">
-<h2 class="anchored" data-anchor-id="compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern">Compendio de Documentos Descargables y Referencias: Gobernanza Zenodo y CERN</h2>
-<p>Este documento reúne las referencias oficiales, políticas públicas y circulares operacionales que norman y respaldan la infraestructura del servicio de hospedaje de datos abiertos de Zenodo, así como el marco regulatorio del CERN como su entidad proveedora de infraestructura masiva.</p>
-<section id="documentos-principales-de-política-y-gobernanza" class="level3">
-<h3 class="anchored" data-anchor-id="documentos-principales-de-política-y-gobernanza">1. Documentos Principales de Política y Gobernanza</h3>
-<section id="zenodo-general-policies-políticas-generales-de-zenodo" class="level4">
-<h4 class="anchored" data-anchor-id="zenodo-general-policies-políticas-generales-de-zenodo">📄 Zenodo General Policies (Políticas Generales de Zenodo)</h4>
-<ul>
-<li><strong>Organización:</strong> Zenodo / OpenAIRE / CERN</li>
-<li><strong>Ámbito:</strong> Normativa principal para usuarios y depositantes.</li>
-<li><strong>Criterios Clave:</strong> Regula de manera exhaustiva la aceptación de contenidos de cualquier disciplina científica, las cuotas predeterminadas de almacenamiento (50 GB por registro), las políticas de acceso flexible (abierto, embargado, restringido y cerrado), la inmutabilidad de los datos publicados y el procedimiento legal de retirada de contenido (<em>Take-down policy</em>) ante violaciones de propiedad intelectual o datos sensibles.</li>
-<li><strong>Fuente/Enlace:</strong> <a href="https://about.zenodo.org/policies/">https://about.zenodo.org/policies/</a></li>
-</ul>
-</section>
-<section id="cern-operational-circular-no.-11-rev.-1-circular-operacional-del-cern-no.-11" class="level4">
-<h4 class="anchored" data-anchor-id="cern-operational-circular-no.-11-rev.-1-circular-operacional-del-cern-no.-11">📄 CERN Operational Circular No.&nbsp;11 Rev.&nbsp;1 (Circular Operacional del CERN No.&nbsp;11)</h4>
-<ul>
-<li><strong>Organización:</strong> Organización Europea para la Investigación Nuclear (CERN)</li>
-<li><strong>Ámbito:</strong> Marco institucional y legal de nivel macro.</li>
-<li><strong>Criterios Clave:</strong> Define las reglas internas del CERN respecto a la gestión de la propiedad intelectual, el uso de sus nombres y logotipos, y las condiciones bajo las cuales el CERN aloja o transfiere tecnología y servicios a la comunidad internacional. Establece las garantías institucionales de permanencia que sustentan la infraestructura física de Zenodo.</li>
-<li><strong>Fuente/Enlace:</strong> <a href="https://repository.cern/records/xgq3r-6yc67/preview/Operational%20Circular%20No.11%20Rev.1.pdf">https://repository.cern/records/xgq3r-6yc67/preview/Operational%20Circular%20No.11%20Rev.1.pdf</a></li>
-</ul>
-</section>
-</section>
-<section id="términos-de-servicio-y-privacidad-soporte-técnico-legal" class="level3">
-<h3 class="anchored" data-anchor-id="términos-de-servicio-y-privacidad-soporte-técnico-legal">2. Términos de Servicio y Privacidad (Soporte Técnico-Legal)</h3>
-<section id="zenodo-terms-of-service-términos-del-servicio-de-zenodo" class="level4">
-<h4 class="anchored" data-anchor-id="zenodo-terms-of-service-términos-del-servicio-de-zenodo">📄 Zenodo Terms of Service (Términos del Servicio de Zenodo)</h4>
-<ul>
-<li><strong>Organización:</strong> Zenodo / CERN</li>
-<li><strong>Ámbito:</strong> Contrato de adhesión para los depositantes de datos.</li>
-<li><strong>Criterios Clave:</strong> Establece explícitamente que los investigadores retienen el 100% de la propiedad intelectual de sus archivos y asumen la total responsabilidad legal (civil o penal) por infracciones de derechos de autor, confidencialidad o falta de anonimización de datos sensibles de sujetos humanos.</li>
-<li><strong>Fuente/Enlace:</strong> <a href="https://about.zenodo.org/terms/">https://about.zenodo.org/terms/</a></li>
-</ul>
-</section>
-<section id="cern-data-protection-privacy-notice---zenodo-aviso-de-privacidad-de-datos-del-cern" class="level4">
-<h4 class="anchored" data-anchor-id="cern-data-protection-privacy-notice---zenodo-aviso-de-privacidad-de-datos-del-cern">📄 CERN Data Protection Privacy Notice - Zenodo (Aviso de Privacidad de Datos del CERN)</h4>
-<ul>
-<li><strong>Organización:</strong> CERN Data Protection Officer</li>
-<li><strong>Ámbito:</strong> Cumplimiento de protección de datos personales.</li>
-<li><strong>Criterios Clave:</strong> Detalla el tratamiento de la información de los usuarios registrados en Zenodo. Especifica las garantías de protección en el entorno internacional del CERN, operando bajo estándares alineados con el espíritu del Reglamento General de Protección de Datos (GDPR) de la Unión Europea.</li>
-<li><strong>Fuente/Enlace:</strong> <a href="https://about.zenodo.org/privacy-policy/">https://about.zenodo.org/privacy-policy/</a></li>
-</ul>
-</section>
-</section>
-<section id="arquitectura-de-datos-y-preservación" class="level3">
-<h3 class="anchored" data-anchor-id="arquitectura-de-datos-y-preservación">3. Arquitectura de Datos y Preservación</h3>
-<section id="zenodo-data-preservation-plan-plan-de-preservación-a-largo-plazo" class="level4">
-<h4 class="anchored" data-anchor-id="zenodo-data-preservation-plan-plan-de-preservación-a-largo-plazo">📄 Zenodo Data Preservation Plan (Plan de Preservación a Largo Plazo)</h4>
-<ul>
-<li><strong>Organización:</strong> CERN Data Centre / OpenAIRE</li>
-<li><strong>Ámbito:</strong> Infraestructura y resiliencia tecnológica.</li>
-<li><strong>Criterios Clave:</strong> Respaldo técnico de la promesa de disponibilidad mínima de 20 años para los registros. Describe la sincronización con los sistemas de almacenamiento masivo del CERN (<em>EOS</em> y <em>CERN Advanced Storage Manager - CASTOR</em>), el esquema de réplicas distribuidas y el uso de cintas magnéticas <em>offline</em> ante desastres informáticos.</li>
-<li><strong>Fuente/Enlace:</strong> <a href="https://about.zenodo.org/infrastructure/">https://about.zenodo.org/infrastructure/</a></li>
-</ul>
-<blockquote class="blockquote">
-<p>💡 <strong>Nota sobre Integridad Académica: </strong> Todas las políticas estipulan que los metadatos de los registros publicados en Zenodo se emiten bajo la licencia internacional de Dominio Público <strong>CC0 (Creative Commons Zero)</strong>, lo que faculta a los agregadores globales de ciencia abierta a indexar y enlazar permanentemente estos documentos sin restricciones comerciales.</p>
-</blockquote>
+<section id="conclusión-estratégica-el-enfoque-híbrido" class="level3">
+<h3 class="anchored" data-anchor-id="conclusión-estratégica-el-enfoque-híbrido">Conclusión Estratégica: El Enfoque Híbrido</h3>
+<p>La estrategia óptima para el INECOL no es rechazar a Zenodo u otros repositorios globales, sino adoptar un <strong>enfoque híbrido o federado</strong>. El Servidor del INECOL debe ser la infraestructura primaria de depósito, donde se garantiza la soberanía legal, la curaduría especializada (FAIR/Darwin Core) y el registro institucional de propiedad intelectual. Posteriormente, mediante protocolos automáticos de interoperabilidad (como OAI-PMH), el repositorio del INECOL puede cosechar o replicar sus metadatos hacia Zenodo y el Repositorio Nacional. Así, el INECOL gana autonomía y control local, mientras multiplica exponencialmente la visibilidad global de sus científicos.</p>
 
 
-</section>
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-dona_fair_2022" class="csl-entry" role="listitem">
+<span class="nocase">Doña, Carolina, Neus Sabater, et&nbsp;al.</span> 2022. <span>«Implementing FAIR principles in geospatial repositories using ISO 19115 metadata standards»</span>. <em>International Journal of Digital Earth</em> 15 (1): 412-31. <a href="https://doi.org/10.1080/17538947.2022.2038596">https://doi.org/10.1080/17538947.2022.2038596</a>.
+</div>
+<div id="ref-inegi_norma_2024" class="csl-entry" role="listitem">
+INEGI. 2024. <em>Norma T<span>é</span>cnica para la Generaci<span>ó</span>n de Metadatos Geogr<span>á</span>ficos / Normatividad del Sistema Nacional de Informaci<span>ó</span>n Estad<span>í</span>stica y Geogr<span>á</span>fica</em>. Instituto Nacional de Estad<span>í</span>stica y Geogr<span>á</span>fica (INEGI). <a href="https://www.inegi.org.mx/">https://www.inegi.org.mx/</a>.
+</div>
+<div id="ref-islam_bridging_2024" class="csl-entry" role="listitem">
+Islam, Sharif, Julian Lopez Gordillo, Dag Endresen, y Carrie Andrew. 2024. <span>«Bridging Data Standards and FAIR Principles in Biodiversity Digital Twinning: Prototyping, Challenges, Lessons Learned, and Future Plans»</span>. <em>Biodiversity Information Science and Standards</em> 8: e133089. <a href="https://doi.org/10.3897/biss.8.133089">https://doi.org/10.3897/biss.8.133089</a>.
+</div>
+<div id="ref-morales_open_2025" class="csl-entry" role="listitem">
+Morales-Reyes, Amado, Arturo Flores-Martínez, y Marta Cortés-Anaya. 2025. <span>«Open science and environmental governance at the subnational level: Bridging the gap between research institutes and local governments in Mexico»</span>. <em>Environmental Science &amp; Policy</em> 164: 103980. <a href="https://doi.org/10.1016/j.envsci.2024.103980">https://doi.org/10.1016/j.envsci.2024.103980</a>.
+</div>
+<div id="ref-wright_open_2023" class="csl-entry" role="listitem">
+Wright, Dawn J., y Patrick N. Halpin. 2023. <span>«Open geospatial data in ecology and conservation: Progress, challenges, and standards»</span>. <em>Frontiers in Ecology and the Environment</em> 21 (4): 184-92. <a href="https://doi.org/10.1002/fee.2618">https://doi.org/10.1002/fee.2618</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -770,13 +738,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Cambio-de-Conahcyt-a-Secihti.html" class="pagination-link" aria-label="Cambio de Conahcyt a Secihti">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Cambio de Conahcyt a Secihti</span></span>
+      <a href="./lineamientos-INECOL-v7.html" class="pagination-link" aria-label="Propuesta">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Propuesta</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./aprendiendo-de-zenodo.html" class="pagination-link" aria-label="Lecciones aprendidad de Zenodo">
-        <span class="nav-page-text"><span class="chapter-title">Lecciones aprendidad de Zenodo</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Cambio-de-Conahcyt-a-Secihti.html" class="pagination-link" aria-label="Cambio de Conahcyt a Secihti">
+        <span class="nav-page-text"><span class="chapter-title">Cambio de Conahcyt a Secihti</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
