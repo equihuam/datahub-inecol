@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Zenodo como ejemplo – Ciencia Abierta y Acceso Abierto a Datos del Inecol</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./aprendiendo-de-zenodo.html" rel="next">
+<link href="./lineamientos-INECOL-v7.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+<script>
+
+  (function() {
+
+    var link = document.createElement('link');
+
+    link.rel = 'canonical';
+
+    // Replace with your real Netlify production domain
+
+    link.href = 'https://yourdomain.com' + window.location.pathname;
+
+    document.head.appendChild(link);
+
+  })();
+
+</script>
+
+
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ejemplo_zenodo.html"><span class="chapter-title">Zenodo como ejemplo</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Ciencia Abierta y Acceso Abierto a Datos del Inecol</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lineamientos-INECOL-v7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Propuesta</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ejemplo_zenodo.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Zenodo como ejemplo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aprendiendo-de-zenodo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Lecciones aprendidad de Zenodo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./prepublicar.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Prepublicación de Datos y Artículos de Datos (<em>Data Papers</em>)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Principios FAIR</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./referencias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#alcance-contenido-y-depositantes-políticas-de-zenodo" id="toc-alcance-contenido-y-depositantes-políticas-de-zenodo" class="nav-link active" data-scroll-target="#alcance-contenido-y-depositantes-políticas-de-zenodo">1. Alcance, Contenido y Depositantes (Políticas de Zenodo)</a></li>
+  <li><a href="#responsabilidad-legal-y-propiedad-intelectual" id="toc-responsabilidad-legal-y-propiedad-intelectual" class="nav-link" data-scroll-target="#responsabilidad-legal-y-propiedad-intelectual">2. Responsabilidad Legal y Propiedad Intelectual</a></li>
+  <li><a href="#privacidad-y-datos-sensibles-el-cruce-con-el-gdpr" id="toc-privacidad-y-datos-sensibles-el-cruce-con-el-gdpr" class="nav-link" data-scroll-target="#privacidad-y-datos-sensibles-el-cruce-con-el-gdpr">3. Privacidad y Datos Sensibles (El cruce con el GDPR)</a></li>
+  <li><a href="#niveles-de-acceso-y-modificaciones" id="toc-niveles-de-acceso-y-modificaciones" class="nav-link" data-scroll-target="#niveles-de-acceso-y-modificaciones">4. Niveles de Acceso y Modificaciones</a></li>
+  <li><a href="#preservación-retirada-y-la-circular-operacional-no.-11-del-cern" id="toc-preservación-retirada-y-la-circular-operacional-no.-11-del-cern" class="nav-link" data-scroll-target="#preservación-retirada-y-la-circular-operacional-no.-11-del-cern">5. Preservación, Retirada y la Circular Operacional No.&nbsp;11 del CERN</a></li>
+  <li><a href="#resumen-de-la-perspectiva" id="toc-resumen-de-la-perspectiva" class="nav-link" data-scroll-target="#resumen-de-la-perspectiva">Resumen de la Perspectiva</a></li>
+  <li><a href="#compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern" id="toc-compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern" class="nav-link" data-scroll-target="#compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern">Compendio de Documentos Descargables y Referencias: Gobernanza Zenodo y CERN</a>
+  <ul class="collapse">
+  <li><a href="#documentos-principales-de-política-y-gobernanza" id="toc-documentos-principales-de-política-y-gobernanza" class="nav-link" data-scroll-target="#documentos-principales-de-política-y-gobernanza">1. Documentos Principales de Política y Gobernanza</a></li>
+  <li><a href="#términos-de-servicio-y-privacidad-soporte-técnico-legal" id="toc-términos-de-servicio-y-privacidad-soporte-técnico-legal" class="nav-link" data-scroll-target="#términos-de-servicio-y-privacidad-soporte-técnico-legal">2. Términos de Servicio y Privacidad (Soporte Técnico-Legal)</a></li>
+  <li><a href="#arquitectura-de-datos-y-preservación" id="toc-arquitectura-de-datos-y-preservación" class="nav-link" data-scroll-target="#arquitectura-de-datos-y-preservación">3. Arquitectura de Datos y Preservación</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<div class="top-distribution-banner" style="color: red;">
+
+  ⚠️ CONFIDENCIAL: Documento en desarrollo: No Distribuir -- No citar
+
+</div>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Zenodo como ejemplo</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Para obtener una perspectiva amplia de los lineamientos de <strong>Zenodo</strong>, es fundamental cruzar los marcos regulatorio y operativo que lo regulan: las <strong>políticas públicas de Zenodo</strong> (que dictan qué se puede subir, cómo se almacena y quién es responsable) y la <strong>Circular Operacional No.&nbsp;11 del CERN (Operational Circular No.11)</strong>, la cual establece el marco legal e institucional de la infraestructura física y organizativa que soporta a Zenodo.</p>
+<p>A continuación, se presenta un desglose estructurado de los criterios y lineamientos clave derivados de ambas fuentes:</p>
+<section id="alcance-contenido-y-depositantes-políticas-de-zenodo" class="level3">
+<h3 class="anchored" data-anchor-id="alcance-contenido-y-depositantes-políticas-de-zenodo">1. Alcance, Contenido y Depositantes (Políticas de Zenodo)</h3>
+<ul>
+<li><strong>Inclusión de disciplinas y estados:</strong> Zenodo acepta <em>artefactos</em> de investigación de <strong>cualquier campo científico</strong> y en cualquier etapa del ciclo de vida de la investigación (datos brutos, procesados, software, pósteres, publicaciones, etc.).</li>
+<li><strong>Formatos de archivo:</strong> No hay restricciones en los formatos de archivo. Se permiten incluso formatos “no amigables” para la preservación a largo plazo, aunque se promueven las buenas prácticas.</li>
+<li><strong>Elegibilidad:</strong> Cualquier investigador del mundo puede registrarse y depositar datos de manera gratuita, especialmente si no tiene acceso a un centro de datos institucional organizado.</li>
+<li><strong>Límites de volumen:</strong> Por defecto, el límite estándar es de <strong>50 GB por registro</strong> (con un máximo aproximado de 100 archivos). Cuotas mayores se pueden solicitar y evaluar caso por caso.</li>
+</ul>
+</section>
+<section id="responsabilidad-legal-y-propiedad-intelectual" class="level3">
+<h3 class="anchored" data-anchor-id="responsabilidad-legal-y-propiedad-intelectual">2. Responsabilidad Legal y Propiedad Intelectual</h3>
+<ul>
+<li><strong>La propiedad no se transfiere:</strong> Al subir datos a Zenodo, <strong>no se ceden los derechos de propiedad intelectual al CERN ni a Zenodo</strong>. El contenido sigue perteneciendo a sus autores u organizaciones originales.</li>
+<li><strong>Responsabilidad exclusiva del usuario (Uploader):</strong> Quien sube la información es el único responsable legal del contenido. Debe garantizar que tiene los derechos necesarios, que no infringe derechos de autor ni acuerdos de confidencialidad, y que el material es apto para difusión pública.</li>
+<li><strong>Licenciamiento:</strong> Es obligatorio asignar una licencia a los archivos públicos. Zenodo sugiere por defecto <em>Creative Commons Attribution 4.0 (CC-BY)</em> para datos y licencias estándar de código abierto (como MIT o GPL) para software, aunque permite licencias personalizadas. Los <strong>metadatos</strong>, en cambio, se distribuyen bajo una licencia de dominio público <strong>CC0</strong>, lo que facilita que motores de búsqueda externos los indexen.</li>
+</ul>
+</section>
+<section id="privacidad-y-datos-sensibles-el-cruce-con-el-gdpr" class="level3">
+<h3 class="anchored" data-anchor-id="privacidad-y-datos-sensibles-el-cruce-con-el-gdpr">3. Privacidad y Datos Sensibles (El cruce con el GDPR)</h3>
+<ul>
+<li><strong>Datos personales:</strong> Zenodo <strong>no está diseñado para albergar datos personales sensibles de sujetos humanos</strong>. Si la investigación involucra seres humanos, el usuario debe garantizar que los datos estén <strong>completamente anonimizados</strong> o que se cuente con un consentimiento explícito e inequívoco para su difusión abierta antes de subirlos.</li>
+<li><strong>El rol del CERN:</strong> El CERN goza de un estatus legal particular como organización internacional. Sin embargo, para efectos operativos de Zenodo, sus infraestructuras cumplen rigurosamente con altos estándares de protección de datos alineados con el espíritu del GDPR (Reglamento General de Protección de Datos de la UE).</li>
+</ul>
+</section>
+<section id="niveles-de-acceso-y-modificaciones" class="level3">
+<h3 class="anchored" data-anchor-id="niveles-de-acceso-y-modificaciones">4. Niveles de Acceso y Modificaciones</h3>
+<ul>
+<li><p><strong>Tipos de acceso:</strong> Aunque promueve la ciencia abierta (<em>Open Science</em>), Zenodo permite configuraciones flexibles:</p></li>
+<li><p><strong>Acceso abierto (Open Access):</strong> Disponible de inmediato.</p></li>
+<li><p><strong>Embargado (Embargoed):</strong> Los datos se mantienen cerrados hasta una fecha específica (por ejemplo, cuando se publique un artículo científico relacionado) y luego se abren automáticamente.</p></li>
+<li><p><strong>Acceso restringido (Restricted):</strong> Los archivos permanecen ocultos, pero otros investigadores pueden solicitar acceso al autor justificando su uso.</p></li>
+<li><p><strong>Acceso cerrado (Closed):</strong> Solo el propietario puede ver los archivos (utilizado principalmente para preservación interna).</p></li>
+<li><p><strong>Inmutabilidad y Versionado:</strong> Una vez que un registro se publica, los archivos <strong>no se pueden modificar ni eliminar a la ligera</strong>. Durante los primeros 30 días se permiten correcciones menores de errores, pero pasado ese tiempo, cualquier cambio significativo requiere la creación de una <strong>nueva versión</strong>, la cual recibirá un Identificador de Objeto Digital (DOI) diferente. Esto asegura la trazabilidad científica.</p></li>
+</ul>
+</section>
+<section id="preservación-retirada-y-la-circular-operacional-no.-11-del-cern" class="level3">
+<h3 class="anchored" data-anchor-id="preservación-retirada-y-la-circular-operacional-no.-11-del-cern">5. Preservación, Retirada y la Circular Operacional No.&nbsp;11 del CERN</h3>
+<p>Aquí es donde la <strong>Circular Operacional No.&nbsp;11 del CERN</strong> se vuelve vital para entender la gobernanza de Zenodo:</p>
+<ul>
+<li><strong>Gobernanza Institucional:</strong> Zenodo no es una entidad comercial independiente; opera bajo el amparo del CERN (Organización Europea para la Investigación Nuclear). La <em>Circular Operacional No.&nbsp;11</em> define precisamente las reglas internas del CERN respecto a la propiedad intelectual, el uso de sus nombres/logotipos, y las condiciones bajo las cuales el CERN aloja o transfiere tecnología y servicios a la comunidad internacional.</li>
+<li><strong>Garantía de Longevidad:</strong> Zenodo garantiza la preservación de los datos por <strong>toda la vida útil del CERN</strong>, comprometiéndose contractualmente a un mínimo de <strong>20 años</strong>. Al estar respaldado por las políticas institucionales del CERN, el repositorio se beneficia de una infraestructura de almacenamiento masivo altamente redundante (múltiples copias en línea y réplicas en cinta <em>offline</em>).</li>
+<li><strong>Procedimiento de Retirada (Take-down):</strong> Aunque Zenodo no monitorea activamente lo que los usuarios suben, cuenta con un protocolo estricto para retirar contenido si recibe una reclamación legítima de violación de propiedad intelectual, plagio, falsificación deliberada o inclusión de datos personales sin consentimiento. En estos casos excepcionales, los archivos se eliminan del acceso público, pero se retiene una “tumba de metadatos” indicando que el registro existió y el motivo de su remoción, para no romper la integridad de las citas académicas.</li>
+</ul>
+</section>
+<section id="resumen-de-la-perspectiva" class="level3">
+<h3 class="anchored" data-anchor-id="resumen-de-la-perspectiva">Resumen de la Perspectiva</h3>
+<p>Zenodo logra un equilibrio: ofrece un <strong>servicio universal, gratuito y abierto</strong> para empoderar a la comunidad científica global (bajo las políticas de <em>OpenAire</em> y <em>Open Science</em>), pero delega toda la <strong>responsabilidad legal y ética en el usuario</strong>, mientras se blinda institucional y técnicamente utilizando la rigurosa <strong>infraestructura, marco legal y gobernanza a largo plazo del CERN</strong>.</p>
+</section>
+<section id="compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern" class="level2">
+<h2 class="anchored" data-anchor-id="compendio-de-documentos-descargables-y-referencias-gobernanza-zenodo-y-cern">Compendio de Documentos Descargables y Referencias: Gobernanza Zenodo y CERN</h2>
+<p>Este documento reúne las referencias oficiales, políticas públicas y circulares operacionales que norman y respaldan la infraestructura del servicio de hospedaje de datos abiertos de Zenodo, así como el marco regulatorio del CERN como su entidad proveedora de infraestructura masiva.</p>
+<section id="documentos-principales-de-política-y-gobernanza" class="level3">
+<h3 class="anchored" data-anchor-id="documentos-principales-de-política-y-gobernanza">1. Documentos Principales de Política y Gobernanza</h3>
+<section id="zenodo-general-policies-políticas-generales-de-zenodo" class="level4">
+<h4 class="anchored" data-anchor-id="zenodo-general-policies-políticas-generales-de-zenodo">📄 Zenodo General Policies (Políticas Generales de Zenodo)</h4>
+<ul>
+<li><strong>Organización:</strong> Zenodo / OpenAIRE / CERN</li>
+<li><strong>Ámbito:</strong> Normativa principal para usuarios y depositantes.</li>
+<li><strong>Criterios Clave:</strong> Regula de manera exhaustiva la aceptación de contenidos de cualquier disciplina científica, las cuotas predeterminadas de almacenamiento (50 GB por registro), las políticas de acceso flexible (abierto, embargado, restringido y cerrado), la inmutabilidad de los datos publicados y el procedimiento legal de retirada de contenido (<em>Take-down policy</em>) ante violaciones de propiedad intelectual o datos sensibles.</li>
+<li><strong>Fuente/Enlace:</strong> <a href="https://about.zenodo.org/policies/">https://about.zenodo.org/policies/</a></li>
+</ul>
+</section>
+<section id="cern-operational-circular-no.-11-rev.-1-circular-operacional-del-cern-no.-11" class="level4">
+<h4 class="anchored" data-anchor-id="cern-operational-circular-no.-11-rev.-1-circular-operacional-del-cern-no.-11">📄 CERN Operational Circular No.&nbsp;11 Rev.&nbsp;1 (Circular Operacional del CERN No.&nbsp;11)</h4>
+<ul>
+<li><strong>Organización:</strong> Organización Europea para la Investigación Nuclear (CERN)</li>
+<li><strong>Ámbito:</strong> Marco institucional y legal de nivel macro.</li>
+<li><strong>Criterios Clave:</strong> Define las reglas internas del CERN respecto a la gestión de la propiedad intelectual, el uso de sus nombres y logotipos, y las condiciones bajo las cuales el CERN aloja o transfiere tecnología y servicios a la comunidad internacional. Establece las garantías institucionales de permanencia que sustentan la infraestructura física de Zenodo.</li>
+<li><strong>Fuente/Enlace:</strong> <a href="https://repository.cern/records/xgq3r-6yc67/preview/Operational%20Circular%20No.11%20Rev.1.pdf">https://repository.cern/records/xgq3r-6yc67/preview/Operational%20Circular%20No.11%20Rev.1.pdf</a></li>
+</ul>
+</section>
+</section>
+<section id="términos-de-servicio-y-privacidad-soporte-técnico-legal" class="level3">
+<h3 class="anchored" data-anchor-id="términos-de-servicio-y-privacidad-soporte-técnico-legal">2. Términos de Servicio y Privacidad (Soporte Técnico-Legal)</h3>
+<section id="zenodo-terms-of-service-términos-del-servicio-de-zenodo" class="level4">
+<h4 class="anchored" data-anchor-id="zenodo-terms-of-service-términos-del-servicio-de-zenodo">📄 Zenodo Terms of Service (Términos del Servicio de Zenodo)</h4>
+<ul>
+<li><strong>Organización:</strong> Zenodo / CERN</li>
+<li><strong>Ámbito:</strong> Contrato de adhesión para los depositantes de datos.</li>
+<li><strong>Criterios Clave:</strong> Establece explícitamente que los investigadores retienen el 100% de la propiedad intelectual de sus archivos y asumen la total responsabilidad legal (civil o penal) por infracciones de derechos de autor, confidencialidad o falta de anonimización de datos sensibles de sujetos humanos.</li>
+<li><strong>Fuente/Enlace:</strong> <a href="https://about.zenodo.org/terms/">https://about.zenodo.org/terms/</a></li>
+</ul>
+</section>
+<section id="cern-data-protection-privacy-notice---zenodo-aviso-de-privacidad-de-datos-del-cern" class="level4">
+<h4 class="anchored" data-anchor-id="cern-data-protection-privacy-notice---zenodo-aviso-de-privacidad-de-datos-del-cern">📄 CERN Data Protection Privacy Notice - Zenodo (Aviso de Privacidad de Datos del CERN)</h4>
+<ul>
+<li><strong>Organización:</strong> CERN Data Protection Officer</li>
+<li><strong>Ámbito:</strong> Cumplimiento de protección de datos personales.</li>
+<li><strong>Criterios Clave:</strong> Detalla el tratamiento de la información de los usuarios registrados en Zenodo. Especifica las garantías de protección en el entorno internacional del CERN, operando bajo estándares alineados con el espíritu del Reglamento General de Protección de Datos (GDPR) de la Unión Europea.</li>
+<li><strong>Fuente/Enlace:</strong> <a href="https://about.zenodo.org/privacy-policy/">https://about.zenodo.org/privacy-policy/</a></li>
+</ul>
+</section>
+</section>
+<section id="arquitectura-de-datos-y-preservación" class="level3">
+<h3 class="anchored" data-anchor-id="arquitectura-de-datos-y-preservación">3. Arquitectura de Datos y Preservación</h3>
+<section id="zenodo-data-preservation-plan-plan-de-preservación-a-largo-plazo" class="level4">
+<h4 class="anchored" data-anchor-id="zenodo-data-preservation-plan-plan-de-preservación-a-largo-plazo">📄 Zenodo Data Preservation Plan (Plan de Preservación a Largo Plazo)</h4>
+<ul>
+<li><strong>Organización:</strong> CERN Data Centre / OpenAIRE</li>
+<li><strong>Ámbito:</strong> Infraestructura y resiliencia tecnológica.</li>
+<li><strong>Criterios Clave:</strong> Respaldo técnico de la promesa de disponibilidad mínima de 20 años para los registros. Describe la sincronización con los sistemas de almacenamiento masivo del CERN (<em>EOS</em> y <em>CERN Advanced Storage Manager - CASTOR</em>), el esquema de réplicas distribuidas y el uso de cintas magnéticas <em>offline</em> ante desastres informáticos.</li>
+<li><strong>Fuente/Enlace:</strong> <a href="https://about.zenodo.org/infrastructure/">https://about.zenodo.org/infrastructure/</a></li>
+</ul>
+<blockquote class="blockquote">
+<p>💡 <strong>Nota sobre Integridad Académica: </strong> Todas las políticas estipulan que los metadatos de los registros publicados en Zenodo se emiten bajo la licencia internacional de Dominio Público <strong>CC0 (Creative Commons Zero)</strong>, lo que faculta a los agregadores globales de ciencia abierta a indexar y enlazar permanentemente estos documentos sin restricciones comerciales.</p>
+</blockquote>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./lineamientos-INECOL-v7.html" class="pagination-link" aria-label="Propuesta">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Propuesta</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./aprendiendo-de-zenodo.html" class="pagination-link" aria-label="Lecciones aprendidad de Zenodo">
+        <span class="nav-page-text"><span class="chapter-title">Lecciones aprendidad de Zenodo</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

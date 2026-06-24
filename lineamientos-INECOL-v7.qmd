@@ -1,0 +1,383 @@
+## Propuesta  {.unnumbered}
+
+
+### **Considerandos**
+
+**Primero.** Que el artículo 3, fracción V, de la Constitución Política de los Estados Unidos Mexicanos reconoce el derecho humano a gozar de los beneficios del desarrollo de la ciencia y la innovación tecnológica, y ordena al Estado garantizar el acceso abierto a la información que derive de la investigación apoyada con fondos públicos;
+
+**Segundo.** Que conforme al artículo 1 constitucional, todas las autoridades, en el ámbito de sus competencias, tienen la obligación de promover, respetar, proteger y garantizar los derechos humanos bajo los principios de universalidad, interdependencia, indivisibilidad y progresividad, favoreciendo en todo tiempo la protección más amplia a las personas;
+
+**Tercero.** Que el artículo 85 de la Ley General en materia de Humanidades, Ciencias, Tecnologías e Innovación impone a los Centros Públicos, entre ellos el Instituto de Ecología, A.C. (INECOL), el deber de actuar bajo un enfoque comprometido con los derechos humanos, la pluralidad y equidad epistémicas y el trabajo colaborativo;
+
+**Cuarto.** Que el Instituto de Ecología, A.C., en ejercicio de la facultad reglamentaria que el artículo 89, fracción I, de la propia Constitución reconoce al Poder Ejecutivo y a los organismos que de él dependen, cuenta con atribución suficiente para emitir el presente instrumento;
+
+[**Quinto.** Que la Dirección General de INECOL, consciente de que el derecho humano a la ciencia exige no solo el reconocimiento formal sino su desempaque institucional efectivo, asume mediante el presente instrumento un compromiso explícito, público y verificable con la apertura amplia de los datos generados por la investigación del Instituto, bajo el entendido de que dicha apertura constituye la regla general, y que toda excepción a la misma habrá de ser estrictamente tasada, motivada y sujeta a escrutinio;]{style="background-color: #F1E27B;"}
+
+**Sexto.** Que se cuenta ya con un proyecto avanzado de Lineamientos (versión 6), producto de un ejercicio colaborativo de personas expertas convocado en 2023-2024, mismo que el presente instrumento retoma, integra y desarrolla, incorporando las Reglas de Operación necesarias para la entrada en funcionamiento del nuevo Servidor de Datos Abiertos del Instituto;
+
+Por lo anteriormente expuesto, se expiden los siguientes:
+
+**LINEAMIENTOS DE CIENCIA ABIERTA Y ACCESO ABIERTO A DATOS DEL INSTITUTO DE ECOLOGÍA, A.C.**
+
+
+### **Capítulo 1\. Del objetivo de los Lineamientos**
+
+**Artículo 1\.** Estos Lineamientos tienen como objeto regular el Derecho Humano a la Ciencia consagrado en la Constitución y en la Ley General en materia de Humanidades, Ciencias, Tecnologías e Innovación, en lo relativo a la ciencia abierta y el acceso abierto a datos generados por investigaciones apoyadas por el Estado, bajo un principio garantista de amplitud máxima de acceso, a través de:
+
+**I.** La definición de una política institucional y un entorno normativo de Ciencia Abierta.
+
+[**II.** El establecimiento de las Reglas de Operación para la integración y funcionamiento del Servidor y Repositorio Institucional INECOL.]{style="background-color: #F1E27B;"}
+
+**III.** El establecimiento de lineamientos para el acceso a los contenidos del Repositorio Institucional INECOL.
+
+**IV.** La promoción de enfoques innovadores para la ciencia abierta en las diferentes etapas del proceso científico.
+
+**V.** La promoción de la cooperación interinstitucional en el contexto de la ciencia abierta, con miras a reducir las brechas digital, tecnológica y de conocimientos.
+
+[**VI.** El establecimiento de los compromisos institucionales que asume la Dirección General para garantizar la sostenibilidad, continuidad y rendición de cuentas del sistema de acceso abierto.]{style="background-color: #F1E27B;"}
+
+**VII.** El establecimiento del procedimiento para la resolución de controversias en la materia.
+
+Su observancia es general para las personas investigadoras, estudiantes, colaboradoras asociadas y demás personas que reciban apoyo gubernamental a través del Instituto.
+
+### **Capítulo 2\. Definiciones**
+
+**Artículo 2\.** Para los efectos de estos Lineamientos se entiende por:
+
+**I.** Acceso abierto. Elemento del derecho humano a la ciencia garantizado en la fracción V del artículo 3o. de la Constitución Política de los Estados Unidos Mexicanos, así como en los tratados internacionales de los que el Estado mexicano es parte; es una vía para acceder a investigaciones, materiales educativos, académicos, científicos, tecnológicos y de innovación, por medio de una plataforma digital que no requiere suscripción, registro o pago, sin perjuicio de las disposiciones en materia de patentes, protección de la propiedad intelectual o industrial, seguridad nacional y derechos de autor, entre otras, así como de aquella información que, por razón de su naturaleza y decisión del autor, sea confidencial o reservada.
+
+**II.** Acervo digital. Conjunto de bienes culturales o patrimoniales puestos a disposición del público como colecciones digitalizadas.
+
+**III.** Base de datos. Conjunto de datos relacionados o pertenecientes a un mismo contexto, almacenados sistemáticamente para su posterior uso.
+
+**IV.** Catálogo de colecciones. Listado o inventario de las colecciones institucionales digitales proveedoras de Datos Abiertos, así como sus metadatos.
+
+**V.** Ciencia abierta. Constructo inclusivo que combina diversos movimientos y prácticas con el fin de que los conocimientos científicos multilingües estén abiertamente disponibles y sean accesibles para todos, así como reutilizables por todos, se incrementen las colaboraciones científicas y el intercambio de información en beneficio de la ciencia y la sociedad, y se abran los procesos de creación, evaluación y comunicación de los conocimientos científicos a los agentes sociales más allá de la comunidad científica tradicional.
+
+**VI.** Colección digital. Conjunto de datos primarios de los recursos que conforman las colecciones, codificadas en formatos de medios electrónicos que se pueden leer y compartir por medio de computadoras y otros dispositivos electrónicos.
+
+**VII.** Colección institucional. Conjunto ordenado de bienes tangibles e intangibles, reunidos y clasificados por su valor académico, cultural, histórico y de identidad institucional, propiedad de INECOL.
+
+**VIII.** Comité. El Comité de Ciencia Abierta y Acceso a Datos Abiertos del INECOL.
+
+[**IX.** Datos abiertos. Datos digitales de carácter público que, en términos de las disposiciones aplicables, no tienen naturaleza reservada o confidencial, siendo accesibles en línea, utilizados, reutilizados y redistribuidos por cualquier interesado. Para efectos de los presentes Lineamientos, el concepto de Datos Abiertos comprende, de manera enunciativa, los datos primarios y secundarios, los metadatos, las metodologías empleadas, el software y código fuente desarrollados con fondos públicos, y los resultados parciales no interpretados, en la medida en que su divulgación no actualice alguna de las excepciones tasadas en el artículo 17 de los presentes Lineamientos.]{style="background-color: #F1E27B;"}
+
+**X.** Datos primarios. Los datos recabados directamente de los hechos que se investigan. Su interpretación o integración deriva en datos secundarios.
+
+**XI.** Depositario. Quien lleva a cabo el proceso de depósito en el Repositorio. Idealmente será la persona autora de los Recursos de Información a depositar; de no ser posible, podrá serlo un tercero que cuente con la autorización comprobable de las personas autoras de los materiales.
+
+**XII.** Derechos de Propiedad Intelectual. Derechos exclusivos previstos en el marco jurídico internacional y nacional en materias de Derechos de Autor, Propiedad Industrial, Obtenciones de Variedades Vegetales, y demás derechos exclusivos conexos o relacionados.
+
+**XIII.** Estándar. Modelo que sirve como punto de referencia para los campos que deben integrarse en una tabla o base de datos, así como el tipo de datos que deben capturarse en colecciones de la misma naturaleza.
+
+**XIV.** Formato abierto. Conjunto de características técnicas y de presentación correspondientes a la estructura lógica usada para almacenar datos en un acervo digital, cuyas especificaciones técnicas están disponibles públicamente, que no suponen una dificultad de acceso y cuya aplicación y reproducción no están condicionadas a contraprestación alguna.
+
+[**XV.** Ingesta. Conjunto de actos técnicos y administrativos mediante los cuales una persona Depositaria incorpora Datos Abiertos al Servidor de Datos Abiertos, desde su carga inicial hasta su publicación bajo Licencia Abierta.]{style="background-color: #F1E27B;"}
+
+**XVI.** Ley. Ley General en Materia de Humanidades, Ciencias, Tecnologías e Innovación.
+
+[**XVII.** Licencia Abierta. Instrumento jurídico mediante el cual la persona titular de derechos de propiedad intelectual sobre un Dato Abierto autoriza, de manera previa, gratuita y no exclusiva, su uso, reutilización, adaptación y redistribución, sujeto como mínimo al reconocimiento de autoría.]{style="background-color: #F1E27B;"}
+
+**XVIII.** Metadatos. Datos estructurados y actualizados que describen el contexto y las características de contenido, captura, procesamiento, calidad, condición, acceso y distribución de un conjunto de datos, que sirven para facilitar su búsqueda, identificación y uso.
+
+**XIX.** Migración de datos. Transferencia de los datos de una base de datos de origen a otra de destino que tiene un diseño y estructura distinta.
+
+**XX.** Objetos digitales. Archivos creados en formato electrónico o la digitalización de un archivo analógico, a los que se accede mediante dispositivos digitales.
+
+**XXI.** Participación abierta de los agentes sociales. La colaboración ampliada entre las personas científicas y los agentes sociales más allá de la comunidad científica, dando acceso a las prácticas y herramientas que forman parte del ciclo de investigación y haciendo el proceso científico más inclusivo y accesible para el conjunto de la sociedad que se interesa por él.
+
+[**XXII.** Periodo de embargo. Plazo, máximo y excepcional, durante el cual la persona titular de los derechos sobre una obra o resultado de investigación puede diferir su incorporación al acceso abierto, sin que dicho diferimiento pueda traducirse en el cobro de contraprestación alguna a las personas usuarias.]{style="background-color: #F1E27B;"}
+
+**XXIII.** Plataforma informática. Sistema interoperativo desarrollado por INECOL, conformado por bases de datos estandarizadas y servicios web que integran datos de colecciones, capas geoespaciales y objetos digitales.
+
+**XXIV.** Portal de Datos Abiertos. Conjunto de páginas y puntos de acceso que permiten consultar los datos públicos de las colecciones digitales de INECOL puestas a disposición de la sociedad a través de su página electrónica.
+
+**XXV.** Propiedad de INECOL. Objetos que conforman las colecciones institucionales, así como los documentos que guardan datos e información que los describe, tales como bases de datos y tablas, entre otros, que pertenecen a INECOL.
+
+**XXVI.** Registros de colecciones. Conjunto de datos correspondientes a un registro de una base de datos que tienen valor por sí mismos.
+
+**XXVII.** Repositorio. Plataforma digital que, siguiendo los estándares internacionales, almacena, mantiene y preserva la información educativa, académica, científica, tecnológica y de innovación derivada de las investigaciones, productos educativos y académicos.
+
+**XXVIII.** Repositorio Institucional INECOL. Plataforma digital, interoperable con el Repositorio Nacional, que contiene los Recursos de Información Académica, Científica, Tecnológica y de Innovación generados por INECOL.
+
+:::{style="background-color: #F1E27B;"} 
+**XXIX.** Responsable de Curaduría de Datos. Persona o unidad administrativa designada por el Comité para realizar la revisión técnica —no editorial ni de contenido científico— de los Datos Abiertos sometidos a Ingesta, así como para administrar operativamente el Servidor de Datos Abiertos.
+
+**XXX.** Servidor de Datos Abiertos. Infraestructura informática del INECOL destinada a alojar, de manera continua y mediante contribución voluntaria del personal académico, técnico y estudiantil, los Datos Abiertos producidos o resguardados por el Instituto, conforme a las Reglas de Operación previstas en el Capítulo 7 de los presentes Lineamientos.
+:::
+
+**XXXI.** Usuario. Toda persona que realice una búsqueda de Recursos de Información Académica, Científica, Tecnológica y de Innovación, o consulta, desde el Repositorio Institucional INECOL.
+
+**XXXII.** Las demás que defina la Ley.
+
+[***Nota:** la fracción IX resuelve el corchete pendiente del borrador previo sobre si los metadatos, metodologías, software y resultados parciales no interpretados quedan comprendidos en el concepto de Datos Abiertos. Se optó por la respuesta amplia, conforme al principio garantista adoptado para este ejercicio; queda sujeta a confirmación por el equipo del proyecto.*]{style="color: brown;"}
+
+
+### **Capítulo 3\. Principios de Política de Ciencia Abierta y Acceso a Datos Abiertos**
+
+**Artículo 3\.** En la aplicación del presente ordenamiento, la autoridad deberá observar los siguientes principios:
+
+**I.** El INECOL, como autoridad obligada constitucionalmente, en el ámbito de sus competencias, tiene la obligación de promover, respetar, proteger y garantizar los derechos humanos de conformidad con los principios de universalidad, interdependencia, indivisibilidad y progresividad.
+
+**II.** La ciencia abierta deberá respetar la libertad académica y los derechos humanos, y favorecer una investigación de alta calidad mediante la utilización de múltiples fuentes de conocimiento y la difusión amplia de los métodos y los resultados de la investigación.
+
+**III.** La principal condición para el uso, reutilización y redistribución de los datos abiertos es el reconocimiento del trabajo intelectual y patrimonial de las personas proveedoras, entre ellos la autoría, los créditos de producción, la propiedad, la difusión, las restricciones de uso, los acuerdos financieros, las normas éticas y las condiciones de concesión de licencias.
+
+**IV.** La apertura de los procesos de generación, evaluación y comunicación de conocimiento científico a actores sociales más allá de la comunidad científica tradicional.
+
+**V.** En los procesos de habilitación de un sistema de acceso abierto a datos, se deberá prevenir, investigar, sancionar y reparar las violaciones a los derechos humanos.
+
+**VI.** La ciencia abierta deberá observar una coherencia normativa con el fin de promover e implementar otras normas de forma armónica para acelerar los procesos transformativos para el desarrollo.
+
+**VII.** El conocimiento científico deberá estar disponible abiertamente y sus beneficios deberán ser compartidos universalmente.
+
+**VIII.** La ciencia abierta deberá abarcar una diversidad de conocimientos, prácticas, flujos de trabajo, lenguas, resultados y temas de investigación que se ajusten a las necesidades y al pluralismo epistémico de la comunidad científica en su conjunto, incluidos los pueblos indígenas y las comunidades locales.
+
+**IX.** Se promoverá una mayor apertura en todas las etapas de la actividad científica, con miras a reforzar la solidez y el rigor de los resultados científicos.
+
+**X.** Todos los agentes y partes interesadas de la ciencia abierta, independientemente de su ubicación, nacionalidad, raza, edad, género, nivel de ingresos, circunstancias socioeconómicas, etapa profesional, disciplina, lengua, religión, discapacidad, etnia o situación migratoria o de cualquier otro motivo, tendrán las mismas oportunidades para acceder y contribuir a la ciencia abierta y beneficiarse de ella.
+
+**XI.** La base para la buena gobernanza de la ciencia abierta es una mayor responsabilidad para todos los agentes, junto con la rendición de cuentas pública y la sensibilidad ante los conflictos de intereses.
+
+**XII.** Se fomentará la colaboración en todos los niveles del proceso científico, así como la integración de los conocimientos de las comunidades marginadas en la solución de los problemas de importancia social.
+
+**XIII.** Se alentarán diferentes vías de transición hacia la ciencia abierta, siempre que se respeten los valores fundamentales enunciados anteriormente.
+
+**XIV.** Las infraestructuras de la ciencia abierta deberán organizarse y financiarse con una visión esencialmente a largo plazo y sin fines de lucro, que garantice a todas las personas un acceso permanente y sin restricciones.
+
+**XV.** No se publicará información privada de otras personas, tales como direcciones físicas o de correo electrónico.
+
+**XVI.** Deberán tomarse las medidas necesarias para prevenir la biopiratería y el tráfico ilícito de especimenes, tejidos, recursos genéticos y otros materiales similares.
+
+[**XVII.** Principio garantista y presunción de apertura. El acceso abierto constituye la regla general aplicable a toda la información, los datos, los metadatos, las metodologías y los resultados, interpretados o no, de la investigación financiada total o parcialmente con fondos públicos. Toda excepción a dicha regla será de interpretación estricta, deberá fundarse y motivarse expresamente conforme a las causales tasadas en el Capítulo 7 de los presentes Lineamientos, y corresponderá a quien la invoque acreditar su procedencia. En caso de duda razonable sobre la apertura de un conjunto de datos, prevalecerá la interpretación que favorezca el acceso.]{style="background-color: #F1E27B;"}
+
+### **Capítulo 4\. De los Compromisos Institucionales de la Dirección General**
+
+:::{style="background-color: #F1E27B;"}
+**Artículo 4\.** La Dirección General del INECOL, en su calidad de máxima autoridad administrativa del Instituto y de Presidencia del Comité de Ciencia Abierta y Acceso a Datos Abiertos, asume los siguientes compromisos institucionales:
+
+**I.** Gestionar y, en la medida de la disponibilidad presupuestal del Instituto, garantizar anualmente una partida específica y suficiente para la operación, el mantenimiento, la actualización tecnológica y el respaldo del Servidor y Repositorio Institucional INECOL.
+
+**II.** Asegurar la continuidad del Servidor de Datos Abiertos mediante políticas de respaldo periódico, prevención de pérdida de información y un plan de contingencia ante fallas técnicas, cuya existencia y actualización deberá verificar el Comité al menos una vez al año.
+
+**III.** Proteger a las personas investigadoras, estudiantes y colaboradoras que depositen Datos Abiertos en el Repositorio frente a cualquier forma de represalia, desventaja laboral, académica o presupuestal derivada del cumplimiento de sus obligaciones de apertura.
+
+**IV.** Rendir, dentro de los primeros tres meses de cada ejercicio anual, un informe público sobre el estado del cumplimiento del Derecho Humano a la Ciencia al interior del INECOL, que incluya, como mínimo, indicadores de volumen, diversidad disciplinaria y accesibilidad efectiva de los Datos Abiertos depositados, así como las excepciones invocadas durante el periodo y su justificación.
+
+**V.** Instaurar y mantener en funcionamiento un mecanismo de Evaluación de Impacto en Derechos Humanos (HRIA, por sus siglas en inglés) aplicable a las decisiones institucionales relevantes en materia de ciencia abierta y acceso abierto a datos, con la posible participación de personas expertas externas al Instituto.
+
+**VI.** Promover la capacitación continua del personal académico, técnico y administrativo del INECOL en materia de ciencia abierta, gestión de datos y derechos humanos.
+
+**VII.** Abstenerse de emitir o convalidar actos administrativos que restrinjan el acceso abierto fuera de las causales tasadas en el presente instrumento y en la Ley General en materia de Humanidades, Ciencias, Tecnologías e Innovación.
+
+**VIII.** Impulsar, conforme al principio de progresividad, la armonización paulatina de las políticas internas del Instituto con los estándares internacionales más exigentes en materia de ciencia abierta, incluida la Recomendación de la UNESCO sobre Ciencia Abierta de 2021.
+:::
+
+[***Nota:** este capítulo es enteramente nuevo y constituye la propuesta de “compromisos exigibles” que el coordinador solicitó para la Dirección General. Se recomienda validar con la propia Dirección General su viabilidad presupuestal y operativa —particularmente la fracción I— antes de avanzar a una versión final, así como decidir si estos compromisos deben tener carácter jurídicamente exigible (como se redactó aquí) o complementarse con una declaración pública adicional de carácter programático, conforme platicábamos.*]{style="color: brown;"}
+
+
+### **Capítulo 5\. Del Comité de Ciencia Abierta y Acceso a Datos Abiertos**
+
+:::{style="background-color: #F1E27B;"}
+**Artículo 5\.** El Comité de Ciencia Abierta y Acceso a Datos Abiertos se constituye como el máximo órgano de coordinación y decisión en materia de Ciencia Abierta al interior del INECOL. Estará conformado por:
+
+**I.** La persona titular de la Dirección General, quien lo presidirá;
+
+**II.** La persona titular de la Subdirección de Investigación;
+
+**III.** La persona titular de la Subdirección de Posgrado y Educación Continua;
+
+**IV.** La persona titular de la Coordinación de Vinculación y Transferencia de Tecnología;
+
+**V.** La persona titular de la Coordinación de Cómputo y Tecnologías de la Información, quien fungirá como Secretaría Técnica;
+
+**VI.** La persona titular de la Oficina de Asesoría Jurídica; y
+
+**VII.** La persona Responsable de Curaduría de Datos del Servidor de Datos Abiertos, con voz pero sin voto.
+:::
+
+El Comité invitará a miembros de la sociedad civil, otros representantes de instituciones de educación superior y a quien consideren pertinente, quienes tendrán voz, pero no voto. El Comité contará con subcomités especializados por programa, cuando lo considere necesario.
+
+[***Nota:** la composición anterior sustituye los espacios marcados como “XXXX” en el borrador previo (v.6). Es una propuesta razonable para un centro público de investigación, pero es ilustrativa: deberá cotejarse contra el organigrama vigente de INECOL antes de su aprobación, pues no tengo información oficial y actualizada de su estructura interna.*]{style="color: brown;"}
+
+**Artículo 6\.** Los miembros del Comité nombrarán por escrito a una persona suplente, quien deberá ostentar un cargo con nivel jerárquico inmediato inferior, con facultades y capacidades de decisión para que, en caso de ausencia, lo represente en las sesiones. Las personas suplentes contarán con voz y voto en ausencia de la persona titular correspondiente. Las personas suplentes no podrán delegar esta representación a ninguna otra persona.
+
+**Artículo 7\.** El Comité se reunirá al menos dos veces al año de manera ordinaria y las veces que resulten necesarias de manera extraordinaria. La Presidencia o la Secretaría Técnica convocarán a las personas miembros titulares con cinco días hábiles de anticipación a la fecha señalada para sesiones ordinarias, y con dos días hábiles para sesiones extraordinarias.
+
+**Artículo 8\.** Los acuerdos del Comité se tomarán por mayoría simple de votos; en caso de empate, la Presidencia tendrá el voto de calidad. Los acuerdos tendrán carácter resolutivo, siendo obligatorio para sus integrantes atender e informar sobre los asuntos que en él se comprometan. Al final de la sesión se ratificarán los acuerdos tomados para efecto de su instrumentación mediante la firma de las personas asistentes con derecho a voto.
+
+### **Capítulo 6\. Distribución de Competencias**
+
+**Artículo 9\.** El Comité tendrá las atribuciones siguientes:
+
+**I.** Establecer las políticas, criterios y requisitos para ampliar, consolidar y poner en marcha los programas del INECOL en materia de Ciencia Abierta y Acceso a Datos Abiertos, así como emitir y modificar las políticas y lineamientos secundarios para la adecuada gestión de los mencionados programas;
+
+**II.** Establecer las bases y criterios bajo los cuales habrán de presentarse y aprobarse los proyectos derivados de los distintos programas sobre Ciencia Abierta y Acceso a Datos Abiertos del INECOL;
+
+**III.** Emitir las convocatorias, programas o convenios que establezcan los requisitos, términos y condiciones para el otorgamiento de los apoyos e incentivos para ejecutar los programas de Ciencia Abierta y Acceso a Datos Abiertos;
+
+**IV.** Aprobar las Comisiones Evaluadoras que se consideren pertinentes, así como los criterios de evaluación, edición y revisión para los distintos programas en materia de Ciencia Abierta y Acceso a Datos Abiertos;
+
+**V.** Establecer los procedimientos e instancias de decisión para el seguimiento y la evaluación de los proyectos aprobados por el Comité;
+
+**VI.** Establecer las políticas, criterios y requisitos para regular la seguridad y sostenibilidad, así como la gestión y preservación de la información;
+
+**VII.** Autorizar, o en su caso emitir la recomendación, para la terminación anticipada, cancelación, suspensión o rescisión de los proyectos o situaciones anómalas, aprobadas cuando se identifiquen riesgos, inconvenientes, o el incumplimiento de los objetivos de la Política de Ciencia Abierta y Acceso a Datos Abiertos;
+
+**VIII.** Emitir lineamientos y recomendaciones que apoyen la protección de derechos de autor de las obras académicas, científicas, tecnológicas y de innovación;
+
+**IX.** Autorizar el orden del día de las sesiones, así como las modificaciones al mismo;
+
+**X.** Resolver todos los asuntos no previstos relacionados con el objeto y funcionamiento de la Política de Ciencia Abierta y Acceso a Datos Abiertos;
+
+
+[ **XI.** Resolver, en aplicación del principio garantista y de la presunción de apertura previstos en el artículo 3, fracción XVII, cualquier caso de duda sobre la procedencia del acceso abierto a un conjunto de datos, dejando constancia motivada de su resolución; y]{style="background-color: #F1E27B;"}
+
+**XII.** Las demás que se deriven de los presentes Lineamientos y otras normas y disposiciones administrativas aplicables.
+
+**Artículo 10\.** La Presidencia del Comité tendrá las siguientes atribuciones:
+
+**I.** Convocar a las sesiones del Comité, ya sea directamente o a través de la Secretaría Técnica o su suplente;
+
+**II.** Presidir las sesiones del Comité;
+
+**III.** Emitir el voto de calidad cuando así se requiera;
+
+**IV.** Promover y vigilar el cumplimiento de los acuerdos a través de la Secretaría Técnica; y
+
+**V.** Las demás que le instruya el Comité o que se deriven de los presentes Lineamientos y otras normas y disposiciones administrativas aplicables.
+
+**Artículo 11\.** La Secretaría Técnica del Comité tendrá las siguientes atribuciones:
+
+**I.** Convocar a las sesiones del Comité en ausencia de la Presidencia;
+
+**II.** Presidir las sesiones del Comité, en ausencia de la Presidencia;
+
+**III.** Fungir como Secretaría de Actas del Comité, y llevar a cabo las acciones necesarias para el desarrollo adecuado de las sesiones;
+
+**IV.** Monitorear el desempeño de la Política de Ciencia Abierta y Acceso a Datos Abiertos;
+
+**V.** Informar al Comité sobre los resultados de los programas y acciones relacionados con Ciencia Abierta y Acceso a Datos Abiertos;
+
+**VI.** Proponer al Comité la formulación y aplicación de políticas, líneas de acción y estrategias para la operación de los programas y acciones en materia de Ciencia Abierta;
+
+**VII.** Designar a las personas integrantes de las Comisiones Evaluadoras que correspondan; y
+
+**VIII.** Las demás que le instruya el Comité o que se deriven de los presentes Lineamientos y otras normas y disposiciones administrativas aplicables.
+
+
+### **Capítulo 7\. Del Servidor y Repositorio Institucional INECOL**
+
+**Artículo 12\.** El Portal del Repositorio Institucional INECOL deberá cumplir con los principios generales siguientes:
+
+**I.** Accesibilidad: tener las características de acceso reconocidas a nivel internacional, incluyendo las que se refieren a respetar y considerar las necesidades específicas de las personas con capacidades especiales;
+
+**II.** Adecuación tecnológica: buscar la neutralidad tecnológica y el aprovechamiento de estándares abiertos;
+
+**III.** Asociación: compartir información y conocimiento con otros sistemas de entidades académicas y dependencias;
+
+**IV.** Confidencialidad: garantizar, en términos de las disposiciones jurídicas aplicables, la no divulgación de datos o información a terceros o a sistemas no autorizados de datos personales, información no autorizada por terceros y la derivada de cláusulas de confidencialidad;
+
+**V.** Conservación: asegurar la integridad, confiabilidad y disponibilidad de los datos e información contenidos a través del tiempo;
+
+**VI.** Equilibrio: establecer un balance entre los aspectos de seguridad de los datos e información y las aplicaciones de acceso a los mismos, de forma que no sea un obstáculo para la interoperabilidad con otros servicios digitales;
+
+**VII.** Igualdad: evitar restricciones o limitaciones para las personas usuarias que decidan relacionarse con el Portal, con independencia de la utilización de medios de contacto tradicionales;
+
+**VIII.** Integridad: garantizar que los datos o información contenidos en el Portal permanezcan completos e inalterados y, en su caso, que solo hayan sido modificados por la fuente de origen de la información;
+
+**IX.** Legalidad: cumplir la normativa aplicable requerida para el intercambio de datos o información contenidos en el Portal;
+
+**X.** Reutilización: generar los medios para poner a disposición y compartir la información, funcionalidades y soluciones tecnológicas, entre aquellas entidades académicas que lo requieran; y
+
+**XI.** Seguridad: mantener, como mínimo, el mismo nivel de garantías y seguridad que se tiene para el intercambio por medios físicos, así como adoptar procesos de ciberseguridad, en términos de lo que establezcan las disposiciones aplicables.
+
+[**Artículo 13\.** Las personas investigadoras, tecnólogas, académicas y estudiantes de maestría, doctorado y posdoctorado cuya actividad de investigación sea financiada con recursos públicos, o que hayan utilizado infraestructura pública en su realización, deberán depositar una copia de la versión final aceptada para publicación en Acceso Abierto a través del Repositorio Institucional, en cumplimiento del mandato constitucional y legal de acceso abierto y sin que medie para ello una decisión discrecional, comprobando que ha cumplido con el proceso de aprobación respectivo.]{style="background-color: #F1E27B;"}
+
+[***Nota:** se modificó la redacción del borrador previo, que condicionaba el depósito a una “decisión personal” del investigador. Bajo el principio garantista, el depósito se plantea como una obligación derivada del mandato constitucional y legal, no como una opción discrecional. Este es un cambio de fondo que conviene discutir expresamente con el equipo, pues puede generar resistencia entre el personal investigador, conforme a las tensiones ya documentadas en «Una Política de Ciencia Abierta para INECOL».*]{style="color: brown;"}
+
+**Artículo 14\.** Las bases de datos, imágenes, mapas y otro tipo de obras auditivas o audiovisuales, protegidas o no, podrán depositarse en el Repositorio Institucional sin necesidad del consentimiento de la persona autora o titular cuando previamente sean accesibles a consulta de manera abierta. El uso de los datos y el conocimiento en sí mismo de las obras a que se refiere este artículo será libre.
+
+[**Artículo 15\.** Cuando las obras o resultados de investigación se encuentren en periodo de embargo, solo podrán incorporarse al Repositorio Institucional con la autorización expresa de la persona titular de los derechos respectivos. En ningún caso el periodo de embargo podrá exceder de doce meses contados a partir de la fecha de publicación, salvo causa excepcional, justificada y motivada ante el Comité, en cuyo caso la prórroga no podrá exceder de doce meses adicionales.]{style="background-color: #F1E27B;"}
+
+[***Nota:** el borrador previo no fijaba un límite máximo al periodo de embargo, lo que en la práctica habría permitido diferir indefinidamente la apertura. Se propuso un término de doce meses, alineado con estándares internacionales comparables (por ejemplo, la política de acceso abierto de la Academia China de Ciencias). El plazo es una propuesta inicial sujeta a discusión.*]{style="color: brown;"}
+
+**Artículo 16\.** Los componentes mínimos que deben integrar los metadatos de un conjunto de datos para la información publicada como Datos Abiertos son:
+
+**I.** Título: nombre descriptivo de la base de datos que facilita la búsqueda, identificación y entendimiento del conjunto de datos;
+
+**II.** Descripción: una explicación de los datos, con suficiente detalle para que las personas usuarias puedan entender su contexto;
+
+**III.** Palabras clave: etiquetas que facilitan a las personas usuarias la búsqueda del conjunto de datos;
+
+**IV.** Última modificación: la fecha más reciente en que se cambió, modificó o actualizó el conjunto de datos;
+
+**V.** Publicador: la entidad responsable de la publicación del conjunto de datos;
+
+**VI.** Punto de contacto: información de contacto relevante al conjunto de datos;
+
+**VII.** Identificador: debe ser único dentro del catálogo de datos de la entidad;
+
+**VIII.** Distribución: conecta un conjunto de datos con sus distribuciones disponibles;
+
+**IX.** Términos de libre uso: liga directa al documento que establece los derechos de libre uso del conjunto de datos;
+
+:::{style="background-color: #F1E27B;"}
+**X.** Licencia Abierta aplicable, conforme al artículo 19 de los presentes Lineamientos; y
+
+**XI.** En su caso, identificador de las metodologías, software o código fuente asociados, conforme al artículo 2, fracción IX.
+
+**Artículo 17\.** Régimen de excepciones al acceso abierto. La apertura de los Datos Abiertos solo podrá restringirse por alguna de las siguientes causales, de interpretación estricta:
+
+**I.** Existencia de derechos de propiedad intelectual formalmente protegidos y pendientes de trámite de registro, durante el plazo estrictamente necesario para dicho trámite;
+
+**II.** Clasificación como información reservada o confidencial en materia de seguridad nacional, conforme a la legislación aplicable;
+
+**III.** Protección de datos personales, en términos de la legislación de la materia;
+
+**IV.** Riesgo razonablemente previsible de biopiratería, tráfico ilícito de especímenes, tejidos o recursos genéticos, o de daño a especies en alguna categoría de riesgo, conforme al artículo 22 de los presentes Lineamientos; y
+
+**V.** Periodo de embargo vigente, en términos del artículo 15\.
+
+Quien invoque alguna de las causales anteriores deberá hacerlo por escrito y de forma motivada ante la Responsable de Curaduría de Datos, quien dará cuenta de ello al Comité. La carga de acreditar la procedencia de la excepción corresponde a quien la invoca.
+
+**Artículo 18\.** Procedimiento de Ingesta. La incorporación de Datos Abiertos al Servidor de Datos Abiertos seguirá el procedimiento siguiente:
+
+**I.** Registro de la persona Depositaria y carga de los Datos Abiertos junto con los metadatos mínimos previstos en el artículo 16;
+
+**II.** Revisión técnica, a cargo de la Responsable de Curaduría de Datos, limitada a la verificación de formato y completitud de metadatos, sin que en ningún caso dicha revisión pueda extenderse a un juicio sobre el mérito o validez científica del contenido;
+
+**III.** Asignación de un identificador persistente al conjunto de datos;
+
+**IV.** Publicación bajo Licencia Abierta, conforme al artículo 19; y
+
+**V.** Notificación a la persona Depositaria.
+
+El plazo máximo entre la carga de los Datos Abiertos y su publicación no excederá de diez días hábiles, salvo que se haya invocado alguna causal de excepción conforme al artículo 17, en cuyo caso el plazo correrá a partir de la resolución del Comité.
+
+**Artículo 19\.** Licenciamiento abierto. Los Datos Abiertos se publicarán, por defecto, bajo licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0) o su equivalente vigente. La persona Depositaria podrá optar por una licencia más amplia, pero en ningún caso por una más restrictiva, salvo que medie alguna de las causales de excepción previstas en el artículo 17\.
+
+**Artículo 20\.** Funciones de la Responsable de Curaduría de Datos. La Responsable de Curaduría de Datos tendrá funciones exclusivamente técnicas y operativas, careciendo de facultades para negar la Ingesta de un conjunto de Datos Abiertos por causas distintas a las tasadas en el artículo 17\. Toda negativa deberá comunicarse por escrito a la persona Depositaria, con expresión de la causal invocada.
+
+**Artículo 21\.** Procedimiento de revisión. Cuando a una persona Usuaria se le niegue el acceso a un conjunto de Datos Abiertos, o cuando a una persona Depositaria se le niegue la Ingesta de su contribución, podrá solicitar por escrito la revisión de dicha negativa ante el Comité dentro de los diez días hábiles siguientes a su notificación. El Comité deberá resolver lo conducente en su siguiente sesión ordinaria o, si la urgencia lo amerita, en sesión extraordinaria convocada para tal efecto.
+
+**Artículo 22\.** Tratamiento garantista de datos sensibles de biodiversidad. Cuando la divulgación de la ubicación geográfica precisa de especímenes, poblaciones o sitios pudiera razonablemente facilitar su captura, tráfico, saqueo o afectación, el Comité optará por la medida menos restrictiva posible al acceso, tal como la generalización de coordenadas geográficas a una resolución espacial que prevenga el riesgo identificado, antes que por la negativa total del dato. La restricción total del acceso solo procederá cuando ninguna medida de generalización resulte suficiente para prevenir el riesgo.
+
+**Artículo 23\.** Conservación a largo plazo. El Servidor de Datos Abiertos deberá conservar los Datos Abiertos en formatos abiertos, no propietarios y migrables, garantizando su integridad, autenticidad y disponibilidad continuada, conforme a los principios previstos en el artículo 12\.
+:::
+
+### **Transitorios**
+
+::: {style="background-color: #F1E27B;"}
+**Primero.** Los presentes Lineamientos entrarán en vigor al día siguiente de su aprobación por el Comité y su validación por la Dirección General.
+
+**Segundo.** El Servidor de Datos Abiertos deberá encontrarse en condiciones de operación, conforme al Capítulo 7, dentro de los noventa días naturales siguientes a la entrada en vigor de los presentes Lineamientos.
+
+**Tercero.** Las prácticas y repositorios institucionales existentes a la entrada en vigor de los presentes Lineamientos deberán migrarse o, en su caso, interoperar con el Servidor de Datos Abiertos, dentro de los ciento ochenta días naturales siguientes.
+
+**Cuarto.** La sesión de instalación del Comité deberá celebrarse dentro de los treinta días naturales siguientes a la entrada en vigor de los presentes Lineamientos.
+
+**Quinto.** El primer informe anual a que se refiere el artículo 4, fracción IV, deberá rendirse a más tardar en marzo del ejercicio fiscal inmediato siguiente a la entrada en vigor de los presentes Lineamientos.
+:::
+
+[***Nota:** los Transitorios son enteramente nuevos; los plazos propuestos (90, 180 y 30 días) son razonables para este tipo de instrumento pero arbitrarios en su origen —deberán confirmarse con el equipo técnico responsable de habilitar el Servidor, pues la fecha real de disponibilidad de la infraestructura puede exigir ajustarlos.*]{style="color: brown;"}

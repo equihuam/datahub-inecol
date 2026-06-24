@@ -1,0 +1,38 @@
+project:
+  type: book
+  
+lang: es  
+
+book:
+  title: "Ciencia Abierta y Acceso Abierto a Datos del Inecol"
+  subtitle: "Proyecto de Lineamientos"
+  author: "Claudio, Miguel, Colectivo Ciencia Abierta"
+  date: "2026/6/22"
+  chapters:
+    - index.qmd
+    - lineamientos-INECOL-v7.qmd
+    - ejemplo_zenodo.qmd
+    - aprendiendo-de-zenodo.qmd
+    - prepublicar.qmd
+    - fair.qmd
+    - referencias.qmd
+
+bibliography: referencias.bib
+
+
+format:
+  html:
+    css: estilos.css 
+    include-in-header: _canonical-url.html
+    include-before-body: banner.html
+    number-sections: false
+    comments:
+        hypothesis: true
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+

@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Propuesta – Ciencia Abierta y Acceso Abierto a Datos del Inecol</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./ejemplo_zenodo.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+<script>
+
+  (function() {
+
+    var link = document.createElement('link');
+
+    link.rel = 'canonical';
+
+    // Replace with your real Netlify production domain
+
+    link.href = 'https://yourdomain.com' + window.location.pathname;
+
+    document.head.appendChild(link);
+
+  })();
+
+</script>
+
+
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lineamientos-INECOL-v7.html">Propuesta</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Ciencia Abierta y Acceso Abierto a Datos del Inecol</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lineamientos-INECOL-v7.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Propuesta</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ejemplo_zenodo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Zenodo como ejemplo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aprendiendo-de-zenodo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Lecciones aprendidad de Zenodo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./prepublicar.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Prepublicación de Datos y Artículos de Datos (<em>Data Papers</em>)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fair.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Principios FAIR</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./referencias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#considerandos" id="toc-considerandos" class="nav-link active" data-scroll-target="#considerandos"><strong>Considerandos</strong></a></li>
+  <li><a href="#capítulo-1.-del-objetivo-de-los-lineamientos" id="toc-capítulo-1.-del-objetivo-de-los-lineamientos" class="nav-link" data-scroll-target="#capítulo-1.-del-objetivo-de-los-lineamientos"><strong>Capítulo 1. Del objetivo de los Lineamientos</strong></a></li>
+  <li><a href="#capítulo-2.-definiciones" id="toc-capítulo-2.-definiciones" class="nav-link" data-scroll-target="#capítulo-2.-definiciones"><strong>Capítulo 2. Definiciones</strong></a></li>
+  <li><a href="#capítulo-3.-principios-de-política-de-ciencia-abierta-y-acceso-a-datos-abiertos" id="toc-capítulo-3.-principios-de-política-de-ciencia-abierta-y-acceso-a-datos-abiertos" class="nav-link" data-scroll-target="#capítulo-3.-principios-de-política-de-ciencia-abierta-y-acceso-a-datos-abiertos"><strong>Capítulo 3. Principios de Política de Ciencia Abierta y Acceso a Datos Abiertos</strong></a></li>
+  <li><a href="#capítulo-4.-de-los-compromisos-institucionales-de-la-dirección-general" id="toc-capítulo-4.-de-los-compromisos-institucionales-de-la-dirección-general" class="nav-link" data-scroll-target="#capítulo-4.-de-los-compromisos-institucionales-de-la-dirección-general"><strong>Capítulo 4. De los Compromisos Institucionales de la Dirección General</strong></a></li>
+  <li><a href="#capítulo-5.-del-comité-de-ciencia-abierta-y-acceso-a-datos-abiertos" id="toc-capítulo-5.-del-comité-de-ciencia-abierta-y-acceso-a-datos-abiertos" class="nav-link" data-scroll-target="#capítulo-5.-del-comité-de-ciencia-abierta-y-acceso-a-datos-abiertos"><strong>Capítulo 5. Del Comité de Ciencia Abierta y Acceso a Datos Abiertos</strong></a></li>
+  <li><a href="#capítulo-6.-distribución-de-competencias" id="toc-capítulo-6.-distribución-de-competencias" class="nav-link" data-scroll-target="#capítulo-6.-distribución-de-competencias"><strong>Capítulo 6. Distribución de Competencias</strong></a></li>
+  <li><a href="#capítulo-7.-del-servidor-y-repositorio-institucional-inecol" id="toc-capítulo-7.-del-servidor-y-repositorio-institucional-inecol" class="nav-link" data-scroll-target="#capítulo-7.-del-servidor-y-repositorio-institucional-inecol"><strong>Capítulo 7. Del Servidor y Repositorio Institucional INECOL</strong></a></li>
+  <li><a href="#transitorios" id="toc-transitorios" class="nav-link" data-scroll-target="#transitorios"><strong>Transitorios</strong></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<div class="top-distribution-banner" style="color: red;">
+
+  ⚠️ CONFIDENCIAL: Documento en desarrollo: No Distribuir -- No citar
+
+</div>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Propuesta</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="considerandos" class="level3">
+<h3 class="anchored" data-anchor-id="considerandos"><strong>Considerandos</strong></h3>
+<p><strong>Primero.</strong> Que el artículo 3, fracción V, de la Constitución Política de los Estados Unidos Mexicanos reconoce el derecho humano a gozar de los beneficios del desarrollo de la ciencia y la innovación tecnológica, y ordena al Estado garantizar el acceso abierto a la información que derive de la investigación apoyada con fondos públicos;</p>
+<p><strong>Segundo.</strong> Que conforme al artículo 1 constitucional, todas las autoridades, en el ámbito de sus competencias, tienen la obligación de promover, respetar, proteger y garantizar los derechos humanos bajo los principios de universalidad, interdependencia, indivisibilidad y progresividad, favoreciendo en todo tiempo la protección más amplia a las personas;</p>
+<p><strong>Tercero.</strong> Que el artículo 85 de la Ley General en materia de Humanidades, Ciencias, Tecnologías e Innovación impone a los Centros Públicos, entre ellos el Instituto de Ecología, A.C. (INECOL), el deber de actuar bajo un enfoque comprometido con los derechos humanos, la pluralidad y equidad epistémicas y el trabajo colaborativo;</p>
+<p><strong>Cuarto.</strong> Que el Instituto de Ecología, A.C., en ejercicio de la facultad reglamentaria que el artículo 89, fracción I, de la propia Constitución reconoce al Poder Ejecutivo y a los organismos que de él dependen, cuenta con atribución suficiente para emitir el presente instrumento;</p>
+<p><span style="background-color: #F1E27B;"><strong>Quinto.</strong> Que la Dirección General de INECOL, consciente de que el derecho humano a la ciencia exige no solo el reconocimiento formal sino su desempaque institucional efectivo, asume mediante el presente instrumento un compromiso explícito, público y verificable con la apertura amplia de los datos generados por la investigación del Instituto, bajo el entendido de que dicha apertura constituye la regla general, y que toda excepción a la misma habrá de ser estrictamente tasada, motivada y sujeta a escrutinio;</span></p>
+<p><strong>Sexto.</strong> Que se cuenta ya con un proyecto avanzado de Lineamientos (versión 6), producto de un ejercicio colaborativo de personas expertas convocado en 2023-2024, mismo que el presente instrumento retoma, integra y desarrolla, incorporando las Reglas de Operación necesarias para la entrada en funcionamiento del nuevo Servidor de Datos Abiertos del Instituto;</p>
+<p>Por lo anteriormente expuesto, se expiden los siguientes:</p>
+<p><strong>LINEAMIENTOS DE CIENCIA ABIERTA Y ACCESO ABIERTO A DATOS DEL INSTITUTO DE ECOLOGÍA, A.C.</strong></p>
+</section>
+<section id="capítulo-1.-del-objetivo-de-los-lineamientos" class="level3">
+<h3 class="anchored" data-anchor-id="capítulo-1.-del-objetivo-de-los-lineamientos"><strong>Capítulo 1. Del objetivo de los Lineamientos</strong></h3>
+<p><strong>Artículo 1.</strong> Estos Lineamientos tienen como objeto regular el Derecho Humano a la Ciencia consagrado en la Constitución y en la Ley General en materia de Humanidades, Ciencias, Tecnologías e Innovación, en lo relativo a la ciencia abierta y el acceso abierto a datos generados por investigaciones apoyadas por el Estado, bajo un principio garantista de amplitud máxima de acceso, a través de:</p>
+<p><strong>I.</strong> La definición de una política institucional y un entorno normativo de Ciencia Abierta.</p>
+<p><span style="background-color: #F1E27B;"><strong>II.</strong> El establecimiento de las Reglas de Operación para la integración y funcionamiento del Servidor y Repositorio Institucional INECOL.</span></p>
+<p><strong>III.</strong> El establecimiento de lineamientos para el acceso a los contenidos del Repositorio Institucional INECOL.</p>
+<p><strong>IV.</strong> La promoción de enfoques innovadores para la ciencia abierta en las diferentes etapas del proceso científico.</p>
+<p><strong>V.</strong> La promoción de la cooperación interinstitucional en el contexto de la ciencia abierta, con miras a reducir las brechas digital, tecnológica y de conocimientos.</p>
+<p><span style="background-color: #F1E27B;"><strong>VI.</strong> El establecimiento de los compromisos institucionales que asume la Dirección General para garantizar la sostenibilidad, continuidad y rendición de cuentas del sistema de acceso abierto.</span></p>
+<p><strong>VII.</strong> El establecimiento del procedimiento para la resolución de controversias en la materia.</p>
+<p>Su observancia es general para las personas investigadoras, estudiantes, colaboradoras asociadas y demás personas que reciban apoyo gubernamental a través del Instituto.</p>
+</section>
+<section id="capítulo-2.-definiciones" class="level3">
+<h3 class="anchored" data-anchor-id="capítulo-2.-definiciones"><strong>Capítulo 2. Definiciones</strong></h3>
+<p><strong>Artículo 2.</strong> Para los efectos de estos Lineamientos se entiende por:</p>
+<p><strong>I.</strong> Acceso abierto. Elemento del derecho humano a la ciencia garantizado en la fracción V del artículo 3o. de la Constitución Política de los Estados Unidos Mexicanos, así como en los tratados internacionales de los que el Estado mexicano es parte; es una vía para acceder a investigaciones, materiales educativos, académicos, científicos, tecnológicos y de innovación, por medio de una plataforma digital que no requiere suscripción, registro o pago, sin perjuicio de las disposiciones en materia de patentes, protección de la propiedad intelectual o industrial, seguridad nacional y derechos de autor, entre otras, así como de aquella información que, por razón de su naturaleza y decisión del autor, sea confidencial o reservada.</p>
+<p><strong>II.</strong> Acervo digital. Conjunto de bienes culturales o patrimoniales puestos a disposición del público como colecciones digitalizadas.</p>
+<p><strong>III.</strong> Base de datos. Conjunto de datos relacionados o pertenecientes a un mismo contexto, almacenados sistemáticamente para su posterior uso.</p>
+<p><strong>IV.</strong> Catálogo de colecciones. Listado o inventario de las colecciones institucionales digitales proveedoras de Datos Abiertos, así como sus metadatos.</p>
+<p><strong>V.</strong> Ciencia abierta. Constructo inclusivo que combina diversos movimientos y prácticas con el fin de que los conocimientos científicos multilingües estén abiertamente disponibles y sean accesibles para todos, así como reutilizables por todos, se incrementen las colaboraciones científicas y el intercambio de información en beneficio de la ciencia y la sociedad, y se abran los procesos de creación, evaluación y comunicación de los conocimientos científicos a los agentes sociales más allá de la comunidad científica tradicional.</p>
+<p><strong>VI.</strong> Colección digital. Conjunto de datos primarios de los recursos que conforman las colecciones, codificadas en formatos de medios electrónicos que se pueden leer y compartir por medio de computadoras y otros dispositivos electrónicos.</p>
+<p><strong>VII.</strong> Colección institucional. Conjunto ordenado de bienes tangibles e intangibles, reunidos y clasificados por su valor académico, cultural, histórico y de identidad institucional, propiedad de INECOL.</p>
+<p><strong>VIII.</strong> Comité. El Comité de Ciencia Abierta y Acceso a Datos Abiertos del INECOL.</p>
+<p><span style="background-color: #F1E27B;"><strong>IX.</strong> Datos abiertos. Datos digitales de carácter público que, en términos de las disposiciones aplicables, no tienen naturaleza reservada o confidencial, siendo accesibles en línea, utilizados, reutilizados y redistribuidos por cualquier interesado. Para efectos de los presentes Lineamientos, el concepto de Datos Abiertos comprende, de manera enunciativa, los datos primarios y secundarios, los metadatos, las metodologías empleadas, el software y código fuente desarrollados con fondos públicos, y los resultados parciales no interpretados, en la medida en que su divulgación no actualice alguna de las excepciones tasadas en el artículo 17 de los presentes Lineamientos.</span></p>
+<p><strong>X.</strong> Datos primarios. Los datos recabados directamente de los hechos que se investigan. Su interpretación o integración deriva en datos secundarios.</p>
+<p><strong>XI.</strong> Depositario. Quien lleva a cabo el proceso de depósito en el Repositorio. Idealmente será la persona autora de los Recursos de Información a depositar; de no ser posible, podrá serlo un tercero que cuente con la autorización comprobable de las personas autoras de los materiales.</p>
+<p><strong>XII.</strong> Derechos de Propiedad Intelectual. Derechos exclusivos previstos en el marco jurídico internacional y nacional en materias de Derechos de Autor, Propiedad Industrial, Obtenciones de Variedades Vegetales, y demás derechos exclusivos conexos o relacionados.</p>
+<p><strong>XIII.</strong> Estándar. Modelo que sirve como punto de referencia para los campos que deben integrarse en una tabla o base de datos, así como el tipo de datos que deben capturarse en colecciones de la misma naturaleza.</p>
+<p><strong>XIV.</strong> Formato abierto. Conjunto de características técnicas y de presentación correspondientes a la estructura lógica usada para almacenar datos en un acervo digital, cuyas especificaciones técnicas están disponibles públicamente, que no suponen una dificultad de acceso y cuya aplicación y reproducción no están condicionadas a contraprestación alguna.</p>
+<p><span style="background-color: #F1E27B;"><strong>XV.</strong> Ingesta. Conjunto de actos técnicos y administrativos mediante los cuales una persona Depositaria incorpora Datos Abiertos al Servidor de Datos Abiertos, desde su carga inicial hasta su publicación bajo Licencia Abierta.</span></p>
+<p><strong>XVI.</strong> Ley. Ley General en Materia de Humanidades, Ciencias, Tecnologías e Innovación.</p>
+<p><span style="background-color: #F1E27B;"><strong>XVII.</strong> Licencia Abierta. Instrumento jurídico mediante el cual la persona titular de derechos de propiedad intelectual sobre un Dato Abierto autoriza, de manera previa, gratuita y no exclusiva, su uso, reutilización, adaptación y redistribución, sujeto como mínimo al reconocimiento de autoría.</span></p>
+<p><strong>XVIII.</strong> Metadatos. Datos estructurados y actualizados que describen el contexto y las características de contenido, captura, procesamiento, calidad, condición, acceso y distribución de un conjunto de datos, que sirven para facilitar su búsqueda, identificación y uso.</p>
+<p><strong>XIX.</strong> Migración de datos. Transferencia de los datos de una base de datos de origen a otra de destino que tiene un diseño y estructura distinta.</p>
+<p><strong>XX.</strong> Objetos digitales. Archivos creados en formato electrónico o la digitalización de un archivo analógico, a los que se accede mediante dispositivos digitales.</p>
+<p><strong>XXI.</strong> Participación abierta de los agentes sociales. La colaboración ampliada entre las personas científicas y los agentes sociales más allá de la comunidad científica, dando acceso a las prácticas y herramientas que forman parte del ciclo de investigación y haciendo el proceso científico más inclusivo y accesible para el conjunto de la sociedad que se interesa por él.</p>
+<p><span style="background-color: #F1E27B;"><strong>XXII.</strong> Periodo de embargo. Plazo, máximo y excepcional, durante el cual la persona titular de los derechos sobre una obra o resultado de investigación puede diferir su incorporación al acceso abierto, sin que dicho diferimiento pueda traducirse en el cobro de contraprestación alguna a las personas usuarias.</span></p>
+<p><strong>XXIII.</strong> Plataforma informática. Sistema interoperativo desarrollado por INECOL, conformado por bases de datos estandarizadas y servicios web que integran datos de colecciones, capas geoespaciales y objetos digitales.</p>
+<p><strong>XXIV.</strong> Portal de Datos Abiertos. Conjunto de páginas y puntos de acceso que permiten consultar los datos públicos de las colecciones digitales de INECOL puestas a disposición de la sociedad a través de su página electrónica.</p>
+<p><strong>XXV.</strong> Propiedad de INECOL. Objetos que conforman las colecciones institucionales, así como los documentos que guardan datos e información que los describe, tales como bases de datos y tablas, entre otros, que pertenecen a INECOL.</p>
+<p><strong>XXVI.</strong> Registros de colecciones. Conjunto de datos correspondientes a un registro de una base de datos que tienen valor por sí mismos.</p>
+<p><strong>XXVII.</strong> Repositorio. Plataforma digital que, siguiendo los estándares internacionales, almacena, mantiene y preserva la información educativa, académica, científica, tecnológica y de innovación derivada de las investigaciones, productos educativos y académicos.</p>
+<p><strong>XXVIII.</strong> Repositorio Institucional INECOL. Plataforma digital, interoperable con el Repositorio Nacional, que contiene los Recursos de Información Académica, Científica, Tecnológica y de Innovación generados por INECOL.</p>
+<div style="background-color: #F1E27B;">
+<p><strong>XXIX.</strong> Responsable de Curaduría de Datos. Persona o unidad administrativa designada por el Comité para realizar la revisión técnica —no editorial ni de contenido científico— de los Datos Abiertos sometidos a Ingesta, así como para administrar operativamente el Servidor de Datos Abiertos.</p>
+<p><strong>XXX.</strong> Servidor de Datos Abiertos. Infraestructura informática del INECOL destinada a alojar, de manera continua y mediante contribución voluntaria del personal académico, técnico y estudiantil, los Datos Abiertos producidos o resguardados por el Instituto, conforme a las Reglas de Operación previstas en el Capítulo 7 de los presentes Lineamientos.</p>
+</div>
+<p><strong>XXXI.</strong> Usuario. Toda persona que realice una búsqueda de Recursos de Información Académica, Científica, Tecnológica y de Innovación, o consulta, desde el Repositorio Institucional INECOL.</p>
+<p><strong>XXXII.</strong> Las demás que defina la Ley.</p>
+<p><span style="color: brown;"><em><strong>Nota:</strong> la fracción IX resuelve el corchete pendiente del borrador previo sobre si los metadatos, metodologías, software y resultados parciales no interpretados quedan comprendidos en el concepto de Datos Abiertos. Se optó por la respuesta amplia, conforme al principio garantista adoptado para este ejercicio; queda sujeta a confirmación por el equipo del proyecto.</em></span></p>
+</section>
+<section id="capítulo-3.-principios-de-política-de-ciencia-abierta-y-acceso-a-datos-abiertos" class="level3">
+<h3 class="anchored" data-anchor-id="capítulo-3.-principios-de-política-de-ciencia-abierta-y-acceso-a-datos-abiertos"><strong>Capítulo 3. Principios de Política de Ciencia Abierta y Acceso a Datos Abiertos</strong></h3>
+<p><strong>Artículo 3.</strong> En la aplicación del presente ordenamiento, la autoridad deberá observar los siguientes principios:</p>
+<p><strong>I.</strong> El INECOL, como autoridad obligada constitucionalmente, en el ámbito de sus competencias, tiene la obligación de promover, respetar, proteger y garantizar los derechos humanos de conformidad con los principios de universalidad, interdependencia, indivisibilidad y progresividad.</p>
+<p><strong>II.</strong> La ciencia abierta deberá respetar la libertad académica y los derechos humanos, y favorecer una investigación de alta calidad mediante la utilización de múltiples fuentes de conocimiento y la difusión amplia de los métodos y los resultados de la investigación.</p>
+<p><strong>III.</strong> La principal condición para el uso, reutilización y redistribución de los datos abiertos es el reconocimiento del trabajo intelectual y patrimonial de las personas proveedoras, entre ellos la autoría, los créditos de producción, la propiedad, la difusión, las restricciones de uso, los acuerdos financieros, las normas éticas y las condiciones de concesión de licencias.</p>
+<p><strong>IV.</strong> La apertura de los procesos de generación, evaluación y comunicación de conocimiento científico a actores sociales más allá de la comunidad científica tradicional.</p>
+<p><strong>V.</strong> En los procesos de habilitación de un sistema de acceso abierto a datos, se deberá prevenir, investigar, sancionar y reparar las violaciones a los derechos humanos.</p>
+<p><strong>VI.</strong> La ciencia abierta deberá observar una coherencia normativa con el fin de promover e implementar otras normas de forma armónica para acelerar los procesos transformativos para el desarrollo.</p>
+<p><strong>VII.</strong> El conocimiento científico deberá estar disponible abiertamente y sus beneficios deberán ser compartidos universalmente.</p>
+<p><strong>VIII.</strong> La ciencia abierta deberá abarcar una diversidad de conocimientos, prácticas, flujos de trabajo, lenguas, resultados y temas de investigación que se ajusten a las necesidades y al pluralismo epistémico de la comunidad científica en su conjunto, incluidos los pueblos indígenas y las comunidades locales.</p>
+<p><strong>IX.</strong> Se promoverá una mayor apertura en todas las etapas de la actividad científica, con miras a reforzar la solidez y el rigor de los resultados científicos.</p>
+<p><strong>X.</strong> Todos los agentes y partes interesadas de la ciencia abierta, independientemente de su ubicación, nacionalidad, raza, edad, género, nivel de ingresos, circunstancias socioeconómicas, etapa profesional, disciplina, lengua, religión, discapacidad, etnia o situación migratoria o de cualquier otro motivo, tendrán las mismas oportunidades para acceder y contribuir a la ciencia abierta y beneficiarse de ella.</p>
+<p><strong>XI.</strong> La base para la buena gobernanza de la ciencia abierta es una mayor responsabilidad para todos los agentes, junto con la rendición de cuentas pública y la sensibilidad ante los conflictos de intereses.</p>
+<p><strong>XII.</strong> Se fomentará la colaboración en todos los niveles del proceso científico, así como la integración de los conocimientos de las comunidades marginadas en la solución de los problemas de importancia social.</p>
+<p><strong>XIII.</strong> Se alentarán diferentes vías de transición hacia la ciencia abierta, siempre que se respeten los valores fundamentales enunciados anteriormente.</p>
+<p><strong>XIV.</strong> Las infraestructuras de la ciencia abierta deberán organizarse y financiarse con una visión esencialmente a largo plazo y sin fines de lucro, que garantice a todas las personas un acceso permanente y sin restricciones.</p>
+<p><strong>XV.</strong> No se publicará información privada de otras personas, tales como direcciones físicas o de correo electrónico.</p>
+<p><strong>XVI.</strong> Deberán tomarse las medidas necesarias para prevenir la biopiratería y el tráfico ilícito de especimenes, tejidos, recursos genéticos y otros materiales similares.</p>
+<p><span style="background-color: #F1E27B;"><strong>XVII.</strong> Principio garantista y presunción de apertura. El acceso abierto constituye la regla general aplicable a toda la información, los datos, los metadatos, las metodologías y los resultados, interpretados o no, de la investigación financiada total o parcialmente con fondos públicos. Toda excepción a dicha regla será de interpretación estricta, deberá fundarse y motivarse expresamente conforme a las causales tasadas en el Capítulo 7 de los presentes Lineamientos, y corresponderá a quien la invoque acreditar su procedencia. En caso de duda razonable sobre la apertura de un conjunto de datos, prevalecerá la interpretación que favorezca el acceso.</span></p>
+</section>
+<section id="capítulo-4.-de-los-compromisos-institucionales-de-la-dirección-general" class="level3">
+<h3 class="anchored" data-anchor-id="capítulo-4.-de-los-compromisos-institucionales-de-la-dirección-general"><strong>Capítulo 4. De los Compromisos Institucionales de la Dirección General</strong></h3>
+<div style="background-color: #F1E27B;">
+<p><strong>Artículo 4.</strong> La Dirección General del INECOL, en su calidad de máxima autoridad administrativa del Instituto y de Presidencia del Comité de Ciencia Abierta y Acceso a Datos Abiertos, asume los siguientes compromisos institucionales:</p>
+<p><strong>I.</strong> Gestionar y, en la medida de la disponibilidad presupuestal del Instituto, garantizar anualmente una partida específica y suficiente para la operación, el mantenimiento, la actualización tecnológica y el respaldo del Servidor y Repositorio Institucional INECOL.</p>
+<p><strong>II.</strong> Asegurar la continuidad del Servidor de Datos Abiertos mediante políticas de respaldo periódico, prevención de pérdida de información y un plan de contingencia ante fallas técnicas, cuya existencia y actualización deberá verificar el Comité al menos una vez al año.</p>
+<p><strong>III.</strong> Proteger a las personas investigadoras, estudiantes y colaboradoras que depositen Datos Abiertos en el Repositorio frente a cualquier forma de represalia, desventaja laboral, académica o presupuestal derivada del cumplimiento de sus obligaciones de apertura.</p>
+<p><strong>IV.</strong> Rendir, dentro de los primeros tres meses de cada ejercicio anual, un informe público sobre el estado del cumplimiento del Derecho Humano a la Ciencia al interior del INECOL, que incluya, como mínimo, indicadores de volumen, diversidad disciplinaria y accesibilidad efectiva de los Datos Abiertos depositados, así como las excepciones invocadas durante el periodo y su justificación.</p>
+<p><strong>V.</strong> Instaurar y mantener en funcionamiento un mecanismo de Evaluación de Impacto en Derechos Humanos (HRIA, por sus siglas en inglés) aplicable a las decisiones institucionales relevantes en materia de ciencia abierta y acceso abierto a datos, con la posible participación de personas expertas externas al Instituto.</p>
+<p><strong>VI.</strong> Promover la capacitación continua del personal académico, técnico y administrativo del INECOL en materia de ciencia abierta, gestión de datos y derechos humanos.</p>
+<p><strong>VII.</strong> Abstenerse de emitir o convalidar actos administrativos que restrinjan el acceso abierto fuera de las causales tasadas en el presente instrumento y en la Ley General en materia de Humanidades, Ciencias, Tecnologías e Innovación.</p>
+<p><strong>VIII.</strong> Impulsar, conforme al principio de progresividad, la armonización paulatina de las políticas internas del Instituto con los estándares internacionales más exigentes en materia de ciencia abierta, incluida la Recomendación de la UNESCO sobre Ciencia Abierta de 2021.</p>
+</div>
+<p><span style="color: brown;"><em><strong>Nota:</strong> este capítulo es enteramente nuevo y constituye la propuesta de “compromisos exigibles” que el coordinador solicitó para la Dirección General. Se recomienda validar con la propia Dirección General su viabilidad presupuestal y operativa —particularmente la fracción I— antes de avanzar a una versión final, así como decidir si estos compromisos deben tener carácter jurídicamente exigible (como se redactó aquí) o complementarse con una declaración pública adicional de carácter programático, conforme platicábamos.</em></span></p>
+</section>
+<section id="capítulo-5.-del-comité-de-ciencia-abierta-y-acceso-a-datos-abiertos" class="level3">
+<h3 class="anchored" data-anchor-id="capítulo-5.-del-comité-de-ciencia-abierta-y-acceso-a-datos-abiertos"><strong>Capítulo 5. Del Comité de Ciencia Abierta y Acceso a Datos Abiertos</strong></h3>
+<div style="background-color: #F1E27B;">
+<p><strong>Artículo 5.</strong> El Comité de Ciencia Abierta y Acceso a Datos Abiertos se constituye como el máximo órgano de coordinación y decisión en materia de Ciencia Abierta al interior del INECOL. Estará conformado por:</p>
+<p><strong>I.</strong> La persona titular de la Dirección General, quien lo presidirá;</p>
+<p><strong>II.</strong> La persona titular de la Subdirección de Investigación;</p>
+<p><strong>III.</strong> La persona titular de la Subdirección de Posgrado y Educación Continua;</p>
+<p><strong>IV.</strong> La persona titular de la Coordinación de Vinculación y Transferencia de Tecnología;</p>
+<p><strong>V.</strong> La persona titular de la Coordinación de Cómputo y Tecnologías de la Información, quien fungirá como Secretaría Técnica;</p>
+<p><strong>VI.</strong> La persona titular de la Oficina de Asesoría Jurídica; y</p>
+<p><strong>VII.</strong> La persona Responsable de Curaduría de Datos del Servidor de Datos Abiertos, con voz pero sin voto.</p>
+</div>
+<p>El Comité invitará a miembros de la sociedad civil, otros representantes de instituciones de educación superior y a quien consideren pertinente, quienes tendrán voz, pero no voto. El Comité contará con subcomités especializados por programa, cuando lo considere necesario.</p>
+<p><span style="color: brown;"><em><strong>Nota:</strong> la composición anterior sustituye los espacios marcados como “XXXX” en el borrador previo (v.6). Es una propuesta razonable para un centro público de investigación, pero es ilustrativa: deberá cotejarse contra el organigrama vigente de INECOL antes de su aprobación, pues no tengo información oficial y actualizada de su estructura interna.</em></span></p>
+<p><strong>Artículo 6.</strong> Los miembros del Comité nombrarán por escrito a una persona suplente, quien deberá ostentar un cargo con nivel jerárquico inmediato inferior, con facultades y capacidades de decisión para que, en caso de ausencia, lo represente en las sesiones. Las personas suplentes contarán con voz y voto en ausencia de la persona titular correspondiente. Las personas suplentes no podrán delegar esta representación a ninguna otra persona.</p>
+<p><strong>Artículo 7.</strong> El Comité se reunirá al menos dos veces al año de manera ordinaria y las veces que resulten necesarias de manera extraordinaria. La Presidencia o la Secretaría Técnica convocarán a las personas miembros titulares con cinco días hábiles de anticipación a la fecha señalada para sesiones ordinarias, y con dos días hábiles para sesiones extraordinarias.</p>
+<p><strong>Artículo 8.</strong> Los acuerdos del Comité se tomarán por mayoría simple de votos; en caso de empate, la Presidencia tendrá el voto de calidad. Los acuerdos tendrán carácter resolutivo, siendo obligatorio para sus integrantes atender e informar sobre los asuntos que en él se comprometan. Al final de la sesión se ratificarán los acuerdos tomados para efecto de su instrumentación mediante la firma de las personas asistentes con derecho a voto.</p>
+</section>
+<section id="capítulo-6.-distribución-de-competencias" class="level3">
+<h3 class="anchored" data-anchor-id="capítulo-6.-distribución-de-competencias"><strong>Capítulo 6. Distribución de Competencias</strong></h3>
+<p><strong>Artículo 9.</strong> El Comité tendrá las atribuciones siguientes:</p>
+<p><strong>I.</strong> Establecer las políticas, criterios y requisitos para ampliar, consolidar y poner en marcha los programas del INECOL en materia de Ciencia Abierta y Acceso a Datos Abiertos, así como emitir y modificar las políticas y lineamientos secundarios para la adecuada gestión de los mencionados programas;</p>
+<p><strong>II.</strong> Establecer las bases y criterios bajo los cuales habrán de presentarse y aprobarse los proyectos derivados de los distintos programas sobre Ciencia Abierta y Acceso a Datos Abiertos del INECOL;</p>
+<p><strong>III.</strong> Emitir las convocatorias, programas o convenios que establezcan los requisitos, términos y condiciones para el otorgamiento de los apoyos e incentivos para ejecutar los programas de Ciencia Abierta y Acceso a Datos Abiertos;</p>
+<p><strong>IV.</strong> Aprobar las Comisiones Evaluadoras que se consideren pertinentes, así como los criterios de evaluación, edición y revisión para los distintos programas en materia de Ciencia Abierta y Acceso a Datos Abiertos;</p>
+<p><strong>V.</strong> Establecer los procedimientos e instancias de decisión para el seguimiento y la evaluación de los proyectos aprobados por el Comité;</p>
+<p><strong>VI.</strong> Establecer las políticas, criterios y requisitos para regular la seguridad y sostenibilidad, así como la gestión y preservación de la información;</p>
+<p><strong>VII.</strong> Autorizar, o en su caso emitir la recomendación, para la terminación anticipada, cancelación, suspensión o rescisión de los proyectos o situaciones anómalas, aprobadas cuando se identifiquen riesgos, inconvenientes, o el incumplimiento de los objetivos de la Política de Ciencia Abierta y Acceso a Datos Abiertos;</p>
+<p><strong>VIII.</strong> Emitir lineamientos y recomendaciones que apoyen la protección de derechos de autor de las obras académicas, científicas, tecnológicas y de innovación;</p>
+<p><strong>IX.</strong> Autorizar el orden del día de las sesiones, así como las modificaciones al mismo;</p>
+<p><strong>X.</strong> Resolver todos los asuntos no previstos relacionados con el objeto y funcionamiento de la Política de Ciencia Abierta y Acceso a Datos Abiertos;</p>
+<p><span style="background-color: #F1E27B;"><strong>XI.</strong> Resolver, en aplicación del principio garantista y de la presunción de apertura previstos en el artículo 3, fracción XVII, cualquier caso de duda sobre la procedencia del acceso abierto a un conjunto de datos, dejando constancia motivada de su resolución; y</span></p>
+<p><strong>XII.</strong> Las demás que se deriven de los presentes Lineamientos y otras normas y disposiciones administrativas aplicables.</p>
+<p><strong>Artículo 10.</strong> La Presidencia del Comité tendrá las siguientes atribuciones:</p>
+<p><strong>I.</strong> Convocar a las sesiones del Comité, ya sea directamente o a través de la Secretaría Técnica o su suplente;</p>
+<p><strong>II.</strong> Presidir las sesiones del Comité;</p>
+<p><strong>III.</strong> Emitir el voto de calidad cuando así se requiera;</p>
+<p><strong>IV.</strong> Promover y vigilar el cumplimiento de los acuerdos a través de la Secretaría Técnica; y</p>
+<p><strong>V.</strong> Las demás que le instruya el Comité o que se deriven de los presentes Lineamientos y otras normas y disposiciones administrativas aplicables.</p>
+<p><strong>Artículo 11.</strong> La Secretaría Técnica del Comité tendrá las siguientes atribuciones:</p>
+<p><strong>I.</strong> Convocar a las sesiones del Comité en ausencia de la Presidencia;</p>
+<p><strong>II.</strong> Presidir las sesiones del Comité, en ausencia de la Presidencia;</p>
+<p><strong>III.</strong> Fungir como Secretaría de Actas del Comité, y llevar a cabo las acciones necesarias para el desarrollo adecuado de las sesiones;</p>
+<p><strong>IV.</strong> Monitorear el desempeño de la Política de Ciencia Abierta y Acceso a Datos Abiertos;</p>
+<p><strong>V.</strong> Informar al Comité sobre los resultados de los programas y acciones relacionados con Ciencia Abierta y Acceso a Datos Abiertos;</p>
+<p><strong>VI.</strong> Proponer al Comité la formulación y aplicación de políticas, líneas de acción y estrategias para la operación de los programas y acciones en materia de Ciencia Abierta;</p>
+<p><strong>VII.</strong> Designar a las personas integrantes de las Comisiones Evaluadoras que correspondan; y</p>
+<p><strong>VIII.</strong> Las demás que le instruya el Comité o que se deriven de los presentes Lineamientos y otras normas y disposiciones administrativas aplicables.</p>
+</section>
+<section id="capítulo-7.-del-servidor-y-repositorio-institucional-inecol" class="level3">
+<h3 class="anchored" data-anchor-id="capítulo-7.-del-servidor-y-repositorio-institucional-inecol"><strong>Capítulo 7. Del Servidor y Repositorio Institucional INECOL</strong></h3>
+<p><strong>Artículo 12.</strong> El Portal del Repositorio Institucional INECOL deberá cumplir con los principios generales siguientes:</p>
+<p><strong>I.</strong> Accesibilidad: tener las características de acceso reconocidas a nivel internacional, incluyendo las que se refieren a respetar y considerar las necesidades específicas de las personas con capacidades especiales;</p>
+<p><strong>II.</strong> Adecuación tecnológica: buscar la neutralidad tecnológica y el aprovechamiento de estándares abiertos;</p>
+<p><strong>III.</strong> Asociación: compartir información y conocimiento con otros sistemas de entidades académicas y dependencias;</p>
+<p><strong>IV.</strong> Confidencialidad: garantizar, en términos de las disposiciones jurídicas aplicables, la no divulgación de datos o información a terceros o a sistemas no autorizados de datos personales, información no autorizada por terceros y la derivada de cláusulas de confidencialidad;</p>
+<p><strong>V.</strong> Conservación: asegurar la integridad, confiabilidad y disponibilidad de los datos e información contenidos a través del tiempo;</p>
+<p><strong>VI.</strong> Equilibrio: establecer un balance entre los aspectos de seguridad de los datos e información y las aplicaciones de acceso a los mismos, de forma que no sea un obstáculo para la interoperabilidad con otros servicios digitales;</p>
+<p><strong>VII.</strong> Igualdad: evitar restricciones o limitaciones para las personas usuarias que decidan relacionarse con el Portal, con independencia de la utilización de medios de contacto tradicionales;</p>
+<p><strong>VIII.</strong> Integridad: garantizar que los datos o información contenidos en el Portal permanezcan completos e inalterados y, en su caso, que solo hayan sido modificados por la fuente de origen de la información;</p>
+<p><strong>IX.</strong> Legalidad: cumplir la normativa aplicable requerida para el intercambio de datos o información contenidos en el Portal;</p>
+<p><strong>X.</strong> Reutilización: generar los medios para poner a disposición y compartir la información, funcionalidades y soluciones tecnológicas, entre aquellas entidades académicas que lo requieran; y</p>
+<p><strong>XI.</strong> Seguridad: mantener, como mínimo, el mismo nivel de garantías y seguridad que se tiene para el intercambio por medios físicos, así como adoptar procesos de ciberseguridad, en términos de lo que establezcan las disposiciones aplicables.</p>
+<p><span style="background-color: #F1E27B;"><strong>Artículo 13.</strong> Las personas investigadoras, tecnólogas, académicas y estudiantes de maestría, doctorado y posdoctorado cuya actividad de investigación sea financiada con recursos públicos, o que hayan utilizado infraestructura pública en su realización, deberán depositar una copia de la versión final aceptada para publicación en Acceso Abierto a través del Repositorio Institucional, en cumplimiento del mandato constitucional y legal de acceso abierto y sin que medie para ello una decisión discrecional, comprobando que ha cumplido con el proceso de aprobación respectivo.</span></p>
+<p><span style="color: brown;"><em><strong>Nota:</strong> se modificó la redacción del borrador previo, que condicionaba el depósito a una “decisión personal” del investigador. Bajo el principio garantista, el depósito se plantea como una obligación derivada del mandato constitucional y legal, no como una opción discrecional. Este es un cambio de fondo que conviene discutir expresamente con el equipo, pues puede generar resistencia entre el personal investigador, conforme a las tensiones ya documentadas en «Una Política de Ciencia Abierta para INECOL».</em></span></p>
+<p><strong>Artículo 14.</strong> Las bases de datos, imágenes, mapas y otro tipo de obras auditivas o audiovisuales, protegidas o no, podrán depositarse en el Repositorio Institucional sin necesidad del consentimiento de la persona autora o titular cuando previamente sean accesibles a consulta de manera abierta. El uso de los datos y el conocimiento en sí mismo de las obras a que se refiere este artículo será libre.</p>
+<p><span style="background-color: #F1E27B;"><strong>Artículo 15.</strong> Cuando las obras o resultados de investigación se encuentren en periodo de embargo, solo podrán incorporarse al Repositorio Institucional con la autorización expresa de la persona titular de los derechos respectivos. En ningún caso el periodo de embargo podrá exceder de doce meses contados a partir de la fecha de publicación, salvo causa excepcional, justificada y motivada ante el Comité, en cuyo caso la prórroga no podrá exceder de doce meses adicionales.</span></p>
+<p><span style="color: brown;"><em><strong>Nota:</strong> el borrador previo no fijaba un límite máximo al periodo de embargo, lo que en la práctica habría permitido diferir indefinidamente la apertura. Se propuso un término de doce meses, alineado con estándares internacionales comparables (por ejemplo, la política de acceso abierto de la Academia China de Ciencias). El plazo es una propuesta inicial sujeta a discusión.</em></span></p>
+<p><strong>Artículo 16.</strong> Los componentes mínimos que deben integrar los metadatos de un conjunto de datos para la información publicada como Datos Abiertos son:</p>
+<p><strong>I.</strong> Título: nombre descriptivo de la base de datos que facilita la búsqueda, identificación y entendimiento del conjunto de datos;</p>
+<p><strong>II.</strong> Descripción: una explicación de los datos, con suficiente detalle para que las personas usuarias puedan entender su contexto;</p>
+<p><strong>III.</strong> Palabras clave: etiquetas que facilitan a las personas usuarias la búsqueda del conjunto de datos;</p>
+<p><strong>IV.</strong> Última modificación: la fecha más reciente en que se cambió, modificó o actualizó el conjunto de datos;</p>
+<p><strong>V.</strong> Publicador: la entidad responsable de la publicación del conjunto de datos;</p>
+<p><strong>VI.</strong> Punto de contacto: información de contacto relevante al conjunto de datos;</p>
+<p><strong>VII.</strong> Identificador: debe ser único dentro del catálogo de datos de la entidad;</p>
+<p><strong>VIII.</strong> Distribución: conecta un conjunto de datos con sus distribuciones disponibles;</p>
+<p><strong>IX.</strong> Términos de libre uso: liga directa al documento que establece los derechos de libre uso del conjunto de datos;</p>
+<div style="background-color: #F1E27B;">
+<p><strong>X.</strong> Licencia Abierta aplicable, conforme al artículo 19 de los presentes Lineamientos; y</p>
+<p><strong>XI.</strong> En su caso, identificador de las metodologías, software o código fuente asociados, conforme al artículo 2, fracción IX.</p>
+<p><strong>Artículo 17.</strong> Régimen de excepciones al acceso abierto. La apertura de los Datos Abiertos solo podrá restringirse por alguna de las siguientes causales, de interpretación estricta:</p>
+<p><strong>I.</strong> Existencia de derechos de propiedad intelectual formalmente protegidos y pendientes de trámite de registro, durante el plazo estrictamente necesario para dicho trámite;</p>
+<p><strong>II.</strong> Clasificación como información reservada o confidencial en materia de seguridad nacional, conforme a la legislación aplicable;</p>
+<p><strong>III.</strong> Protección de datos personales, en términos de la legislación de la materia;</p>
+<p><strong>IV.</strong> Riesgo razonablemente previsible de biopiratería, tráfico ilícito de especímenes, tejidos o recursos genéticos, o de daño a especies en alguna categoría de riesgo, conforme al artículo 22 de los presentes Lineamientos; y</p>
+<p><strong>V.</strong> Periodo de embargo vigente, en términos del artículo 15.</p>
+<p>Quien invoque alguna de las causales anteriores deberá hacerlo por escrito y de forma motivada ante la Responsable de Curaduría de Datos, quien dará cuenta de ello al Comité. La carga de acreditar la procedencia de la excepción corresponde a quien la invoca.</p>
+<p><strong>Artículo 18.</strong> Procedimiento de Ingesta. La incorporación de Datos Abiertos al Servidor de Datos Abiertos seguirá el procedimiento siguiente:</p>
+<p><strong>I.</strong> Registro de la persona Depositaria y carga de los Datos Abiertos junto con los metadatos mínimos previstos en el artículo 16;</p>
+<p><strong>II.</strong> Revisión técnica, a cargo de la Responsable de Curaduría de Datos, limitada a la verificación de formato y completitud de metadatos, sin que en ningún caso dicha revisión pueda extenderse a un juicio sobre el mérito o validez científica del contenido;</p>
+<p><strong>III.</strong> Asignación de un identificador persistente al conjunto de datos;</p>
+<p><strong>IV.</strong> Publicación bajo Licencia Abierta, conforme al artículo 19; y</p>
+<p><strong>V.</strong> Notificación a la persona Depositaria.</p>
+<p>El plazo máximo entre la carga de los Datos Abiertos y su publicación no excederá de diez días hábiles, salvo que se haya invocado alguna causal de excepción conforme al artículo 17, en cuyo caso el plazo correrá a partir de la resolución del Comité.</p>
+<p><strong>Artículo 19.</strong> Licenciamiento abierto. Los Datos Abiertos se publicarán, por defecto, bajo licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0) o su equivalente vigente. La persona Depositaria podrá optar por una licencia más amplia, pero en ningún caso por una más restrictiva, salvo que medie alguna de las causales de excepción previstas en el artículo 17.</p>
+<p><strong>Artículo 20.</strong> Funciones de la Responsable de Curaduría de Datos. La Responsable de Curaduría de Datos tendrá funciones exclusivamente técnicas y operativas, careciendo de facultades para negar la Ingesta de un conjunto de Datos Abiertos por causas distintas a las tasadas en el artículo 17. Toda negativa deberá comunicarse por escrito a la persona Depositaria, con expresión de la causal invocada.</p>
+<p><strong>Artículo 21.</strong> Procedimiento de revisión. Cuando a una persona Usuaria se le niegue el acceso a un conjunto de Datos Abiertos, o cuando a una persona Depositaria se le niegue la Ingesta de su contribución, podrá solicitar por escrito la revisión de dicha negativa ante el Comité dentro de los diez días hábiles siguientes a su notificación. El Comité deberá resolver lo conducente en su siguiente sesión ordinaria o, si la urgencia lo amerita, en sesión extraordinaria convocada para tal efecto.</p>
+<p><strong>Artículo 22.</strong> Tratamiento garantista de datos sensibles de biodiversidad. Cuando la divulgación de la ubicación geográfica precisa de especímenes, poblaciones o sitios pudiera razonablemente facilitar su captura, tráfico, saqueo o afectación, el Comité optará por la medida menos restrictiva posible al acceso, tal como la generalización de coordenadas geográficas a una resolución espacial que prevenga el riesgo identificado, antes que por la negativa total del dato. La restricción total del acceso solo procederá cuando ninguna medida de generalización resulte suficiente para prevenir el riesgo.</p>
+<p><strong>Artículo 23.</strong> Conservación a largo plazo. El Servidor de Datos Abiertos deberá conservar los Datos Abiertos en formatos abiertos, no propietarios y migrables, garantizando su integridad, autenticidad y disponibilidad continuada, conforme a los principios previstos en el artículo 12.</p>
+</div>
+</section>
+<section id="transitorios" class="level3">
+<h3 class="anchored" data-anchor-id="transitorios"><strong>Transitorios</strong></h3>
+<div style="background-color: #F1E27B;">
+<p><strong>Primero.</strong> Los presentes Lineamientos entrarán en vigor al día siguiente de su aprobación por el Comité y su validación por la Dirección General.</p>
+<p><strong>Segundo.</strong> El Servidor de Datos Abiertos deberá encontrarse en condiciones de operación, conforme al Capítulo 7, dentro de los noventa días naturales siguientes a la entrada en vigor de los presentes Lineamientos.</p>
+<p><strong>Tercero.</strong> Las prácticas y repositorios institucionales existentes a la entrada en vigor de los presentes Lineamientos deberán migrarse o, en su caso, interoperar con el Servidor de Datos Abiertos, dentro de los ciento ochenta días naturales siguientes.</p>
+<p><strong>Cuarto.</strong> La sesión de instalación del Comité deberá celebrarse dentro de los treinta días naturales siguientes a la entrada en vigor de los presentes Lineamientos.</p>
+<p><strong>Quinto.</strong> El primer informe anual a que se refiere el artículo 4, fracción IV, deberá rendirse a más tardar en marzo del ejercicio fiscal inmediato siguiente a la entrada en vigor de los presentes Lineamientos.</p>
+</div>
+<p><span style="color: brown;"><em><strong>Nota:</strong> los Transitorios son enteramente nuevos; los plazos propuestos (90, 180 y 30 días) son razonables para este tipo de instrumento pero arbitrarios en su origen —deberán confirmarse con el equipo técnico responsable de habilitar el Servidor, pues la fecha real de disponibilidad de la infraestructura puede exigir ajustarlos.</em></span></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Presentación">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Presentación</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./ejemplo_zenodo.html" class="pagination-link" aria-label="Zenodo como ejemplo">
+        <span class="nav-page-text"><span class="chapter-title">Zenodo como ejemplo</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

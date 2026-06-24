@@ -1,0 +1,95 @@
+
+## Zenodo como ejemplo
+
+
+Para obtener una perspectiva amplia de los lineamientos de **Zenodo**, es fundamental cruzar los marcos regulatorio y operativo que lo regulan: las **políticas públicas de Zenodo** (que dictan qué se puede subir, cómo se almacena y quién es responsable) y la **Circular Operacional No. 11 del CERN (Operational Circular No.11)**, la cual establece el marco legal e institucional de la infraestructura física y organizativa que soporta a Zenodo.
+
+A continuación, se presenta un desglose estructurado de los criterios y lineamientos clave derivados de ambas fuentes:
+
+
+### 1. Alcance, Contenido y Depositantes (Políticas de Zenodo)
+
+* **Inclusión de disciplinas y estados:** Zenodo acepta *artefactos* de investigación de **cualquier campo científico** y en cualquier etapa del ciclo de vida de la investigación (datos brutos, procesados, software, pósteres, publicaciones, etc.).
+* **Formatos de archivo:** No hay restricciones en los formatos de archivo. Se permiten incluso formatos "no amigables" para la preservación a largo plazo, aunque se promueven las buenas prácticas.
+* **Elegibilidad:** Cualquier investigador del mundo puede registrarse y depositar datos de manera gratuita, especialmente si no tiene acceso a un centro de datos institucional organizado.
+* **Límites de volumen:** Por defecto, el límite estándar es de **50 GB por registro** (con un máximo aproximado de 100 archivos). Cuotas mayores se pueden solicitar y evaluar caso por caso.
+
+### 2. Responsabilidad Legal y Propiedad Intelectual
+
+* **La propiedad no se transfiere:** Al subir datos a Zenodo, **no se ceden los derechos de propiedad intelectual al CERN ni a Zenodo**. El contenido sigue perteneciendo a sus autores u organizaciones originales.
+* **Responsabilidad exclusiva del usuario (Uploader):** Quien sube la información es el único responsable legal del contenido. Debe garantizar que tiene los derechos necesarios, que no infringe derechos de autor ni acuerdos de confidencialidad, y que el material es apto para difusión pública.
+* **Licenciamiento:** Es obligatorio asignar una licencia a los archivos públicos. Zenodo sugiere por defecto *Creative Commons Attribution 4.0 (CC-BY)* para datos y licencias estándar de código abierto (como MIT o GPL) para software, aunque permite licencias personalizadas. Los **metadatos**, en cambio, se distribuyen bajo una licencia de dominio público **CC0**, lo que facilita que motores de búsqueda externos los indexen.
+
+### 3. Privacidad y Datos Sensibles (El cruce con el GDPR)
+
+* **Datos personales:** Zenodo **no está diseñado para albergar datos personales sensibles de sujetos humanos**. Si la investigación involucra seres humanos, el usuario debe garantizar que los datos estén **completamente anonimizados** o que se cuente con un consentimiento explícito e inequívoco para su difusión abierta antes de subirlos.
+* **El rol del CERN:** El CERN goza de un estatus legal particular como organización internacional. Sin embargo, para efectos operativos de Zenodo, sus infraestructuras cumplen rigurosamente con altos estándares de protección de datos alineados con el espíritu del GDPR (Reglamento General de Protección de Datos de la UE).
+
+### 4. Niveles de Acceso y Modificaciones
+
+* **Tipos de acceso:** Aunque promueve la ciencia abierta (*Open Science*), Zenodo permite configuraciones flexibles:
+* **Acceso abierto (Open Access):** Disponible de inmediato.
+* **Embargado (Embargoed):** Los datos se mantienen cerrados hasta una fecha específica (por ejemplo, cuando se publique un artículo científico relacionado) y luego se abren automáticamente.
+* **Acceso restringido (Restricted):** Los archivos permanecen ocultos, pero otros investigadores pueden solicitar acceso al autor justificando su uso.
+* **Acceso cerrado (Closed):** Solo el propietario puede ver los archivos (utilizado principalmente para preservación interna).
+
+
+* **Inmutabilidad y Versionado:** Una vez que un registro se publica, los archivos **no se pueden modificar ni eliminar a la ligera**. Durante los primeros 30 días se permiten correcciones menores de errores, pero pasado ese tiempo, cualquier cambio significativo requiere la creación de una **nueva versión**, la cual recibirá un Identificador de Objeto Digital (DOI) diferente. Esto asegura la trazabilidad científica.
+
+### 5. Preservación, Retirada y la Circular Operacional No. 11 del CERN
+
+Aquí es donde la **Circular Operacional No. 11 del CERN** se vuelve vital para entender la gobernanza de Zenodo:
+
+* **Gobernanza Institucional:** Zenodo no es una entidad comercial independiente; opera bajo el amparo del CERN (Organización Europea para la Investigación Nuclear). La *Circular Operacional No. 11* define precisamente las reglas internas del CERN respecto a la propiedad intelectual, el uso de sus nombres/logotipos, y las condiciones bajo las cuales el CERN aloja o transfiere tecnología y servicios a la comunidad internacional.
+* **Garantía de Longevidad:** Zenodo garantiza la preservación de los datos por **toda la vida útil del CERN**, comprometiéndose contractualmente a un mínimo de **20 años**. Al estar respaldado por las políticas institucionales del CERN, el repositorio se beneficia de una infraestructura de almacenamiento masivo altamente redundante (múltiples copias en línea y réplicas en cinta *offline*).
+* **Procedimiento de Retirada (Take-down):** Aunque Zenodo no monitorea activamente lo que los usuarios suben, cuenta con un protocolo estricto para retirar contenido si recibe una reclamación legítima de violación de propiedad intelectual, plagio, falsificación deliberada o inclusión de datos personales sin consentimiento. En estos casos excepcionales, los archivos se eliminan del acceso público, pero se retiene una "tumba de metadatos" indicando que el registro existió y el motivo de su remoción, para no romper la integridad de las citas académicas.
+
+### Resumen de la Perspectiva
+
+Zenodo logra un equilibrio: ofrece un **servicio universal, gratuito y abierto** para empoderar a la comunidad científica global (bajo las políticas de *OpenAire* y *Open Science*), pero delega toda la **responsabilidad legal y ética en el usuario**, mientras se blinda institucional y técnicamente utilizando la rigurosa **infraestructura, marco legal y gobernanza a largo plazo del CERN**.
+
+## Compendio de Documentos Descargables y Referencias: Gobernanza Zenodo y CERN
+
+Este documento reúne las referencias oficiales, políticas públicas y circulares operacionales que norman y respaldan la infraestructura del servicio de hospedaje de datos abiertos de Zenodo, así como el marco regulatorio del CERN como su entidad proveedora de infraestructura masiva.
+
+### 1. Documentos Principales de Política y Gobernanza
+
+#### 📄 Zenodo General Policies (Políticas Generales de Zenodo)
+* **Organización:** Zenodo / OpenAIRE / CERN
+* **Ámbito:** Normativa principal para usuarios y depositantes.
+* **Criterios Clave:** Regula de manera exhaustiva la aceptación de contenidos de cualquier disciplina científica, las cuotas predeterminadas de almacenamiento (50 GB por registro), las políticas de acceso flexible (abierto, embargado, restringido y cerrado), la inmutabilidad de los datos publicados y el procedimiento legal de retirada de contenido (*Take-down policy*) ante violaciones de propiedad intelectual o datos sensibles.
+* **Fuente/Enlace:** [https://about.zenodo.org/policies/](https://about.zenodo.org/policies/)
+
+#### 📄 CERN Operational Circular No. 11 Rev. 1 (Circular Operacional del CERN No. 11)
+* **Organización:** Organización Europea para la Investigación Nuclear (CERN)
+* **Ámbito:** Marco institucional y legal de nivel macro.
+* **Criterios Clave:** Define las reglas internas del CERN respecto a la gestión de la propiedad intelectual, el uso de sus nombres y logotipos, y las condiciones bajo las cuales el CERN aloja o transfiere tecnología y servicios a la comunidad internacional. Establece las garantías institucionales de permanencia que sustentan la infraestructura física de Zenodo.
+* **Fuente/Enlace:** [https://repository.cern/records/xgq3r-6yc67/preview/Operational%20Circular%20No.11%20Rev.1.pdf](https://repository.cern/records/xgq3r-6yc67/preview/Operational%20Circular%20No.11%20Rev.1.pdf)
+
+
+
+### 2. Términos de Servicio y Privacidad (Soporte Técnico-Legal)
+
+#### 📄 Zenodo Terms of Service (Términos del Servicio de Zenodo)
+* **Organización:** Zenodo / CERN
+* **Ámbito:** Contrato de adhesión para los depositantes de datos.
+* **Criterios Clave:** Establece explícitamente que los investigadores retienen el 100% de la propiedad intelectual de sus archivos y asumen la total responsabilidad legal (civil o penal) por infracciones de derechos de autor, confidencialidad o falta de anonimización de datos sensibles de sujetos humanos.
+* **Fuente/Enlace:** [https://about.zenodo.org/terms/](https://about.zenodo.org/terms/)
+
+#### 📄 CERN Data Protection Privacy Notice - Zenodo (Aviso de Privacidad de Datos del CERN)
+* **Organización:** CERN Data Protection Officer
+* **Ámbito:** Cumplimiento de protección de datos personales.
+* **Criterios Clave:** Detalla el tratamiento de la información de los usuarios registrados en Zenodo. Especifica las garantías de protección en el entorno internacional del CERN, operando bajo estándares alineados con el espíritu del Reglamento General de Protección de Datos (GDPR) de la Unión Europea.
+* **Fuente/Enlace:** [https://about.zenodo.org/privacy-policy/](https://about.zenodo.org/privacy-policy/)
+
+
+
+### 3. Arquitectura de Datos y Preservación
+
+#### 📄 Zenodo Data Preservation Plan (Plan de Preservación a Largo Plazo)
+* **Organización:** CERN Data Centre / OpenAIRE
+* **Ámbito:** Infraestructura y resiliencia tecnológica.
+* **Criterios Clave:** Respaldo técnico de la promesa de disponibilidad mínima de 20 años para los registros. Describe la sincronización con los sistemas de almacenamiento masivo del CERN (*EOS* y *CERN Advanced Storage Manager - CASTOR*), el esquema de réplicas distribuidas y el uso de cintas magnéticas *offline* ante desastres informáticos.
+* **Fuente/Enlace:** [https://about.zenodo.org/infrastructure/](https://about.zenodo.org/infrastructure/)
+
+> 💡 **Nota sobre Integridad Académica: ** Todas las políticas estipulan que los metadatos de los registros publicados en Zenodo se emiten bajo la licencia internacional de Dominio Público **CC0 (Creative Commons Zero)**, lo que faculta a los agregadores globales de ciencia abierta a indexar y enlazar permanentemente estos documentos sin restricciones comerciales.

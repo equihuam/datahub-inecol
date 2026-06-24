@@ -1,0 +1,48 @@
+
+## Lecciones aprendidad de Zenodo
+
+El borrador propuesto para el INECOL por el Mtro. Claudio Torres Nachón es jurídicamente robusto, ambicioso en su enfoque garantista y está muy bien alineado con la Ley General en materia de **HCSCTI**. Sin embargo, al contrastarlo con las lecciones operativas de **Zenodo** y la **Circular Operacional No. 11 del CERN**, se identifican áreas críticas que requieren precisión para evitar que el repositorio mexicano colapse por resistencia interna, obsolescencia tecnológica o ambigüedades en la responsabilidad legal.
+
+A continuación, se presenta un análisis detallado para enriquecer la propuesta del Inecol. Lo que se argumenta a continuación deriva de lo que ya ha resuelto Zenodo. La reflexión busca identificar cómo puede adaptarse con éxito al ecosistema de los Centros Públicos de Investigación (CPI) en México.
+
+### 1. Inmutabilidad, Trazabilidad y el "Falso Miedo" al Plagio
+
+* **Lo que hace Zenodo:** Uno de los mayores incentivos de Zenodo para mitigar la resistencia del investigador es que **garantiza la inmutabilidad a través de DOIs (Digital Object Identifiers)**. Una vez que un set de datos se publica, no se puede borrar o modificar a la ligera; si hay cambios, se genera una nueva versión con un DOI distinto vinculado. Esto convierte al dato en un producto académico citable y auditable, protegiendo al autor contra el plagio.
+* **Brecha en el borrador (INECOL):** El *Artículo 12 (Conservación)* habla de integridad, pero el borrador no especifica cómo se resolverá la trazabilidad. En México, el personal investigador teme que, al abrir sus datos primarios, otros los usen sin darles crédito antes de que ellos publiquen sus artículos de alto impacto.
+* **Propuesta de precisión mexicana:** Añadir en el **Artículo 12** o en el **Artículo 18 (Ingesta)** la obligatoriedad de asignar un **identificador persistente e inmutable (como DOI o Handle)** a nivel de set de datos. Esto permite que el depósito en el Servidor de Datos Abiertos cuente formalmente como una **pre-publicación** oficial, protegiendo la prelación intelectual del investigador del INECOL.
+
+### 2. Deslinde de Responsabilidad Legal y Curaduría Técnica
+
+* **Lo que hace Zenodo:** Las políticas de Zenodo y los términos del CERN delimitan tajantemente que **la responsabilidad legal, civil y penal del contenido es 100% del usuario (*uploader*)**. El curador de datos de Zenodo solo realiza una revisión automatizada/técnica de formatos y metadatos, no un juicio de valor científico ni una auditoría de derechos de autor.
+* **Brecha en el borrador (INECOL):** Los *Artículos 17* y *18* cargan una enorme responsabilidad en el "Responsable de Curaduría de Datos" y en el "Comité". Al obligar al curador a procesar "escritos de excepción" (*Art. 17*) y evaluar riesgos de biopiratería (*Art. 22*), se corre el riesgo de burocratizar la ingesta, creando un cuello de botella institucional que paralice el servidor.
+* **Propuesta de precisión mexicana:** El **Artículo 18 (Ingesta)** debe incluir una **Declaración de Responsabilidad del Depositario (Cláusula de Indemnidad)** en la interfaz de carga (un *checkbox* legal obligatorio). El investigador debe firmar bajo protesta de decir verdad que sus datos no violan confidencialidad ni contienen datos personales desanonimizados. El Curador de Datos debe tener un rol meramente operativo, protegiendo al Instituto de responsabilidades por omisiones del personal.
+
+### 3. El Destino de los Metadatos en el Acceso Cerrado/Embargado
+
+* **Lo que hace Zenodo:** Sin importar si un archivo está bajo un periodo de embargo (*Restricted Access* o *Closed Access*), **los metadatos son SIEMPRE públicos y se licencian bajo CC0 (Dominio Público)**. Esto significa que el mundo científico puede saber que esos datos existen, de qué tratan y quién es el autor, aunque los archivos estén bloqueados temporalmente.
+* **Brecha en el borrador (INECOL):** El *Artículo 15 (Embargo)* no aclara qué pasa con la visibilidad del registro durante el bloqueo. Si los datos embargados se vuelven completamente invisibles, el repositorio pierde su capacidad de vinculación y visibilidad internacional.
+* **Propuesta de precisión mexicana:** Modificar el **Artículo 15** para establecer que: *"Durante el periodo de embargo, los metadatos descriptivos del conjunto de datos serán de acceso público inmediato bajo una licencia equivalente a CC0, manteniéndose restringido únicamente el acceso a los archivos de datos primarios o secundarios asociados"*. Esto genera visibilidad y citas para el investigador incluso antes de liberar los datos de manera abierta.
+
+### 4. Sostenibilidad Financiera y el "Ciclo de Vida" de la Infraestructura
+
+* **Lo que hace el CERN (Circular Operacional No. 11):** El CERN blinda a Zenodo vinculando su existencia a la propia vida institucional de la organización (mínimo 20 años garantizados contractualmente), utilizando una arquitectura de almacenamiento masivo redundante y almacenamiento en cintas magnéticas *offline* que reduce drásticamente los costos de mantenimiento de servidores activos.
+* **Brecha en el borrador (INECOL):** El *Artículo 4, fracción I*, compromete a la Dirección General a garantizar una partida presupuestal anual "en la medida de la disponibilidad presupuestal". En el contexto de la administración pública mexicana, etiquetar presupuestos para TI de forma anual es altamente inestable ante los cambios de administración o recortes federales.
+* **Propuesta de precisión mexicana:** En el **Artículo 23 (Conservación a largo plazo)**, se debe mandatar el diseño de una **arquitectura de almacenamiento híbrida o descentralizada**. El INECOL debe prever esquemas de interoperabilidad y respaldos cruzados con repositorios institucionales de otros CPIs de la Secihti o el Repositorio Nacional. Si el servidor físico del INECOL carece de presupuesto un año, el plan de contingencia del *Artículo 4, fracción II*, debe activarse mediante espejos federados de almacenamiento para garantizar la persistencia del patrimonio científico.
+
+
+
+## Sugerencias concretas para Enriquecer la propuesta
+
+1. **Monetización de Citas, no de Datos:** Para mitigar la resistencia del sindicato o del personal investigador de INECOL respecto al *Artículo 13* (depósito obligatorio), demuestra que un set de datos con DOI en un servidor institucional indexable aumenta hasta en un 25% las citas del artículo científico final asociado.
+2. **Evaluación del Desempeño:** Sugiere al Comité que el depósito de datos abiertos (con sus DOIs correspondientes) sea considerado explícitamente como un indicador de productividad positiva dentro de los criterios de evaluación interna del personal investigador y técnico del INECOL.
+
+
+
+### Modificaciones Sugeridas (Inspiradas en Zenodo/CERN)
+
+**Artículo 12. Bis (Inmutabilidad y Versionado).** Para garantizar la trazabilidad de la actividad científica y proteger los derechos de autoría del personal del Instituto, todo conjunto de datos publicado en el Servidor de Datos Abiertos recibirá un Identificador de Objeto Digital (DOI) o equivalente persistente. Una vez publicado un registro, los archivos asociados serán inmutables. Cualquier modificación, corrección o adición sustantiva posterior requerirá la generación de una nueva versión del conjunto de datos, la cual recibirá un identificador propio y mantendrá el vínculo histórico con la versión primigenia.
+
+**Artículo 15. (Modificación sobre visibilidad de Metadatos).** [...] En todos los casos donde se apruebe un periodo de embargo o una restricción de acceso conforme al Artículo 17, los metadatos descriptivos del conjunto de datos se publicarán de manera inmediata y en acceso abierto bajo la figura de Dominio Público (equivalente a Creative Commons CC0). Únicamente los archivos de datos adjuntos permanecerán restringidos hasta el cumplimiento del plazo estipulado.
+
+**Artículo 18. Bis (Deslinde de Responsabilidad Institucional).** El proceso de Ingesta requerirá que la persona Depositaria acepte explícitamente los Términos de Uso del Servidor, mediante los cuales declara, bajo protesta de decir verdad, que posee los derechos, consentimientos o autorizaciones necesarias para la difusión de los datos, deslindando al Instituto de Ecología, A.C., de cualquier reclamación por violaciones a derechos de propiedad intelectual, confidencialidad o normativas de protección de datos personales. La Curaduría de Datos se limitará estrictamente a la verificación técnica de formatos y metadatos, sin que ello convalide legalmente el fondo del contenido depositado.
+

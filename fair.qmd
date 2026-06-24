@@ -1,0 +1,74 @@
+## Principios FAIR
+
+
+### 1. Los Principios FAIR como Infraestructura
+La discusión institucional sobre la apertura de datos a menudo se estanca en el dilema de la accesibilidad legal, omitiendo la dimensión de la accesibilidad técnica. Para que el Servidor de Datos Abiertos del INECOL no se convierta en un "cementerio de archivos" estructurados en formatos propietarios aislados (v.gr., hojas de cálculo desorganizadas o PDFs no legibles por máquina), es imperativo adoptar los principios **FAIR (Findable, Accessible, Interoperable, Reusable)** como el estándar técnico de gobernanza de la plataforma [@wilkinson_fair_2016]. Los principios FAIR desplazan el enfoque de la simple visualización humana hacia la **acciónabilidad por máquina**, garantizando que los sistemas computacionales globales puedan localizar, integrar y procesar los conjuntos de datos de manera automatizada [@wilkinson_fair_2016].
+
+En las ciencias ecológicas y de la biodiversidad, la implementación de estos principios adquiere un matiz urgente debido a la alta heterogeneidad espacial, temporal y taxonómica de los datos primarios [@jantzen_putting_2026; @islam_bridging_2024]. La verdadera riqueza de los datos del INECOL no reside en su almacenamiento aislado, sino en su capacidad de interoperar transfronterizamente para alimentar modelos complejos de cambio climático, degradación de hábitats o gemelos digitales de la biodiversidad [@islam_bridging_2024]. Por ello, el cumplimiento de la "I" y la "R" de FAIR exige que la Ingesta no solo valide la completud de los metadatos mínimos, sino la adopción activa de vocabularios controlados y estándares comunitarios consolidados internacionalmente, tales como el estándar **Darwin Core (DwC)** para registros de presencia de especies y el **Ecological Metadata Language (EML)** para la descripción de contextos ecológicos [@jantzen_putting_2026; @islam_bridging_2024]. 
+
+La alineación técnica con el modelo FAIR robustece significativamente la soberanía científica de los Centros Públicos de Investigación en México. Al garantizar metadatos ricos y licencias de uso explícitas (como CC BY 4.0), se remueve la ambigüedad legal y se maximiza el retorno de la inversión pública en términos de visibilidad, redes de colaboración internacional y tasas de citación directa a los datos [@penev_uniting_2024; @jantzen_putting_2026].
+
+Para integrar los principios **FAIR**, el deslinde de responsabilidades y la noción de **prepublicación de datos** de forma precisa en la propuesta `Lineamientos_INECOL_v7.md`, es necesario modificar o adicionar artículos específicos en los capítulos clave en la materia.
+
+
+### 2. Sugerencias para los lineamientos Inecol
+
+En atención a los principios FAIR, considero que es importante incorporar elementos clave de su filosofía en el diseño de nuestros lineamientos. Los principales aspectos que podrían fortalecernos se relaciona con los siguientes argumentos.
+
+1. **Desactiva la resistencia de los investigadores:** Al ver el depósito obligatorio como un *Data Preprint* inmutable con DOI, el personal entiende que el servidor del INECOL protege su autoría frente al plagio antes de enviar el manuscrito a Elsevier, Springer Nature o Wiley.
+2. **Protege al Instituto:** Al obligar a firmar el deslinde del *Artículo 18 (I)*, el INECOL opera con la misma seguridad jurídica que Zenodo: el curador técnico no se vuelve un policía legal de derechos de autor ni de la veracidad del dato.
+3. **Evita la obsolescencia:** Introducir *Darwin Core* y *EML* garantiza que los datos del INECOL "hablen" el mismo idioma que redes globales de biodiversidad como GBIF, justificando plenamente la inversión del Servidor de Datos Abiertos ante el Comité.
+
+En específico, se sugieren los siguientes elementos que vale la pena considerar.
+
+#### Ajuste 1: Capítulo 2. Definiciones (Garantizar la base FAIR y de Prepublicación)
+
+Es necesario incorporar el sustento conceptual de FAIR y la inmutabilidad en el glosario para dar soporte a los artículos operativos posteriores.
+
+* **Modificar la Fracción IX (Datos Abiertos):**
+
+> **IX. Datos abiertos.** Datos digitales de carácter público que, en términos de las disposiciones aplicables, no tienen naturaleza reservada o confidencial, siendo accesibles en línea, utilizados, reutilizados y redistribuidos por cualquier interesado. Para efectos de los presentes Lineamientos, el concepto de Datos Abiertos comprende, de manera enunciativa, los datos primarios y secundarios, los metadatos, las metodologías empleadas, el software y código fuente desarrollados con fondos públicos, y los resultados parciales no interpretados, en la medida en que su divulgación no actualice alguna de las excepciones tasadas en el artículo 17 de los presentes Lineamientos. **Su estructura y gestión técnica deberán alinearse progresivamente con los principios internacionales FAIR (Findable, Accessible, Interoperable, Reusable).**
+
+
+* **Adicionar la Fracción XXXII (recorriendo la actual):**
+
+> **XXXII. Data Preprint (Prepublicación de Datos).** Acto de publicación técnica formal mediante el cual una persona Depositaria incorpora conjuntos de datos primarios o secundarios a una infraestructura institucional provista de un identificador persistente e inmutable, registrando de manera fehaciente la prelación temporal y autoría de su esfuerzo de investigación de forma independiente a la publicación posterior de un manuscrito narrativo.
+
+
+#### Ajuste 2: Capítulo 7. Del Servidor y Repositorio Institucional INECOL
+
+Aquí es donde se aterriza la operación inspirada en el modelo Zenodo y las lecciones cienciométricas de las grandes casas editoriales.
+
+* **Adicionar un párrafo al Artículo 12 (Principios del Portal):**
+
+> **XII. Acciónabilidad por máquina:** Garantizar que los datos y sus metadatos cuenten con la estructura semántica necesaria para que los sistemas computacionales globales puedan localizar, integrar, indexar y procesar los conjuntos de datos de manera automatizada.
+
+
+* **Modificar el Artículo 13 (Obligatoriedad del depósito):**
+
+> **Artículo 13.** Las personas investigadoras, tecnólogas, académicas y estudiantes de maestría, doctorado y posdoctorado cuya actividad de investigación sea financiada con recursos públicos, o que hayan utilizado infraestructura pública en su realización, deberán depositar una copia de la versión final aceptada para publicación, **o bien el conjunto de datos primarios en modalidad de Data Preprint**, en Acceso Abierto a través del Repositorio Institucional, en cumplimiento del mandato constitucional y legal de acceso abierto y sin que medie para ello una decisión discrecional, comprobando que ha cumplido con el proceso de aprobación respectivo.
+
+
+* **Adicionar el Artículo 16 Bis (Estándares de Interoperabilidad Ecológica):**
+
+> **Artículo 16 Bis.** En cumplimiento de la condición de Interoperabilidad y Reutilización del modelo FAIR, la Responsable de Curaduría de Datos promoverá que los conjuntos de datos de biodiversidad y ecología se estructuren bajo estándares comunitarios consolidados internacionalmente, tales como el estándar **Darwin Core (DwC)** para registros de presencia de especies y el **Ecological Metadata Language (EML)** para la descripción de contextos ecológicos, facilitando su federación con plataformas globales de infraestructura científica.
+
+
+* **Modificar el Artículo 18 (Procedimiento de Ingesta - Deslinde legal tipo Zenodo):**
+
+> **Artículo 18.** Procedimiento de Ingesta. La incorporación de Datos Abiertos al Servidor de Datos Abiertos seguirá el procedimiento siguiente:
+
+> **I.** Registro de la persona Depositaria, carga de los Datos Abiertos junto con los metadatos mínimos previstos en el artículo 16, **y la aceptación expresa de los Términos de Uso del Servidor mediante los cuales declara, bajo protesta de decir verdad, que posee los derechos, consentimientos o autorizaciones necesarias para la difusión de los datos, deslindando al Instituto de Ecología, A.C., de cualquier reclamación por violaciones a derechos de propiedad intelectual o confidencialidad.**
+
+> **II.** Revisión técnica, a cargo de la Responsable de Curaduría de Datos, limitada a la verificación de formato, **estándares FAIR** y completud de metadatos, sin que en ningún caso dicha revisión pueda extenderse a un juicio sobre el mérito o validez científica del contenido, **ni constituya una validación del fondo legal del cual la persona Depositaria es única responsable**.
+
+> **III.** Asignación de un **identificador persistente e inmutable (DOI, Handle o equivalente)** al conjunto de datos que garantice su inmutabilidad y trazabilidad institucional; [...]
+
+
+#### Ajuste 3: Incorporación en los Considerandos
+
+Para que la fundamentación del documento tenga el peso de la evidencia cuantitativa actual, se sugiere agregar un considerando intermedio (por ejemplo, entre el Quinto y Sexto):
+
+> **Sexto.** Que la evidencia cienciométrica global demuestra que las prácticas conjuntas de Ciencia Abierta—especialmente el depósito de preprints, códigos de análisis y datos primarios dotados de identificadores inmutables en infraestructuras de confianza— generan un efecto sinérgico que incrementa de forma estadísticamente significativa el impacto citacional, protege la prioridad intelectual de los autores y eleva la visibilidad internacional de los Centros Públicos de Investigación;
+
+ 
