@@ -1,0 +1,94 @@
+---
+title: "¿Por qué un Repositorio Propio para el INECOL?"
+subtitle: "Hacia la soberanía de datos y la ciencia abierta"
+format: 
+  revealjs:
+    theme: simple
+    transition: slide
+    slide-number: c/t
+    toc: false
+    center: false
+lang: es
+---
+
+## 1. El Dilema y la Soberanía de Datos
+
+- **El riesgo de delegar:** Plataformas como Zenodo son globales y robustas, pero generan dependencia de políticas y prioridades externas.
+- **Cumplimiento del Mandato Nacional:** Alineación con la LGHCSCTI y coordinación directa de las infraestructuras por parte de la **SECIHTI**.
+- **Soberanía Biológica:** El repositorio actúa como "aduana legal" para proteger el patrimonio biocultural de México (Protocolo de Nagoya) y prevenir la biopiratería.
+
+::: {.notes}
+Buenos días. Ante plataformas maduras como Zenodo, es válido preguntarnos por qué el INECOL necesita su propia infraestructura. La respuesta corta es la soberanía. Como Centro Público coordinado por la SECIHTI, tenemos el mandato de abrir la ciencia, pero delegar nuestra memoria a servidores europeos nos somete a sus leyes. Además, los datos ecológicos de México requieren protección frente a la biopiratería; un repositorio global generalista no puede fungir como la aduana que exige el Protocolo de Nagoya para proteger nuestro patrimonio biocultural.
+:::
+
+---
+
+## 2. Gobernanza Semántica y Especialización
+
+- Zenodo es generalista (usa metadatos básicos Dublin Core) y no valida la calidad del dato ecológico.
+- **Estandarización nativa:** Nuestro servidor exigirá obligatoriamente el uso de **Darwin Core (DwC)** y **Ecological Metadata Language (EML)**.
+- **Nodo Proveedor:** Permite interoperabilidad automatizada y directa con infraestructuras globales especializadas como el **GBIF**.
+
+::: {.notes}
+Mientras Zenodo acepta datos de cualquier disciplina con metadatos básicos, nosotros generamos datos de biodiversidad que requieren curaduría especializada. Nuestro servidor exigirá estándares globales como Darwin Core y EML. Esto garantiza una gobernanza semántica de alta calidad y nos permite interoperar directamente como un nodo proveedor para grandes redes como el GBIF, elevando el prestigio del Instituto sin aislarlo.
+:::
+
+---
+
+## 3. La Dimensión Territorial
+
+- Naturaleza espacial: La inmensa mayoría de los datos ecológicos tienen coordenadas, mapas o capas vectoriales.
+- **Estándares obligatorios:** Alineación con la norma internacional **ISO 19115** y la **Normatividad del INEGI**.
+- **Interoperabilidad Nacional:** Integración estratégica y oficial de la producción del INECOL dentro del Sistema Nacional de Información Estadística y Geográfica (SNIEG).
+
+::: {.notes}
+Nuestra investigación es inherentemente espacial. Por ende, la infraestructura no se limitará a metadatos bibliográficos; incorporaremos obligatoriamente la norma ISO 19115 y los estándares del INEGI. Esto asegura que la ciencia del INECOL sea operable por sistemas espaciales globales y, más importante aún, se integre directamente al SNIEG, transformándonos en un referente consultivo oficial para el Estado mexicano.
+:::
+
+---
+
+## 4. Articulación Federal e Incidencia Local
+
+- **Ecosistema Federal:** Flujo de datos dinámico y continuo hacia el SNIB de la **CONABIO** y modelos de vulnerabilidad del **INECC**.
+- **Incidencia Local:** Apoyo a los estados donde operamos (Veracruz, Michoacán) y al Municipio de Xalapa.
+- Insumos directos y de acceso abierto para **Ordenamientos Ecológicos (POET)** y planes de desarrollo urbano.
+
+::: {.notes}
+Tener nuestros datos organizados rompe con la entrega fragmentada de información a la federación. Ahora alimentaremos automáticamente a CONABIO y al INECC. A nivel local, democratizamos la información para las autoridades de Veracruz, Michoacán y Xalapa, proveyendo datos primarios críticos para elaborar Ordenamientos Ecológicos Territoriales y Planes de Acción Climática, materializando así el impacto social del Instituto.
+:::
+
+---
+
+## 5. Capitalización Institucional
+
+- **Evitar la dispersión:** En repositorios externos, el INECOL queda reducido a una "afiliación" perdiendo impacto institucional.
+- Generación de un **patrimonio intangible auditable** ante los organismos financiadores.
+- Asignación de **DOIs propios**: Incrementa citaciones y permite capitalizar internamente la labor de investigadores y técnicos en su evaluación del desempeño.
+
+::: {.notes}
+Cuando un investigador sube algo a Zenodo, el Instituto es solo una nota al pie. Al canalizar los datos mediante nuestro servidor, el INECOL genera un patrimonio intangible auditable ante la federación. Además, proveeremos DOIs propios a nuestros investigadores y técnicos, protegiendo su autoría, aumentando sus citaciones y facilitando que su esfuerzo cuente de manera efectiva en las evaluaciones de desempeño interno.
+:::
+
+---
+
+## 6. Construyendo sobre lo Existente
+
+- **Éxitos operativos previos:** El Instituto ya lidera iniciativas interinstitucionales como *eFloraMex* y el *Portal de Colecciones Biológicas*.
+- El repositorio unificará esto con datos crudos experimentales y capas geoespaciales.
+- **Sinergia Genómica:** Integración con **GenBank / INSDC**; el servidor cosechará metadatos e identificadores sin duplicar cargas masivas de datos para el investigador.
+
+::: {.notes}
+No empezamos de cero. Proyectos como eFloraMex y el Portal de Colecciones Biológicas ya son casos de éxito. El nuevo Repositorio escalará estas plataformas. Respecto a la genómica, los investigadores que ya usan GenBank no tendrán que duplicar trabajo. Nuestro servidor actuará de forma sinérgica, cosechando automáticamente esos identificadores (Accession Numbers) para indexar la producción de los laboratorios en nuestro catálogo sin generar fricción administrativa.
+:::
+
+---
+
+## 7. Conclusión: El Enfoque Híbrido
+
+- No le damos la espalda a Zenodo, adoptamos un **modelo federado**.
+- **Infraestructura Primaria:** El INECOL asegura el control, la protección legal y la calidad (FAIR) localmente.
+- **Multiplicador global:** Protocolos automáticos (como OAI-PMH) replicarán o cosecharán metadatos hacia el Repositorio Nacional y plataformas globales.
+
+::: {.notes}
+Para concluir, el objetivo no es rechazar a Zenodo, sino adoptar un enfoque híbrido. El Servidor del INECOL es nuestra infraestructura primaria para garantizar soberanía, propiedad intelectual y calidad técnica. A partir de ahí, usando protocolos estandarizados, nuestros metadatos se replicarán automáticamente hacia plataformas globales. Así, el Instituto gana control local protegiendo al país, al tiempo que exponencia la visibilidad de nuestros científicos en el mundo.
+:::
