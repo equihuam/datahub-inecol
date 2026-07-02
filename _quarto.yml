@@ -14,11 +14,13 @@ book:
     - index.qmd
     - lineamientos-INECOL-v7.qmd
     - motivacion.qmd
+    - adaptacion.qmd
     - Cambio-de-Conahcyt-a-Secihti.qmd
     - ejemplo_zenodo.qmd
     - aprendiendo-de-zenodo.qmd
     - prepublicar.qmd
     - fair.qmd
+    - resumen-de-recomendaciones.qmd
     - referencias.qmd
 
 toc: true
