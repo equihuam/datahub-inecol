@@ -1,0 +1,47 @@
+**Artículo 17 Bis. Versiones Públicas y Testado de Datos.** Cuando un conjunto de datos contenga de manera parcial información clasificada como confidencial o reservada en los términos de la Ley General de Transparencia y Acceso a la Información Pública, la persona Depositaria, en coordinación con la Responsable de Curaduría de Datos, deberá elaborar una Versión Pública del conjunto de datos. En este proceso se suprimirán, disociarán o testarán exclusivamente las variables, campos o registros estrictamente necesarios, garantizando la máxima apertura posibke del resto de los datos útiles.
+
+**Artículo 17 Ter. Control y Coordinación de Clasificación.** En los casos en que la persona Depositaria solicite una excepción permanente de Acceso Cerrado o Restringido conforme al Artículo 17, el dictamen del Comité de Ciencia Abierta deberá ser remitido al Comité de Transparencia del Instituto de Ecología, A.C., para que este último proceda, en el ámbito de sus atribuciones legales exclusivas, a confirmar, modificar o revocar dicha clasificación de conformidad con la Ley General de Transparencia y Acceso a la Información Pública.
+
+**Artículo 17 Quater. Obligatoriedad de la Prueba de Daño.** Toda solicitud de restricción de acceso o embargo formulada por la persona Depositaria deberá acompañarse por escrito de una Prueba de Daño, mediante la cual funde y motive que: 
+I. La divulgación de los datos primarios representa un riesgo real, demostrable y significativo para la seguridad nacional, la salud pública, la conservación de especies críticamente amenazadas, o vulnere derechos de propiedad intelectual preexistentes; 
+II. El riesgo de daño que se causaría con la apertura es mayor que el interés público de conocer la información; y 
+III. La restricción propuesta es proporcional al riesgo y se limita al periodo estrictamente indispensable.
+
+### 1.1. Armonización con el Régimen Nacional de Transparencia (LGTAIP)
+El diseño del Servidor de Datos Abiertos del INECOL debe entenderse como una extensión técnica de las obligaciones de transparencia activa del Estado mexicano. No se trata únicamente de responder a las directrices de fomento científico dictadas por la **SECIHTI**, sino de cumplir de forma armónica con la Ley General de Transparencia y Acceso a la Información Pública (LGTAIP). 
+
+Al establecer un flujo donde el Comité de Transparencia del INECOL valida institucionalmente las excepciones y se aplican de forma estricta las directrices de Versión Pública y la Prueba de Daño, el repositorio se blinda contra litigios administrativos, garantizando que el patrimonio biocultural de México sea accesible sin comprometer la seguridad de ecosistemas vulnerables o la privacidad de datos personales bajo custodia pública.
+
+### Capítulo 2. Definiciones (Ajuste por Software Abierto)
+
+**IX. Datos abiertos.** [...] El concepto comprende, de manera enunciativa, los datos primarios, metadatos, metodologías, **así como el software abierto, scripts de análisis (R, Python) y código fuente desarrollado en el marco de la investigación financiada con recursos públicos.**
+
+---
+
+### Capítulo 4. De los Compromisos de la Dirección General (Nueva Fracción)
+
+**Artículo 4.** [...] 
+* **[Nueva Fracción].** Diseñar e implementar un programa institucional de transición tecnológica progresiva que priorice la enseñanza, adopción y uso de software libre y de código abierto en los flujos de investigación y docencia —particularmente en Sistemas de Información Geográfica (SIG) y análisis estadístico—, sustituyendo herramientas privativas u obsoletas por alternativas abiertas de vanguardia.
+
+---
+
+### Capítulo 5. Del Comité de Ciencia Abierta (Inclusión y Capacitación)
+
+**Artículo 5. Composición.** El Comité se integrará por: [...]
+* **[Nueva Fracción].** Una persona representante de la comunidad de estudiantes de posgrado del Instituto, elegida por sus pares, quien participará con derecho a voz.
+
+**Artículo 5 Bis. Obligación de Capacitación.** Las personas integrantes del Comité, tanto titulares como suplentes, deberán acreditar un programa continuo de capacitación especializada en materia de Ciencia Abierta, principios FAIR y gobernanza técnico-legal de datos, gestionado por la Dirección General. Dicha capacitación deberá completarse de forma previa o concurrente al inicio de sus funciones, siendo requisito indispensable para el ejercicio válido de su cargo.
+
+---
+
+### Capítulo 7. Del Servidor y Repositorio (Ajuste al Artículo 13)
+
+**Artículo 13.** Las personas investigadoras [...] deberán depositar una copia de la versión final de su **investigación, procedimiento, materiales y, en su caso, el software abierto diseñado y código fuente asociado**, en Acceso Abierto a través del Repositorio Institucional...
+
+---
+
+### Capítulo 7. Régimen de Excepciones (Modificación al Artículo 17)
+
+**Artículo 17. Excepciones.** [...]
+* **I.** Existencia de restricciones contractuales o derechos de propiedad intelectual propiedad de terceros legítimamente adquiridos para el desarrollo de la investigación —tales como imágenes de satélite comerciales, cartografía propietaria o consorcios de datos restringidos— que impidan legalmente su redistribución pública; en este caso, se exigirá el depósito y apertura exclusiva de los análisis derivados, metodologías y metadatos resultantes, protegiendo el insumo original.
+* **I Bis.** Existencia de derechos de propiedad intelectual formalmente protegidos u objetos de propiedad industrial desarrollados por el INECOL que se encuentren pendientes de trámite de registro ante la autoridad competente, limitando la restricción temporal al plazo strictly necesario para la formalización de dicho trámite.

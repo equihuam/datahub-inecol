@@ -1,0 +1,44 @@
+## Gobernanza de datos y adaptación al cambio climático
+
+Dado que actualmente existe un interés urgente en la identificación y concepción de acciones de adaptación ante el cambio climático, nos preguntamos ¿Cuáles serán los vínculos entre la ciencia abierta, la teoría de los bienes comunes y la adaptación al cambio climático? La idea se relaciona también con el hecho de que la ciencia abierta suele justificarse principalmente por valores como la transparencia, la reproducibilidad y la reutilización de los datos. Dada la relevancia de la cuestión, vale la pena indagar cómo es que la accesibilidad a ciertos tipos de información —particularmente los datos ambientales de largo plazo—, se extienden criticamente a la **gobernanza de la infraestructura que hace posible producir esos datos**.
+
+La situación guarda cierta analogía con los **bienes comunes** que han dado pie a una prolífica discusión en ecología a partir de la publicación de *la trajedia de los comunes* [@hardin1968]. La analogía que proponemos es que los datos ambientales pueden entenderse, en ciertos casos, a la noción de un **bien común**, de manera similar a los ecosistemas. No porque tengan las mismas características económicas, sino porque ambos requieren instituciones y una moralidad que equilibren acceso, actitudes, incentivos, financiamiento y sostenibilidad.
+
+Esto lleva a contrastar tres grandes modelos de gobernanza:
+
+- **Estado:** financiamiento y coordinación pública, pero vulnerable a cambios políticos y presupuestarios.
+- **Mercado:** editoriales, revistas de datos y plataformas privadas que ofrecen mecanismos de reconocimiento, aunque con costos elevados y riesgos de concentración del valor.
+- **Gobernanza policéntrica (Ostrom):** instituciones donde múltiples actores (gobierno, academia, comunidades y organismos internacionales) comparten responsabilidades y reglas.
+
+Uno de los problemas que emerge de esta reflexión es que la ciencia abierta ha avanzado mucho en la **estandarización técnica** (por ejemplo, principios **FAIR**), y también han surgido marcos éticos como **CARE** o el *Protocolo de Nagoya* para casos específicos. Sin embargo, sigue existiendo un vacío respecto a cómo garantizar la continuidad de los sistemas de monitoreo que producen los datos necesarios para enfrentar problemas globales como el cambio climático.
+
+Esto pone al descubierto que existe **infraestructura crítica para la producción de datos ambientales**. Tal infraestructura sería la que procura aquellos datos cuya pérdida tendría consecuencias limitantes para la gestión de acciones de adaptación y la toma oportuna de decisiones, por ejemplo:
+
+- series de tiempo climáticas;
+- monitoreo hidrológico;
+- parcelas permanentes;
+- monitoreo de arrecifes, manglares o bosques;
+- seguimiento de biodiversidad.
+
+Estos datos comparten varias características:
+
+- requieren décadas de observación;
+- son costosos de producir;
+- son prácticamente irreemplazables;
+- benefician a múltiples usuarios más allá de quienes los generan.
+
+A diferencia de la mitigación, donde predominan datos relativamente estandarizados y comparables entre países (como inventarios de emisiones), la adaptación depende en gran medida de **datos locales**, producidos por numerosos actores y adaptados a contextos específicos. Por ello, la gobernanza probablemente no deba orientarse hacia una mayor centralización, sino hacia mecanismos que permitan la interoperabilidad y la coordinación entre múltiples sistemas locales de observación.
+
+En este contexto, considero que el concepto de ONU sobre contabilidad económica y ambiental (**SEEA EA**), podría desempeñar un papel interesante. Aunque su propósito es organizar la información ambiental para apoyar la contabilidad y la política pública, indirectamente identifica cuáles son los datos estratégicos para evaluar el estado y las tendencias de los ecosistemas. Sin embargo, el **SEEA EA** en sí mismo no aborda la gobernanza de los datos que sustentan esas cuentas.
+
+También es relevante analizar experiencias exitosas de gobernanza de datos, como **GenBank**, la Organización Meteorológica Mundial, Landsat, GBIF o eBird. Todos ellos muestran que el éxito no depende únicamente de abrir los datos, sino de contar con instituciones que aseguren financiamiento, estándares, incentivos y reglas de uso.
+
+En conjunto, estas reflexiones me llevan a una pregunta central:
+
+> **¿Cómo diseñar instituciones que garanticen la producción, preservación, reconocimiento y acceso a los datos ambientales críticos para la adaptación al cambio climático durante las próximas décadas?**
+
+Esta pregunta todavía no ocupa un lugar central ni en la literatura sobre ciencia abierta ni en los marcos internacionales sobre cambio climático o biodiversidad, donde los temas de datos suelen abordarse de manera fragmentada.
+
+En lugar de pensar únicamente en "datos abiertos", quizá deberíamos pensar en la **gobernanza de la infraestructura de datos ambientales como un bien común estratégico**, indispensable para la adaptación al cambio climático.
+
+
