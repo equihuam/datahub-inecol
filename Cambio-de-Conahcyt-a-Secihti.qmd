@@ -1,6 +1,6 @@
 ## Cambio de Conahcyt a Secihti
 
-Se aprecia en la nueva versión de los Lineamientos v7 algunos puntos que requieren ajuste dada la transición del estatuto del sector científico operado a través de un consejo a la nueva estructura que lo gegstiona desde una secretaría. Hay que asegurarnos de realizar una **limpieza y actualización legal meticulos** en el borrador de lineamientos para evitar inconsistencias jurídicas, ya que el INECOL ahora se coordina sectorialmente bajo las directrices directas de esta nueva dependencia federal (la cual cuenta con una Subsecretaría de Centros Públicos).
+Se aprecia en la nueva versión de los Lineamientos v7 algunos puntos que requieren ajuste dada la transición del estatuto del sector científico operado a través de un consejo a la nueva estructura que lo gegstiona desde una secretaría. Hay que asegurarnos de realizar una **limpieza y actualización legal meticulosa** en el borrador de lineamientos para evitar inconsistencias jurídicas, ya que el INECOL ahora se coordina sectorialmente bajo las directrices directas de esta nueva dependencia federal (la cual cuenta con una Subsecretaría de Centros Públicos).
 
 A continuación, se hacen algunos señalamientos específicos de ajuste normativo, la actualización del glosario y se ofrecen argumentos que resultan más apropiados para justificar el Repositorio ante el nuevo ecosistema de la SECIHTI.
 
