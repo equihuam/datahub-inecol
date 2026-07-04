@@ -1,0 +1,11 @@
+
+## Reforma Sistémica: Respuesta a la Crisis de Reproducibilidad
+
+- **De la Crisis a la Autocorrección:** La crisis de reproducibilidad se entiende hoy como un catalizador para una reforma sistémica y el avance definitivo de la **Ciencia Abierta**.
+- **Pre-registro de Estudios:** Garantiza transparencia probatoria al registrar públicamente el diseño y análisis antes de recolectar datos, eliminando sesgos (*p-hacking* y *HARKing*).
+- **Mandatos de Acceso Abierto:** Las agencias exigen la liberación de conjuntos de datos crudos y el código fuente utilizado para el análisis.
+- **Reproducibilidad Computacional:** Transición hacia flujos de trabajo trazables (programación literaria, control de versiones) para asegurar que el análisis de datos deje de ser una "caja negra".
+
+::: {.notes}
+La crisis de reproducibilidad ya no se percibe puramente como un pánico o un fracaso, sino que ha demostrado que el método científico se está autocorrigiendo activamente. Los incentivos del sistema anterior propiciaban prácticas cuestionables como torturar los datos hasta encontrar resultados, o esconder estudios con resultados negativos. Como reacción, hoy se impulsan nuevos estándares de calidad: primero, el pre-registro de estudios para evitar la manipulación de hipótesis a posteriori. Segundo, mandatos de ciencia abierta que exigen no solo el texto, sino los datos crudos. Y finalmente, la exigencia de la reproducibilidad computacional, donde el análisis deja de ser una caja negra y se permite a cualquier persona ejecutar y verificar la misma secuencia de cálculos de manera trazable.
+:::
