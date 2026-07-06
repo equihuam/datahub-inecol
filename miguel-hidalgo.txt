@@ -1,0 +1,11 @@
+De acuerdo con el contenido del capítulo 2, en el marco de gobernanza de datos también resulta importante contar con un glosario. 
+Acerca del comité de ciencia abierta y acceso a datos abiertos del INECOL, sugiero revisar los roles identificados en el estándar DMBOK por si resulta algún perfil de interés y/o identificado en el proyecto estratégico, por ejemplo, responsable de curaduría de datos (el cual ya se define en el capítulo 2). Lo mismo podría aplicarse para el concepto de repositorio, ya que existen tipologías o clasificación de estos.
+Respecto al capítulo 3, me parece importante verificar que el texto redactado cumpla con mencionar los elementos singulares de la ciencia abierta, esto es, datos abiertos, código abierto y resultados abiertos (acorde con la fuente de NASA).
+
+Acerca del capítulo 4, sería importante considerar hacer explícito que las personas encargadas del repositorio institucional que registran los contenidos de las revistas del INECOL mantengan comunicación o informen al comité de ciencia abierta y acceso a datos abiertos del INECOL los casos en los cuales el registro involucre un dataset por compatir. Esto con la intención de conocer si el registro del dataset se registra doble (repositorio institucional + servidor de ciencia abierta) o se registra solamente en el servidor de ciencia abierta. De todos modos, debe contarse con un mecanismo de rastreo de estos casos.
+
+Del capítulo 7, me parece que no lo encontré, pero debe contarse con algún mecanismo de respaldo o back-up (una estrategia de operación que el propio comité puede establecer). En ese mismo capítulo, artículo 18, punto III, ¿el texto se refiere al DOI – Digital Object Identifier?
+¿Por qué un repositorio propio para el INECOL?
+En el punto 2, gobernanza semántica y especialización ecológica, me parece la iniciativa Open Metadata (a reserva de confirmar) podría ser un mecanismo para definir nuevos metadatos específicos para una subdisciplina dentro de la ecología o ciencia similar.
+
+Para la sección llamada Gobernanza de datos y adaptación al cambio climático, opino que el estándar DMBOK es una guía idónea para proponer las áreas del Data Wheel que podrían operar en el INECOL. Por ejemplo, como parte de mi plan de trabajo las áreas que estoy analizando son: 1) diseño y modelado de datos y 2) operaciones y almacenamiento de datos.

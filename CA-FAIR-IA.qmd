@@ -1,0 +1,40 @@
+## Ciencia abierta,FAIR y AI
+
+Desde la perspectiva de la **Ciencia Abierta** y los **Principios FAIR (Findable, Accessible, Interoperable, Reusable)**, el panorama actual de la Inteligencia Artificial no es solo contradictorio, sino que representa una de las mayores crisis de reproducibilidad y opacidad en la historia científica moderna.
+
+Si evaluamos lo que está ocurriendo bajo este marco ético y metodológico, la situación se puede calificar a través de los siguientes ejes esenciales:
+
+
+### 1. La crisis del "Openwashing" y la pérdida de la Reproducción Científica
+
+En la ciencia tradicional, si no publicas el método y los datos, no es ciencia; es un secreto comercial. En IA, empresas gigantes liberan los pesos de sus modelos bajo la etiqueta de "abiertos", pero ocultan deliberadamente la "receta": los datos de entrenamiento, los criterios de filtrado y el código de optimización.
+
+Esto viola directamente el núcleo de la Ciencia Abierta:
+
+* **Imposible de replicar:** Alguien con la infraestructura adecuada no puede volver a entrenar el modelo para verificar los resultados porque el dataset es una caja negra.
+* **Violación FAIR terminal:** Aunque el archivo de pesos sea *Encontrable (F)* y *Accesible (A)* en repositorios como Hugging Face, el modelo completo es completamente **incapaz de ser Interoperable (I)** de forma transparente con otros flujos científicos y **no es verdaderamente Reutilizable (R)**, porque modificarlo sin conocer el sesgo original de sus datos es avanzar a ciegas.
+
+### 2. El contraataque institucional: La OSAID 1.0
+
+Para frenar este "lavado de cara abierto" (*openwashing*), la **Open Source Initiative (OSI)** aprobó formalmente la **Open Source AI Definition (OSAID 1.0)**.
+
+Bajo este estándar técnico y ético, la OSI determinó que para que una IA sea legítimamente abierta **debe otorgar la información detallada de los datos de entrenamiento** (su procedencia, alcance, características y metodologías de filtrado). Al aplicar este filtro, casi todos los modelos comerciales "abiertos" más famosos del mercado (como la familia Llama de Meta) **reprobaron**. Solo proyectos diseñados desde la academia y la ciencia abierta —como **OLMo** (del Allen Institute for AI) o **Pythia** (de EleutherAI)— cumplen con las libertades exigidas por la comunidad.
+
+
+### 3. El Futuro: ¿Hacia dónde se dirige la IA en la Ciencia?
+
+El futuro de la IA en el ámbito de la investigación se está dividiendo en dos caminos radicalmente opuestos:
+
+### Ruta A: El Encerramiento del Conocimiento (Los Silos Corporativos)
+
+Las grandes corporaciones avanzan hacia modelos donde la IA ya no solo procesa datos, sino que genera hipótesis científicas. Si estas herramientas se mantienen bajo licencias propietarias y muros de pago, la ciencia corre el riesgo de privatizarse. Un instituto público podría terminar pagando una suscripción mensual para poder acceder a las interpretaciones bioclimáticas o genómicas de su propio territorio, delegando la soberanía del conocimiento a un tercero.
+
+### Ruta B: La Infraestructura Científica Común (IA FAIR y Soberana)
+
+Existe un movimiento creciente que busca tratar a los Grandes Modelos de Lenguaje (LLMs) y modelos fundacionales como **infraestructura pública**. El futuro de la IA en la ciencia abierta depende de:
+
+* **Datasets de Entrenamiento FAIR:** Crear corpus de datos científicos abiertos, curados con metadatos estandarizados y persistentes (DOIs) para entrenar modelos específicos de ciencia.
+* **Modelos de "Receta Completa":** Priorizar el uso institucional de modelos que liberen el código de entrenamiento de inicio a fin.
+* **Soberanía de Cómputo:** Que consorcios académicos y gubernamentales mantengan servidores locales para ejecutar modelos de pesos abiertos, garantizando la privacidad de los datos sensibles (por ejemplo, datos socioambientales o de comunidades vulnerables) sin depender de las API de infraestructuras extranjeras.
+
+> **En conclusión:** Lo que ocurre hoy es una disputa por la infraestructura del pensamiento del siglo XXI. Considerar que un modelo es "abierto" solo porque te dejan descargar el resultado final —sin darte los datos que lo formaron— equivale a publicar un artículo científico imprimiendo solo las conclusiones y quemando el cuaderno de laboratorio. El futuro de la ciencia abierta requerirá exigir, por normativa, una transparencia absoluta en la matriz de datos de la IA.

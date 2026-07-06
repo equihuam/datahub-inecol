@@ -1,0 +1,19 @@
+En el Artículo 4 (Compromisos institucionales)
+IX. Impulsar, en coordinación con la Subdirección de Posgrado y la Coordinación de Cómputo, la transición progresiva hacia el uso pedagógico y técnico de software abierto e infraestructuras no propietarias, mandatando la auditoría y el reemplazo programado de herramientas informáticas y metodologías de software obsoletas o privativas —particularmente en Sistemas de Información Geográfica (SIG) y análisis estadístico— que limiten la reproducibilidad científica o impongan barreras económicas innecesarias a la comunidad académica.
+
+Artículo 5. El Comité de Ciencia Abierta y Acceso a Datos Abiertos se constituye como el máximo órgano de coordinación... Estará conformado por:
+[...]
+VII. La persona titular de la Coordinación de Cómputo;
+VII Bis. Una persona representante del Consejo de Estudiantes de Posgrado del INECOL, formalmente designada por dicho órgano, quien contará con voz y voto en las sesiones del Comité, y tendrá la facultad exclusiva de someter a revisión del pleno las fallas operativas, críticas técnicas y propuestas de mejora relativas a la usabilidad de las plataformas de datos institucionales desde la perspectiva del cuerpo estudiantil.
+Los miembros titulares del Comité tendrán la obligación institucional de acreditar un programa anual y permanente de capacitación especializada en materia de Ciencia Abierta, principios FAIR y propiedad intelectual. El incumplimiento injustificado de este programa formativo inhabilitará temporalmente el derecho de voto del miembro titular en las sesiones extraordinarias dictaminadoras, debiendo ceder el espacio a su suplente debidamente acreditado para evitar resoluciones basadas en el desconocimiento técnico de la materia.
+
+Artículo 6. [...] Las personas suplentes estarán sujetas a la misma obligación de capacitación continua estipulada para los miembros titulares en el Artículo 5, siendo su acreditación un requisito indispensable para ejercer legítimamente su representación con derecho a voto en las sesiones correspondientes.
+
+Artículo 13. Las personas investigadoras, tecnólogas, académicas y estudiantes de maestría, doctorado y posdoctorado [...] deberán depositar una copia de la versión final de su investigación, procedimientos, materiales y, en su caso, software abierto diseñado, o bien el conjunto de datos primarios en modalidad de Data Preprint, en Acceso Abierto a través del Repositorio Institucional...
+
+Artículo 17. Régimen de excepciones al acceso abierto...
+  
+I. Existencia de restricciones contractuales o derechos de propiedad intelectual propiedad de terceros legítimamente adquiridos para el desarrollo de la investigación —tales como imágenes de satélite comerciales (ej. Planet), cartografía propietaria o consorcios de datos restringidos— que impidan legalmente su redistribución pública; en este caso, se exigirá el depósito y apertura exclusiva de los análisis derivados, metodologías y metadatos resultantes, protegiendo el insumo original.
+
+I Bis. Existencia de derechos de propiedad intelectual formalmente protegidos u objetos de propiedad industrial desarrollados por el INECOL que se encuentren pendientes de trámite de registro ante la autoridad competente, limitando la restricción temporal al plazo estrictamente necesario para la formalización de dicho trámite.
+

@@ -25,6 +25,9 @@ La ciencia abierta no solo concierne a los datos, sino a las herramientas utiliz
 
 ### 4. Gobernanza Inclusiva y Profesionalización del Comité
 El éxito del repositorio recae en el Comité de Ciencia Abierta; por ello, debe ser capacitado y representativo.
+
+* **Artículo 4 (Compromisos institucionales)**
+IX. Impulsar, en coordinación con la Secretaría de Posgrado y la Coordinación de Cómputo, la transición progresiva hacia el uso pedagógico y técnico de software abierto e infraestructuras no propietarias, mandatando la auditoría y el reemplazo programado de herramientas informáticas y metodologías de software obsoletas o privativas —particularmente en Sistemas de Información Geográfica (SIG) y análisis estadístico— que limiten la reproducibilidad científica o impongan barreras económicas innecesarias a la comunidad académica.
 * **Artículo 5 (Composición):** Incluir como miembro, con derecho a voz, a *una persona representante de la comunidad de estudiantes de posgrado*, reconociéndolos como críticos y principales usuarios del sistema.
 * **Artículo 5 Bis (Obligación de Capacitación):** Exigir que todos los miembros del Comité (titulares y suplentes) acrediten un programa de capacitación en Ciencia Abierta y principios FAIR como requisito indispensable para ejercer su cargo.
 
@@ -49,3 +52,30 @@ Evitar los "cementerios de archivos" promoviendo datos legibles por máquina.
 * **Sinergia Institucional:** Permitir que los investigadores registren en el Servidor el *Accession Number* de bases como **GenBank** u otros servicios de concentración de datos, evitando la resubida física masiva de datos genómicos o de colecciones ya federadas.
 * **Capítulo 6 (Alertas Predatorias):** Facultar al Comité para publicar listas de advertencia sobre "repositorios caja negra" o "revistas de datos" fraudulentas que operen sin planes de preservación a largo plazo.
 
+
+## Revisión de Ajustes (Observaciones de Miguel Hidalgo)
+
+Estas recomendaciones complementan los análisis previos, enfocándose en la viabilidad técnica, el blindaje legal de propiedad intelectual externa y la gobernanza interna del Comité.
+
+### 9. Infraestructura y Transición Tecnológica
+* **Recomendación:** Desincentivar de forma explícita el uso y enseñanza de software obsoleto o privativo en áreas clave como los Sistemas de Información Geográfica (SIG).
+* **Impacto en el Lineamiento:** Se integró en el **Artículo 4, Fracción IX**, ordenando auditorías tecnológicas periódicas para priorizar herramientas de código abierto (ej. QGIS, R, Python) y asegurar la autonomía institucional.
+
+### 10. Gobernanza y Capacitación del Comité de Ciencia Abierta
+* **Recomendación:** Resolver la posible apatía o desconocimiento de los miembros del Comité mediante capacitación obligatoria; extender esta obligación a los suplentes.
+* **Impacto en el Lineamiento:** * Se modificó el **Artículo 5 (Párrafo Tercero)** para establecer que el incumplimiento del programa anual de capacitación inhabilitará temporalmente el derecho de voto del miembro titular en sesiones dictaminadoras.
+  * Se modificó el **Artículo 6 (Párrafo Segundo)** para condicionar el ejercicio del voto de los suplentes a la acreditación del mismo programa formativo.
+
+### 11. Representación e Integración Estudiantil
+* **Recomendación:** Incluir formalmente a la comunidad estudiantil del posgrado en el Comité, considerándolos usuarios activos y críticos del ecosistema.
+* **Impacto en el Lineamiento:** Se añadió la **Fracción VIII al Artículo 5**, otorgando un asiento con voz y voto al representante del Consejo de Estudiantes de Posgrado, habilitándolo para canalizar fallas operativas y propuestas de usabilidad.
+
+### 12. Claridad en el Espectro de Depósito Obligatorio
+* **Recomendación:** Detallar con precisión los entregables obligatorios más allá de la versión final o los datos planos.
+* **Impacto en el Lineamiento:** Se ajustó el **Artículo 13** para obligar al depósito explícito de "procedimientos, materiales y, en su caso, software abierto diseñado".
+
+### 13. Blindaje Jurídico de Datos Adquiridos por Terceros (Excepciones)
+* **Recomendación:** Separar las causales de restricción cuando se utilicen insumos protegidos por licencias comerciales estrictas de terceros (ej. imágenes Planet) frente a los desarrollos propios del INECOL en trámite de patente.
+* **Impacto en el Lineamiento:** El **Artículo 17** se bifurcó:
+  * **Fracción I:** Regula insumos comerciales de terceros, forzando la apertura exclusiva de análisis derivados, metodologías y metadatos sin comprometer el archivo fuente restringido.
+  * **Fracción I Bis:** Regula la propiedad industrial generada internamente y pendiente de registro oficial, limitando la restricción solo al tiempo estrictamente necesario para el trámite.

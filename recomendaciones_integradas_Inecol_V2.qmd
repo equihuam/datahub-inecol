@@ -1,0 +1,64 @@
+## **Documento Integrado de Recomendaciones y Modificaciones Técnicas**
+
+### **Alineación Dinámica para los Lineamientos de Ciencia Abierta del INECOL**
+
+**Origen del Cambio:** Revisión técnica e integración de las observaciones de Miguel Hidalgo al borrador maestro (*lineamientos-INECOL-v7.qmd*). Este documento unifica, corrige los desajustes de numeración previos y dota de congruencia legal y operativa al marco normativo institucional.
+
+
+**1. Matriz de Correspondencia y Ajuste de Numeración**
+
+Para garantizar la congruencia con el documento original, se presenta la siguiente tabla de mapeo que corrige las referencias y asigna las fracciones exactas correspondientes en la estructura normativa de Quarto (.qmd):
+
+| Obs. Orig. | Tema Central | Capítulo de Destino (INECOL-v7) | Artículo / Fracción Exacta Ajustada |
+| :---- | :---- | :---- | :---- |
+| **1** | Obsolescencia y Software Abierto (SIG) | Capítulo IV. De los Compromisos Institucionales | Artículo 4, Fracción IX (Nueva adición al final) |
+| **2** | Capacitación Obligatoria del Comité | Capítulo V. Del Comité de Ciencia Abierta | Artículo 5, Párrafo Tercero (Modificación) |
+| **3** | Representación Estudiantil Crítica | Capítulo V. Del Comité de Ciencia Abierta | Artículo 5, Fracción VIII (Recorrimiento de la firma) |
+| **4** | Capacitación de Personas Suplentes | Capítulo V. Del Comité de Ciencia Abierta | Artículo 6, Párrafo Segundo (Modificación) |
+| **5** | Ampliación del Objeto de Depósito | Capítulo VII. Del Servidor y Repositorio | Artículo 13, Párrafo Primero (Sustitución de sintaxis) |
+| **6** | Bifurcación de Propiedad Intelectual | Capítulo VII. Régimen de Excepciones | Artículo 17, Fracción I e Inclusión de Fracción I Bis |
+
+
+**2. Bloques de Inserción Normativa de Alta Precisión**
+
+A continuación, se detalla el texto exacto adaptado para el archivo maestro, subsanando los vacíos técnicos detectados en la primera revisión:
+
+#### **Capítulo IV. De los Compromisos Institucionales de la Dirección General**
+
+**Artículo 4.** Para el cumplimiento del objeto de estos Lineamientos...
+
+`IX. Impulsar, en coordinación con la Subdirección de Posgrado y la Coordinación de Cómputo, la transición progresiva hacia el uso pedagógico y técnico de software abierto e infraestructuras no propietarias, mandatando la auditoría y el reemplazo programado de herramientas informáticas y metodologías de software obsoletas o privativas —particularmente en Sistemas de Información Geográfica (SIG) y plataformas de análisis estadístico— que limiten la reproducibilidad científica o impongan barreras económicas redundantes a la comunidad académica.`
+
+#### **Capítulo V. Del Comité de Ciencia Abierta y Acceso a Datos Abiertos**
+
+**Artículo 5.** El Comité se constituye como el máximo órgano de coordinación... Estará conformado por:
+
+`[...]`  
+`VII. La persona titular de la Coordinación de Cómputo;`  
+`VIII. Una persona representante del Consejo de Estudiantes de Posgrado del INECOL, formalmente designada por dicho órgano, quien contará con voz y voto en las sesiones del Comité, y tendrá la facultad exclusiva de someter a revisión del pleno las fallas operativas, críticas técnicas y propuestas de mejora relativas a la usabilidad de las plataformas de datos institucionales desde la perspectiva del cuerpo estudiantil.`  
+`IX. La persona titular de la Coordinación del Repositorio Institucional, quien fungirá como Secretario Técnico.`
+
+`Los miembros titulares del Comité tendrán la obligación institucional de acreditar un programa anual y permanente de capacitación especializada en materia de Ciencia Abierta, principios FAIR y propiedad intelectual. El incumplimiento injustificado de este programa formativo inhabilitará temporalmente el derecho de voto del miembro titular en las sesiones extraordinarias dictaminadoras, debiendo ceder el espacio a su suplente debidamente acreditado para evitar resoluciones institucionales basadas en el desconocimiento técnico de la materia.`
+
+**Artículo 6.** [Sobre las Suplencias]:
+
+`Las personas suplentes estarán sujetas a la misma obligación de capacitación continua estipulada para los miembros titulares en el Artículo 5. El cumplimiento acreditable de este programa formativo será un requisito indispensable para ejercer legítimamente su representación con derecho a voto en las sesiones correspondientes, garantizando la continuidad técnica del órgano.`
+
+#### **Capítulo VII. Del Servidor y Repositorio Institucional**
+
+**Artículo 13.** [Sustitución de Párrafo de Obligatoriedad]:
+
+`Artículo 13. Las personas investigadoras, tecnólogas, académicas y estudiantes de maestría, doctorado y posdoctorado [...] deberán depositar una copia de la versión final de su investigación, procedimientos, materiales y, en su caso, software abierto diseñado, o bien el conjunto de datos primarios en modalidad de Data Preprint, en Acceso Abierto a través del Repositorio Institucional, en cumplimiento del mandato constitucional y legal de acceso abierto.`
+
+#### **Capítulo VII. Sección II. Del Régimen de Excepciones**
+
+**Artículo 17.** La apertura de los Datos Abiertos solo podrá restringirse por alguna de las siguientes causales...
+
+`I. Existencia de restricciones contractuales o derechos de propiedad intelectual propiedad de terceros legítimamente adquiridos para el desarrollo de la investigación —tales como imágenes de satélite comerciales, cartografía propietaria o consorcios de datos restringidos— que impidan legalmente su redistribución pública; en este caso, se exigirá el depósito y apertura exclusiva de los análisis derivados, metodologías y metadatos resultantes, protegiendo el insumo original.`
+
+`I Bis. Existencia de derechos de propiedad intelectual formalmente protegidos u objetos de propiedad industrial desarrollados por el INECOL que se encuentren pendientes de trámite de registro ante la autoridad competente, limitando la restricción temporal al plazo estrictamente necesario para la formalización de dicho trámite.`
+
+
+**3. Nota de Control e Impacto Metodológico**
+
+Esta reestructuración subsana por completo la desalineación detectada. Al incluir la restricción de voto por omisión formativa y la vía de excepciones para datos de terceros (ej. *Planet*), el reglamento se vuelve técnica y jurídicamente robusto frente a cualquier auditoría de Ciencia Abierta del nuevo ecosistema.
