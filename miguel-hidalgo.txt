@@ -1,3 +1,6 @@
+
+
+
 De acuerdo con el contenido del capítulo 2, en el marco de gobernanza de datos también resulta importante contar con un glosario. 
 Acerca del comité de ciencia abierta y acceso a datos abiertos del INECOL, sugiero revisar los roles identificados en el estándar DMBOK por si resulta algún perfil de interés y/o identificado en el proyecto estratégico, por ejemplo, responsable de curaduría de datos (el cual ya se define en el capítulo 2). Lo mismo podría aplicarse para el concepto de repositorio, ya que existen tipologías o clasificación de estos.
 Respecto al capítulo 3, me parece importante verificar que el texto redactado cumpla con mencionar los elementos singulares de la ciencia abierta, esto es, datos abiertos, código abierto y resultados abiertos (acorde con la fuente de NASA).
